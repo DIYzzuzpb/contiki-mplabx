@@ -1,0 +1,22 @@
+# -*- makefile -*-
+
+${warning Jestem w Makefile od platformy}
+
+ifndef CONTIKI
+  $(error CONTIKI not defined! You must specify where CONTIKI resides!)
+endif
+
+
+CONTIKI_TARGET_DIRS = . dev
+CONTIKI_TARGET_MAIN = ${addprefix $(OBJECTDIR)/,contiki-main.o}
+
+CONTIKI_TARGET_SOURCEFILES = contiki-main.c clock.c
+
+CONTIKI_SOURCEFILES += $(CONTIKI_TARGET_SOURCEFILES)
+
+.SUFFIXES:
+
+### Define the CPU directory
+CONTIKI_CPU=$(CONTIKI)/cpu/microchip-mplabx/xc8
+include $(CONTIKI)/cpu/microchip-mplabx/xc8/Makefile.xc8.mk
+

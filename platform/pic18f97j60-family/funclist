@@ -1,0 +1,21 @@
+_do_event: CODE, 5504 0 332
+_process_run: CODE, 7044 0 24
+_process_poll: CODE, 6882 0 66
+_process_init: CODE, 7090 0 20
+_process_post: CODE, 6532 0 110
+__stringdata: SMALLCONST, 4096 0 31
+_process_start: CODE, 5152 0 352
+_procinit_init: CODE, 6810 0 72
+_main: CODE, 7110 0 4294967276
+_update_time: CODE, 6132 0 268
+_process_thread_etimer_process: CODE, 4128 0 566
+__initialization: CODE, 6736 0 68
+_call_process: CODE, 4694 0 458
+_process_thread_init_stack_process: CODE, 6642 0 94
+_process_post_synch: CODE, 6948 0 58
+_clock_time: CODE, 7068 0 22
+_do_poll: CODE, 5836 0 296
+_etimer_request_poll: CODE, 7146 0 8
+_timer_expired: CODE, 6400 0 132
+_GetTickCopy: CODE, 7006 0 38
+Total: 2995

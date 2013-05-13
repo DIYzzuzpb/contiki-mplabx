@@ -1,0 +1,1 @@
+build/pic18f97j60/production/newmain.p1.d -rsi E:\Microchip\xc8\v1.12\bin../
