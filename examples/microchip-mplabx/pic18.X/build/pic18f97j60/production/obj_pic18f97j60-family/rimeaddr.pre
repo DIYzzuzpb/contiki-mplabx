@@ -8143,7 +8143,7 @@ void SelChanConvADC( unsigned char );
 void Close_ancomp( void );
 void Open_ancomp(unsigned char config);
 
-# 55 "../../../core/dev/spi.h"
+# 55 "../../../../contiki/core/dev/spi.h"
 extern unsigned char spi_busy;
 
 void spi_init(void);
@@ -8344,7 +8344,7 @@ typedef unsigned short wchar_t;
 # 13
 extern int errno;
 
-# 65 "../../../cpu/microchip-mplabx/MAPLv2013-02-15/Include/GenericTypeDefs.h"
+# 65 "../../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include/GenericTypeDefs.h"
 typedef unsigned char BOOL;
 
 
@@ -9347,13 +9347,13 @@ typedef int16_t intptr_t;
 typedef uint16_t uintptr_t;
 
 
-# 13 "/media/truecrypt1/contiki/platform/pic18f97j60-family/contiki-conf.h"
+# 13 "/home/jarojuda/contiki/platform/pic18f97j60-family/contiki-conf.h"
 typedef unsigned long clock_time_t;
 
 # 17
 typedef unsigned short uip_stats_t;
 
-# 65 "/media/truecrypt1/contiki/core/net/rime/rimeaddr.h"
+# 65 "/home/jarojuda/contiki/core/net/rime/rimeaddr.h"
 typedef union {
 unsigned char u8[2];
 } rimeaddr_t;
@@ -9373,7 +9373,7 @@ extern rimeaddr_t rimeaddr_node_addr;
 # 127
 extern const rimeaddr_t rimeaddr_null;
 
-# 47 "/media/truecrypt1/contiki/examples/microchip-mplabx/pic18.X/../../../core/net/rime/rimeaddr.c"
+# 47 "/home/jarojuda/contiki-mplabx/examples/microchip-mplabx/pic18.X/../../../../contiki/core/net/rime/rimeaddr.c"
 rimeaddr_t rimeaddr_node_addr;
 
 const rimeaddr_t rimeaddr_null = { { 0, 0 } };

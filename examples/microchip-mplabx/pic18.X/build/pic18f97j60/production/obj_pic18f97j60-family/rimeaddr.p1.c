@@ -2,29 +2,29 @@
 #include <GenericTypeDefs.h>
 #include <stdint.h>
 #include <limits.h>
-#line 13 "/media/truecrypt1/contiki/platform/pic18f97j60-family/contiki-conf.h"
+#line 13 "/home/jarojuda/contiki/platform/pic18f97j60-family/contiki-conf.h"
 typedef unsigned long clock_time_t;
-#line 17 "/media/truecrypt1/contiki/platform/pic18f97j60-family/contiki-conf.h"
+#line 17 "/home/jarojuda/contiki/platform/pic18f97j60-family/contiki-conf.h"
 typedef unsigned short uip_stats_t;
-#line 65 "/media/truecrypt1/contiki/core/net/rime/rimeaddr.h"
+#line 65 "/home/jarojuda/contiki/core/net/rime/rimeaddr.h"
 typedef union {
 unsigned char u8[2];
 } rimeaddr_t;
-#line 79 "/media/truecrypt1/contiki/core/net/rime/rimeaddr.h"
+#line 79 "/home/jarojuda/contiki/core/net/rime/rimeaddr.h"
 void rimeaddr_copy(rimeaddr_t *dest, const rimeaddr_t *from);
-#line 93 "/media/truecrypt1/contiki/core/net/rime/rimeaddr.h"
+#line 93 "/home/jarojuda/contiki/core/net/rime/rimeaddr.h"
 int rimeaddr_cmp(const rimeaddr_t *addr1, const rimeaddr_t *addr2);
-#line 103 "/media/truecrypt1/contiki/core/net/rime/rimeaddr.h"
+#line 103 "/home/jarojuda/contiki/core/net/rime/rimeaddr.h"
 void rimeaddr_set_node_addr(rimeaddr_t *addr);
-#line 114 "/media/truecrypt1/contiki/core/net/rime/rimeaddr.h"
+#line 114 "/home/jarojuda/contiki/core/net/rime/rimeaddr.h"
 extern rimeaddr_t rimeaddr_node_addr;
-#line 127 "/media/truecrypt1/contiki/core/net/rime/rimeaddr.h"
+#line 127 "/home/jarojuda/contiki/core/net/rime/rimeaddr.h"
 extern const rimeaddr_t rimeaddr_null;
-#line 47 "/media/truecrypt1/contiki/examples/microchip-mplabx/pic18.X/../../../core/net/rime/rimeaddr.c"
+#line 47 "/home/jarojuda/contiki-mplabx/examples/microchip-mplabx/pic18.X/../../../../contiki/core/net/rime/rimeaddr.c"
 rimeaddr_t rimeaddr_node_addr;
 
 const rimeaddr_t rimeaddr_null = { { 0, 0 } };
-#line 58 "/media/truecrypt1/contiki/examples/microchip-mplabx/pic18.X/../../../core/net/rime/rimeaddr.c"
+#line 58 "/home/jarojuda/contiki-mplabx/examples/microchip-mplabx/pic18.X/../../../../contiki/core/net/rime/rimeaddr.c"
 void
 rimeaddr_copy(rimeaddr_t *dest, const rimeaddr_t *src)
 {

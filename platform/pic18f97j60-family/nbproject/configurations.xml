@@ -1,42 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurationDescriptor version="62">
   <logicalFolder name="root" displayName="root" projectFiles="true">
-    <logicalFolder name="f1" displayName="core" projectFiles="true">
-      <logicalFolder name="f2" displayName="lib" projectFiles="true">
+    <logicalFolder name="f1" displayName="contiki" projectFiles="true">
+      <logicalFolder name="core" displayName="core" projectFiles="true">
+        <logicalFolder name="cfs" displayName="cfs" projectFiles="true">
+          <itemPath>../../core/cfs/cfs-xmem.c</itemPath>
+          <itemPath>../../core/cfs/cfs-coffee.c</itemPath>
+          <itemPath>../../core/cfs/cfs-ram.c</itemPath>
+          <itemPath>../../core/cfs/cfs-posix.c</itemPath>
+          <itemPath>../../core/cfs/cfs.h</itemPath>
+          <itemPath>../../core/cfs/cfs-coffee.h</itemPath>
+          <itemPath>../../core/cfs/cfs-eeprom.c</itemPath>
+          <itemPath>../../core/cfs/cfs-posix-dir.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="ctk" displayName="ctk" projectFiles="true">
+          <itemPath>../../core/ctk/ctk.c</itemPath>
+          <itemPath>../../core/ctk/ctk.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="dev" displayName="dev" projectFiles="true">
+          <itemPath>../../core/dev/nullradio.c</itemPath>
+          <itemPath>../../core/dev/nullradio.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="lib" displayName="lib" projectFiles="true">
+          <itemPath>../../core/lib/random.h</itemPath>
+          <itemPath>../../core/lib/memb.c</itemPath>
+          <itemPath>../../core/lib/crc16.c</itemPath>
+          <itemPath>../../core/lib/checkpoint.h</itemPath>
+          <itemPath>../../core/lib/mmem.h</itemPath>
+          <itemPath>../../core/lib/strncasecmp.c</itemPath>
+          <itemPath>../../core/lib/list.c</itemPath>
+          <itemPath>../../core/lib/random.c</itemPath>
+          <itemPath>../../core/lib/ringbuf.c</itemPath>
+          <itemPath>../../core/lib/checkpoint.c</itemPath>
+          <itemPath>../../core/lib/print-stats.h</itemPath>
+          <itemPath>../../core/lib/ringbuf.h</itemPath>
+          <itemPath>../../core/lib/list.h</itemPath>
+          <itemPath>../../core/lib/mmem.c</itemPath>
+          <itemPath>../../core/lib/crc16.h</itemPath>
+          <itemPath>../../core/lib/memb.h</itemPath>
+          <itemPath>../../core/lib/print-stats.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="loader" displayName="loader" projectFiles="true">
+          <itemPath>../../core/loader/elfloader.c</itemPath>
+          <itemPath>../../core/loader/elfloader.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="sys" displayName="sys" projectFiles="true">
+          <itemPath>../../core/sys/timetable.h</itemPath>
+          <itemPath>../../core/sys/compower.c</itemPath>
+          <itemPath>../../core/sys/lc-addrlabels.h</itemPath>
+          <itemPath>../../core/sys/timetable.c</itemPath>
+          <itemPath>../../core/sys/etimer.h</itemPath>
+          <itemPath>../../core/sys/profile.c</itemPath>
+          <itemPath>../../core/sys/lc-switch.h</itemPath>
+          <itemPath>../../core/sys/pt-sem.h</itemPath>
+          <itemPath>../../core/sys/autostart.c</itemPath>
+          <itemPath>../../core/sys/dsc.h</itemPath>
+          <itemPath>../../core/sys/node-id.h</itemPath>
+          <itemPath>../../core/sys/etimer.c</itemPath>
+          <itemPath>../../core/sys/mt.h</itemPath>
+          <itemPath>../../core/sys/loader.h</itemPath>
+          <itemPath>../../core/sys/process.c</itemPath>
+          <itemPath>../../core/sys/energest.h</itemPath>
+          <itemPath>../../core/sys/profile.h</itemPath>
+          <itemPath>../../core/sys/subprocess.h</itemPath>
+          <itemPath>../../core/sys/procinit.c</itemPath>
+          <itemPath>../../core/sys/procinit.h</itemPath>
+          <itemPath>../../core/sys/stimer.h</itemPath>
+          <itemPath>../../core/sys/log.h</itemPath>
+          <itemPath>../../core/sys/stimer.c</itemPath>
+          <itemPath>../../core/sys/rtimer.h</itemPath>
+          <itemPath>../../core/sys/mt.c</itemPath>
+          <itemPath>../../core/sys/cc.h</itemPath>
+          <itemPath>../../core/sys/ctimer.h</itemPath>
+          <itemPath>../../core/sys/autostart.h</itemPath>
+          <itemPath>../../core/sys/timer.c</itemPath>
+          <itemPath>../../core/sys/rtimer.c</itemPath>
+          <itemPath>../../core/sys/compower.h</itemPath>
+          <itemPath>../../core/sys/timetable-aggregate.c</itemPath>
+          <itemPath>../../core/sys/clock.h</itemPath>
+          <itemPath>../../core/sys/pt.h</itemPath>
+          <itemPath>../../core/sys/ctimer.c</itemPath>
+          <itemPath>../../core/sys/process.h</itemPath>
+          <itemPath>../../core/sys/profile-aggregates.c</itemPath>
+          <itemPath>../../core/sys/timetable-aggregate.h</itemPath>
+          <itemPath>../../core/sys/timer.h</itemPath>
+          <itemPath>../../core/sys/lc.h</itemPath>
+          <itemPath>../../core/sys/energest.c</itemPath>
+        </logicalFolder>
+        <itemPath>../../core/contiki-default-conf.h</itemPath>
+        <itemPath>../../core/contiki-net.h</itemPath>
+        <itemPath>../../core/contiki.h</itemPath>
+        <itemPath>../../core/contiki-lib.h</itemPath>
+        <itemPath>../../core/contiki-version.h</itemPath>
       </logicalFolder>
-      <logicalFolder name="f1" displayName="sys" projectFiles="true">
-        <itemPath>../../core/sys/cc.h</itemPath>
-        <itemPath>../../core/sys/clock.h</itemPath>
-        <itemPath>../../core/sys/etimer.c</itemPath>
-        <itemPath>../../core/sys/etimer.h</itemPath>
-        <itemPath>../../core/sys/timer.c</itemPath>
-        <itemPath>../../core/sys/timer.h</itemPath>
-      </logicalFolder>
-    </logicalFolder>
-    <logicalFolder name="f2" displayName="cpu" projectFiles="true">
-      <logicalFolder name="f1" displayName="microchip-mplabx" projectFiles="true">
-        <logicalFolder name="xc8" displayName="xc8" projectFiles="true">
-          <logicalFolder name="lib" displayName="lib" projectFiles="true">
-            <itemPath>../../cpu/microchip-mplabx/xc8/lib/sensors.h</itemPath>
+      <logicalFolder name="f1" displayName="cpu" projectFiles="true">
+        <logicalFolder name="microchip-mplabx"
+                       displayName="microchip-mplabx"
+                       projectFiles="true">
+          <logicalFolder name="MAPLv2013-02-15"
+                         displayName="MAPLv2013-02-15"
+                         projectFiles="true">
+            <logicalFolder name="Include" displayName="Include" projectFiles="true">
+              <logicalFolder name="TCPIP Stack" displayName="TCPIP Stack" projectFiles="true">
+                <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/Include/TCPIP Stack/ETH97J60.h</itemPath>
+                <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/Include/TCPIP Stack/Hashes.h</itemPath>
+                <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/Include/TCPIP Stack/Helpers.h</itemPath>
+                <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/Include/TCPIP Stack/TCPIP.h</itemPath>
+              </logicalFolder>
+              <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/Include/debug.h</itemPath>
+              <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/Include/GenericTypeDefs.h</itemPath>
+              <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/Include/Compiler.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="TCPIP Stack" displayName="TCPIP Stack" projectFiles="true">
+              <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/TCPIP Stack/ETH97J60.c</itemPath>
+            </logicalFolder>
           </logicalFolder>
-          <logicalFolder name="sys" displayName="sys" projectFiles="true">
-            <itemPath>../../cpu/microchip-mplabx/xc8/sys/autostart.c</itemPath>
-            <itemPath>../../cpu/microchip-mplabx/xc8/sys/autostart.h</itemPath>
-            <itemPath>../../cpu/microchip-mplabx/xc8/sys/process.c</itemPath>
-            <itemPath>../../cpu/microchip-mplabx/xc8/sys/process.h</itemPath>
-            <itemPath>../../cpu/microchip-mplabx/xc8/sys/procinit.c</itemPath>
-            <itemPath>../../cpu/microchip-mplabx/xc8/sys/procinit.h</itemPath>
+          <logicalFolder name="xc8" displayName="xc8" projectFiles="true">
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
-    </logicalFolder>
-    <logicalFolder name="HeaderFiles"
-                   displayName="Header Files"
-                   projectFiles="true">
-      <itemPath>contiki-conf.h</itemPath>
-      <itemPath>HardwareProfile.h</itemPath>
-      <itemPath>rtimer-arch.h</itemPath>
-      <itemPath>TCPIPConfig.h</itemPath>
+      <logicalFolder name="f2" displayName="platform" projectFiles="true">
+        <logicalFolder name="pic18f97j60-family"
+                       displayName="pic18f97j60-family"
+                       projectFiles="true">
+          <logicalFolder name="dev" displayName="dev" projectFiles="true">
+            <itemPath>dev/pir-sensor.c</itemPath>
+            <itemPath>dev/beep.c</itemPath>
+            <itemPath>dev/beep.h</itemPath>
+            <itemPath>dev/pir-sensor.h</itemPath>
+            <itemPath>dev/button-sensor.h</itemPath>
+            <itemPath>dev/temperature-sensor.h</itemPath>
+            <itemPath>dev/vib-sensor.c</itemPath>
+            <itemPath>dev/eeprom.c</itemPath>
+            <itemPath>dev/button-sensor.c</itemPath>
+            <itemPath>dev/vib-sensor.h</itemPath>
+            <itemPath>dev/irq.c</itemPath>
+            <itemPath>dev/dummy-sensors.c</itemPath>
+            <itemPath>dev/leds-arch.c</itemPath>
+          </logicalFolder>
+          <itemPath>autostart.c</itemPath>
+          <itemPath>HardwareProfile.h</itemPath>
+          <itemPath>contiki-conf.h</itemPath>
+          <itemPath>rtimer-arch.h</itemPath>
+          <itemPath>configuration-bits.c</itemPath>
+          <itemPath>TCPIPConfig.h</itemPath>
+          <itemPath>clock.c</itemPath>
+          <itemPath>contiki-main.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -45,10 +156,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>clock.c</itemPath>
-      <itemPath>contiki-main.c</itemPath>
       <itemPath>empty.c</itemPath>
-      <itemPath>configuration-bits.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -58,8 +166,8 @@
   </logicalFolder>
   <sourceRootList>
     <Elem>.</Elem>
-    <Elem>../../cpu/microchip-mplabx/pic18</Elem>
-    <Elem>../../cpu/microchip-mplabx/xc8</Elem>
+    <Elem>../../core</Elem>
+    <Elem>../../cpu/microchip-mplabx</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>

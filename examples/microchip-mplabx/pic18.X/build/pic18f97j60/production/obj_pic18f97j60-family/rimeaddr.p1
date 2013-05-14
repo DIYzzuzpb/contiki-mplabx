@@ -7126,7 +7126,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;rimeaddr.h: 103: void rimeaddr_set_node_addr(rimeaddr_t *addr);
 [; ;rimeaddr.h: 114: extern rimeaddr_t rimeaddr_node_addr;
 [; ;rimeaddr.h: 127: extern const rimeaddr_t rimeaddr_null;
-"47 /media/truecrypt1/contiki/examples/microchip-mplabx/pic18.X/../../../core/net/rime/rimeaddr.c
+"47 /home/jarojuda/contiki-mplabx/examples/microchip-mplabx/pic18.X/../../../../contiki/core/net/rime/rimeaddr.c
 [v _rimeaddr_node_addr `S823 ~T0 @X0 1 e ]
 [; ;rimeaddr.c: 47: rimeaddr_t rimeaddr_node_addr;
 "49
