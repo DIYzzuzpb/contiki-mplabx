@@ -4,84 +4,84 @@
     <logicalFolder name="f1" displayName="contiki" projectFiles="true">
       <logicalFolder name="core" displayName="core" projectFiles="true">
         <logicalFolder name="ctk" displayName="ctk" projectFiles="true">
-          <itemPath>../../core/ctk/ctk.c</itemPath>
-          <itemPath>../../core/ctk/ctk.h</itemPath>
+          <itemPath>../../../contiki/core/ctk/ctk.c</itemPath>
+          <itemPath>../../../contiki/core/ctk/ctk.h</itemPath>
         </logicalFolder>
         <logicalFolder name="dev" displayName="dev" projectFiles="true">
-          <itemPath>../../core/dev/nullradio.c</itemPath>
-          <itemPath>../../core/dev/nullradio.h</itemPath>
+          <itemPath>../../../contiki/core/dev/nullradio.c</itemPath>
+          <itemPath>../../../contiki/core/dev/nullradio.h</itemPath>
         </logicalFolder>
         <logicalFolder name="lib" displayName="lib" projectFiles="true">
-          <itemPath>../../core/lib/random.h</itemPath>
-          <itemPath>../../core/lib/memb.c</itemPath>
-          <itemPath>../../core/lib/crc16.c</itemPath>
-          <itemPath>../../core/lib/checkpoint.h</itemPath>
-          <itemPath>../../core/lib/mmem.h</itemPath>
-          <itemPath>../../core/lib/strncasecmp.c</itemPath>
-          <itemPath>../../core/lib/list.c</itemPath>
-          <itemPath>../../core/lib/random.c</itemPath>
-          <itemPath>../../core/lib/ringbuf.c</itemPath>
-          <itemPath>../../core/lib/checkpoint.c</itemPath>
-          <itemPath>../../core/lib/print-stats.h</itemPath>
-          <itemPath>../../core/lib/ringbuf.h</itemPath>
-          <itemPath>../../core/lib/list.h</itemPath>
-          <itemPath>../../core/lib/mmem.c</itemPath>
-          <itemPath>../../core/lib/crc16.h</itemPath>
-          <itemPath>../../core/lib/memb.h</itemPath>
-          <itemPath>../../core/lib/print-stats.c</itemPath>
+          <itemPath>../../../contiki/core/lib/random.h</itemPath>
+          <itemPath>../../../contiki/core/lib/memb.c</itemPath>
+          <itemPath>../../../contiki/core/lib/crc16.c</itemPath>
+          <itemPath>../../../contiki/core/lib/checkpoint.h</itemPath>
+          <itemPath>../../../contiki/core/lib/mmem.h</itemPath>
+          <itemPath>../../../contiki/core/lib/strncasecmp.c</itemPath>
+          <itemPath>../../../contiki/core/lib/list.c</itemPath>
+          <itemPath>../../../contiki/core/lib/random.c</itemPath>
+          <itemPath>../../../contiki/core/lib/ringbuf.c</itemPath>
+          <itemPath>../../../contiki/core/lib/checkpoint.c</itemPath>
+          <itemPath>../../../contiki/core/lib/print-stats.h</itemPath>
+          <itemPath>../../../contiki/core/lib/ringbuf.h</itemPath>
+          <itemPath>../../../contiki/core/lib/list.h</itemPath>
+          <itemPath>../../../contiki/core/lib/mmem.c</itemPath>
+          <itemPath>../../../contiki/core/lib/crc16.h</itemPath>
+          <itemPath>../../../contiki/core/lib/memb.h</itemPath>
+          <itemPath>../../../contiki/core/lib/print-stats.c</itemPath>
         </logicalFolder>
         <logicalFolder name="loader" displayName="loader" projectFiles="true">
-          <itemPath>../../core/loader/elfloader.c</itemPath>
-          <itemPath>../../core/loader/elfloader.h</itemPath>
+          <itemPath>../../../contiki/core/loader/elfloader.c</itemPath>
+          <itemPath>../../../contiki/core/loader/elfloader.h</itemPath>
         </logicalFolder>
         <logicalFolder name="sys" displayName="sys" projectFiles="true">
-          <itemPath>../../core/sys/timetable.h</itemPath>
-          <itemPath>../../core/sys/compower.c</itemPath>
-          <itemPath>../../core/sys/lc-addrlabels.h</itemPath>
-          <itemPath>../../core/sys/timetable.c</itemPath>
-          <itemPath>../../core/sys/etimer.h</itemPath>
-          <itemPath>../../core/sys/profile.c</itemPath>
-          <itemPath>../../core/sys/lc-switch.h</itemPath>
-          <itemPath>../../core/sys/pt-sem.h</itemPath>
-          <itemPath>../../core/sys/autostart.c</itemPath>
-          <itemPath>../../core/sys/dsc.h</itemPath>
-          <itemPath>../../core/sys/node-id.h</itemPath>
-          <itemPath>../../core/sys/etimer.c</itemPath>
-          <itemPath>../../core/sys/mt.h</itemPath>
-          <itemPath>../../core/sys/loader.h</itemPath>
-          <itemPath>../../core/sys/process.c</itemPath>
-          <itemPath>../../core/sys/energest.h</itemPath>
-          <itemPath>../../core/sys/profile.h</itemPath>
-          <itemPath>../../core/sys/subprocess.h</itemPath>
-          <itemPath>../../core/sys/procinit.c</itemPath>
-          <itemPath>../../core/sys/procinit.h</itemPath>
-          <itemPath>../../core/sys/stimer.h</itemPath>
-          <itemPath>../../core/sys/log.h</itemPath>
-          <itemPath>../../core/sys/stimer.c</itemPath>
-          <itemPath>../../core/sys/rtimer.h</itemPath>
-          <itemPath>../../core/sys/mt.c</itemPath>
-          <itemPath>../../core/sys/cc.h</itemPath>
-          <itemPath>../../core/sys/ctimer.h</itemPath>
-          <itemPath>../../core/sys/autostart.h</itemPath>
-          <itemPath>../../core/sys/timer.c</itemPath>
-          <itemPath>../../core/sys/rtimer.c</itemPath>
-          <itemPath>../../core/sys/compower.h</itemPath>
-          <itemPath>../../core/sys/timetable-aggregate.c</itemPath>
-          <itemPath>../../core/sys/clock.h</itemPath>
-          <itemPath>../../core/sys/pt.h</itemPath>
-          <itemPath>../../core/sys/ctimer.c</itemPath>
-          <itemPath>../../core/sys/process.h</itemPath>
-          <itemPath>../../core/sys/profile-aggregates.c</itemPath>
-          <itemPath>../../core/sys/timetable-aggregate.h</itemPath>
-          <itemPath>../../core/sys/timer.h</itemPath>
-          <itemPath>../../core/sys/lc.h</itemPath>
-          <itemPath>../../core/sys/energest.c</itemPath>
+          <itemPath>../../../contiki/core/sys/timetable.h</itemPath>
+          <itemPath>../../../contiki/core/sys/compower.c</itemPath>
+          <itemPath>../../../contiki/core/sys/lc-addrlabels.h</itemPath>
+          <itemPath>../../../contiki/core/sys/timetable.c</itemPath>
+          <itemPath>../../../contiki/core/sys/etimer.h</itemPath>
+          <itemPath>../../../contiki/core/sys/profile.c</itemPath>
+          <itemPath>../../../contiki/core/sys/lc-switch.h</itemPath>
+          <itemPath>../../../contiki/core/sys/pt-sem.h</itemPath>
+          <itemPath>../../../contiki/core/sys/autostart.c</itemPath>
+          <itemPath>../../../contiki/core/sys/dsc.h</itemPath>
+          <itemPath>../../../contiki/core/sys/node-id.h</itemPath>
+          <itemPath>../../../contiki/core/sys/etimer.c</itemPath>
+          <itemPath>../../../contiki/core/sys/mt.h</itemPath>
+          <itemPath>../../../contiki/core/sys/loader.h</itemPath>
+          <itemPath>../../../contiki/core/sys/process.c</itemPath>
+          <itemPath>../../../contiki/core/sys/energest.h</itemPath>
+          <itemPath>../../../contiki/core/sys/profile.h</itemPath>
+          <itemPath>../../../contiki/core/sys/subprocess.h</itemPath>
+          <itemPath>../../../contiki/core/sys/procinit.c</itemPath>
+          <itemPath>../../../contiki/core/sys/procinit.h</itemPath>
+          <itemPath>../../../contiki/core/sys/stimer.h</itemPath>
+          <itemPath>../../../contiki/core/sys/log.h</itemPath>
+          <itemPath>../../../contiki/core/sys/stimer.c</itemPath>
+          <itemPath>../../../contiki/core/sys/rtimer.h</itemPath>
+          <itemPath>../../../contiki/core/sys/mt.c</itemPath>
+          <itemPath>../../../contiki/core/sys/cc.h</itemPath>
+          <itemPath>../../../contiki/core/sys/ctimer.h</itemPath>
+          <itemPath>../../../contiki/core/sys/autostart.h</itemPath>
+          <itemPath>../../../contiki/core/sys/timer.c</itemPath>
+          <itemPath>../../../contiki/core/sys/rtimer.c</itemPath>
+          <itemPath>../../../contiki/core/sys/compower.h</itemPath>
+          <itemPath>../../../contiki/core/sys/timetable-aggregate.c</itemPath>
+          <itemPath>../../../contiki/core/sys/clock.h</itemPath>
+          <itemPath>../../../contiki/core/sys/pt.h</itemPath>
+          <itemPath>../../../contiki/core/sys/ctimer.c</itemPath>
+          <itemPath>../../../contiki/core/sys/process.h</itemPath>
+          <itemPath>../../../contiki/core/sys/profile-aggregates.c</itemPath>
+          <itemPath>../../../contiki/core/sys/timetable-aggregate.h</itemPath>
+          <itemPath>../../../contiki/core/sys/timer.h</itemPath>
+          <itemPath>../../../contiki/core/sys/lc.h</itemPath>
+          <itemPath>../../../contiki/core/sys/energest.c</itemPath>
         </logicalFolder>
-        <itemPath>../../core/contiki-default-conf.h</itemPath>
-        <itemPath>../../core/contiki-net.h</itemPath>
-        <itemPath>../../core/contiki.h</itemPath>
-        <itemPath>../../core/contiki-lib.h</itemPath>
-        <itemPath>../../core/contiki-version.h</itemPath>
+        <itemPath>../../../contiki/core/contiki-default-conf.h</itemPath>
+        <itemPath>../../../contiki/core/contiki-net.h</itemPath>
+        <itemPath>../../../contiki/core/contiki.h</itemPath>
+        <itemPath>../../../contiki/core/contiki-lib.h</itemPath>
+        <itemPath>../../../contiki/core/contiki-version.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f1" displayName="cpu" projectFiles="true">
         <logicalFolder name="microchip-mplabx"

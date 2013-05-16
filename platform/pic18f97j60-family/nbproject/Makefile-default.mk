@@ -45,11 +45,11 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1644937910/ctk.p1 ${OBJECTDIR}/_ext/1644937403/nullradio.p1 ${OBJECTDIR}/_ext/1644929611/memb.p1 ${OBJECTDIR}/_ext/1644929611/crc16.p1 ${OBJECTDIR}/_ext/1644929611/strncasecmp.p1 ${OBJECTDIR}/_ext/1644929611/list.p1 ${OBJECTDIR}/_ext/1644929611/random.p1 ${OBJECTDIR}/_ext/1644929611/ringbuf.p1 ${OBJECTDIR}/_ext/1644929611/checkpoint.p1 ${OBJECTDIR}/_ext/1644929611/mmem.p1 ${OBJECTDIR}/_ext/1644929611/print-stats.p1 ${OBJECTDIR}/_ext/1484416739/elfloader.p1 ${OBJECTDIR}/_ext/1644922371/compower.p1 ${OBJECTDIR}/_ext/1644922371/timetable.p1 ${OBJECTDIR}/_ext/1644922371/profile.p1 ${OBJECTDIR}/_ext/1644922371/autostart.p1 ${OBJECTDIR}/_ext/1644922371/etimer.p1 ${OBJECTDIR}/_ext/1644922371/process.p1 ${OBJECTDIR}/_ext/1644922371/procinit.p1 ${OBJECTDIR}/_ext/1644922371/stimer.p1 ${OBJECTDIR}/_ext/1644922371/mt.p1 ${OBJECTDIR}/_ext/1644922371/timer.p1 ${OBJECTDIR}/_ext/1644922371/rtimer.p1 ${OBJECTDIR}/_ext/1644922371/timetable-aggregate.p1 ${OBJECTDIR}/_ext/1644922371/ctimer.p1 ${OBJECTDIR}/_ext/1644922371/profile-aggregates.p1 ${OBJECTDIR}/_ext/1644922371/energest.p1 ${OBJECTDIR}/_ext/1464538521/ETH97J60.p1 ${OBJECTDIR}/dev/pir-sensor.p1 ${OBJECTDIR}/dev/beep.p1 ${OBJECTDIR}/dev/vib-sensor.p1 ${OBJECTDIR}/dev/eeprom.p1 ${OBJECTDIR}/dev/button-sensor.p1 ${OBJECTDIR}/dev/irq.p1 ${OBJECTDIR}/dev/dummy-sensors.p1 ${OBJECTDIR}/dev/leds-arch.p1 ${OBJECTDIR}/configuration-bits.p1 ${OBJECTDIR}/clock.p1 ${OBJECTDIR}/contiki-main.p1 ${OBJECTDIR}/interrupts.p1 ${OBJECTDIR}/empty.p1 ${OBJECTDIR}/dummy.p1
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1644937910/ctk.p1.d ${OBJECTDIR}/_ext/1644937403/nullradio.p1.d ${OBJECTDIR}/_ext/1644929611/memb.p1.d ${OBJECTDIR}/_ext/1644929611/crc16.p1.d ${OBJECTDIR}/_ext/1644929611/strncasecmp.p1.d ${OBJECTDIR}/_ext/1644929611/list.p1.d ${OBJECTDIR}/_ext/1644929611/random.p1.d ${OBJECTDIR}/_ext/1644929611/ringbuf.p1.d ${OBJECTDIR}/_ext/1644929611/checkpoint.p1.d ${OBJECTDIR}/_ext/1644929611/mmem.p1.d ${OBJECTDIR}/_ext/1644929611/print-stats.p1.d ${OBJECTDIR}/_ext/1484416739/elfloader.p1.d ${OBJECTDIR}/_ext/1644922371/compower.p1.d ${OBJECTDIR}/_ext/1644922371/timetable.p1.d ${OBJECTDIR}/_ext/1644922371/profile.p1.d ${OBJECTDIR}/_ext/1644922371/autostart.p1.d ${OBJECTDIR}/_ext/1644922371/etimer.p1.d ${OBJECTDIR}/_ext/1644922371/process.p1.d ${OBJECTDIR}/_ext/1644922371/procinit.p1.d ${OBJECTDIR}/_ext/1644922371/stimer.p1.d ${OBJECTDIR}/_ext/1644922371/mt.p1.d ${OBJECTDIR}/_ext/1644922371/timer.p1.d ${OBJECTDIR}/_ext/1644922371/rtimer.p1.d ${OBJECTDIR}/_ext/1644922371/timetable-aggregate.p1.d ${OBJECTDIR}/_ext/1644922371/ctimer.p1.d ${OBJECTDIR}/_ext/1644922371/profile-aggregates.p1.d ${OBJECTDIR}/_ext/1644922371/energest.p1.d ${OBJECTDIR}/_ext/1464538521/ETH97J60.p1.d ${OBJECTDIR}/dev/pir-sensor.p1.d ${OBJECTDIR}/dev/beep.p1.d ${OBJECTDIR}/dev/vib-sensor.p1.d ${OBJECTDIR}/dev/eeprom.p1.d ${OBJECTDIR}/dev/button-sensor.p1.d ${OBJECTDIR}/dev/irq.p1.d ${OBJECTDIR}/dev/dummy-sensors.p1.d ${OBJECTDIR}/dev/leds-arch.p1.d ${OBJECTDIR}/configuration-bits.p1.d ${OBJECTDIR}/clock.p1.d ${OBJECTDIR}/contiki-main.p1.d ${OBJECTDIR}/interrupts.p1.d ${OBJECTDIR}/empty.p1.d ${OBJECTDIR}/dummy.p1.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1195374541/ctk.p1 ${OBJECTDIR}/_ext/1195374034/nullradio.p1 ${OBJECTDIR}/_ext/1195366242/memb.p1 ${OBJECTDIR}/_ext/1195366242/crc16.p1 ${OBJECTDIR}/_ext/1195366242/strncasecmp.p1 ${OBJECTDIR}/_ext/1195366242/list.p1 ${OBJECTDIR}/_ext/1195366242/random.p1 ${OBJECTDIR}/_ext/1195366242/ringbuf.p1 ${OBJECTDIR}/_ext/1195366242/checkpoint.p1 ${OBJECTDIR}/_ext/1195366242/mmem.p1 ${OBJECTDIR}/_ext/1195366242/print-stats.p1 ${OBJECTDIR}/_ext/1576253606/elfloader.p1 ${OBJECTDIR}/_ext/1195359002/compower.p1 ${OBJECTDIR}/_ext/1195359002/timetable.p1 ${OBJECTDIR}/_ext/1195359002/profile.p1 ${OBJECTDIR}/_ext/1195359002/autostart.p1 ${OBJECTDIR}/_ext/1195359002/etimer.p1 ${OBJECTDIR}/_ext/1195359002/process.p1 ${OBJECTDIR}/_ext/1195359002/procinit.p1 ${OBJECTDIR}/_ext/1195359002/stimer.p1 ${OBJECTDIR}/_ext/1195359002/mt.p1 ${OBJECTDIR}/_ext/1195359002/timer.p1 ${OBJECTDIR}/_ext/1195359002/rtimer.p1 ${OBJECTDIR}/_ext/1195359002/timetable-aggregate.p1 ${OBJECTDIR}/_ext/1195359002/ctimer.p1 ${OBJECTDIR}/_ext/1195359002/profile-aggregates.p1 ${OBJECTDIR}/_ext/1195359002/energest.p1 ${OBJECTDIR}/_ext/1464538521/ETH97J60.p1 ${OBJECTDIR}/dev/pir-sensor.p1 ${OBJECTDIR}/dev/beep.p1 ${OBJECTDIR}/dev/vib-sensor.p1 ${OBJECTDIR}/dev/eeprom.p1 ${OBJECTDIR}/dev/button-sensor.p1 ${OBJECTDIR}/dev/irq.p1 ${OBJECTDIR}/dev/dummy-sensors.p1 ${OBJECTDIR}/dev/leds-arch.p1 ${OBJECTDIR}/configuration-bits.p1 ${OBJECTDIR}/clock.p1 ${OBJECTDIR}/contiki-main.p1 ${OBJECTDIR}/interrupts.p1 ${OBJECTDIR}/empty.p1 ${OBJECTDIR}/dummy.p1
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1195374541/ctk.p1.d ${OBJECTDIR}/_ext/1195374034/nullradio.p1.d ${OBJECTDIR}/_ext/1195366242/memb.p1.d ${OBJECTDIR}/_ext/1195366242/crc16.p1.d ${OBJECTDIR}/_ext/1195366242/strncasecmp.p1.d ${OBJECTDIR}/_ext/1195366242/list.p1.d ${OBJECTDIR}/_ext/1195366242/random.p1.d ${OBJECTDIR}/_ext/1195366242/ringbuf.p1.d ${OBJECTDIR}/_ext/1195366242/checkpoint.p1.d ${OBJECTDIR}/_ext/1195366242/mmem.p1.d ${OBJECTDIR}/_ext/1195366242/print-stats.p1.d ${OBJECTDIR}/_ext/1576253606/elfloader.p1.d ${OBJECTDIR}/_ext/1195359002/compower.p1.d ${OBJECTDIR}/_ext/1195359002/timetable.p1.d ${OBJECTDIR}/_ext/1195359002/profile.p1.d ${OBJECTDIR}/_ext/1195359002/autostart.p1.d ${OBJECTDIR}/_ext/1195359002/etimer.p1.d ${OBJECTDIR}/_ext/1195359002/process.p1.d ${OBJECTDIR}/_ext/1195359002/procinit.p1.d ${OBJECTDIR}/_ext/1195359002/stimer.p1.d ${OBJECTDIR}/_ext/1195359002/mt.p1.d ${OBJECTDIR}/_ext/1195359002/timer.p1.d ${OBJECTDIR}/_ext/1195359002/rtimer.p1.d ${OBJECTDIR}/_ext/1195359002/timetable-aggregate.p1.d ${OBJECTDIR}/_ext/1195359002/ctimer.p1.d ${OBJECTDIR}/_ext/1195359002/profile-aggregates.p1.d ${OBJECTDIR}/_ext/1195359002/energest.p1.d ${OBJECTDIR}/_ext/1464538521/ETH97J60.p1.d ${OBJECTDIR}/dev/pir-sensor.p1.d ${OBJECTDIR}/dev/beep.p1.d ${OBJECTDIR}/dev/vib-sensor.p1.d ${OBJECTDIR}/dev/eeprom.p1.d ${OBJECTDIR}/dev/button-sensor.p1.d ${OBJECTDIR}/dev/irq.p1.d ${OBJECTDIR}/dev/dummy-sensors.p1.d ${OBJECTDIR}/dev/leds-arch.p1.d ${OBJECTDIR}/configuration-bits.p1.d ${OBJECTDIR}/clock.p1.d ${OBJECTDIR}/contiki-main.p1.d ${OBJECTDIR}/interrupts.p1.d ${OBJECTDIR}/empty.p1.d ${OBJECTDIR}/dummy.p1.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/1644937910/ctk.p1 ${OBJECTDIR}/_ext/1644937403/nullradio.p1 ${OBJECTDIR}/_ext/1644929611/memb.p1 ${OBJECTDIR}/_ext/1644929611/crc16.p1 ${OBJECTDIR}/_ext/1644929611/strncasecmp.p1 ${OBJECTDIR}/_ext/1644929611/list.p1 ${OBJECTDIR}/_ext/1644929611/random.p1 ${OBJECTDIR}/_ext/1644929611/ringbuf.p1 ${OBJECTDIR}/_ext/1644929611/checkpoint.p1 ${OBJECTDIR}/_ext/1644929611/mmem.p1 ${OBJECTDIR}/_ext/1644929611/print-stats.p1 ${OBJECTDIR}/_ext/1484416739/elfloader.p1 ${OBJECTDIR}/_ext/1644922371/compower.p1 ${OBJECTDIR}/_ext/1644922371/timetable.p1 ${OBJECTDIR}/_ext/1644922371/profile.p1 ${OBJECTDIR}/_ext/1644922371/autostart.p1 ${OBJECTDIR}/_ext/1644922371/etimer.p1 ${OBJECTDIR}/_ext/1644922371/process.p1 ${OBJECTDIR}/_ext/1644922371/procinit.p1 ${OBJECTDIR}/_ext/1644922371/stimer.p1 ${OBJECTDIR}/_ext/1644922371/mt.p1 ${OBJECTDIR}/_ext/1644922371/timer.p1 ${OBJECTDIR}/_ext/1644922371/rtimer.p1 ${OBJECTDIR}/_ext/1644922371/timetable-aggregate.p1 ${OBJECTDIR}/_ext/1644922371/ctimer.p1 ${OBJECTDIR}/_ext/1644922371/profile-aggregates.p1 ${OBJECTDIR}/_ext/1644922371/energest.p1 ${OBJECTDIR}/_ext/1464538521/ETH97J60.p1 ${OBJECTDIR}/dev/pir-sensor.p1 ${OBJECTDIR}/dev/beep.p1 ${OBJECTDIR}/dev/vib-sensor.p1 ${OBJECTDIR}/dev/eeprom.p1 ${OBJECTDIR}/dev/button-sensor.p1 ${OBJECTDIR}/dev/irq.p1 ${OBJECTDIR}/dev/dummy-sensors.p1 ${OBJECTDIR}/dev/leds-arch.p1 ${OBJECTDIR}/configuration-bits.p1 ${OBJECTDIR}/clock.p1 ${OBJECTDIR}/contiki-main.p1 ${OBJECTDIR}/interrupts.p1 ${OBJECTDIR}/empty.p1 ${OBJECTDIR}/dummy.p1
+OBJECTFILES=${OBJECTDIR}/_ext/1195374541/ctk.p1 ${OBJECTDIR}/_ext/1195374034/nullradio.p1 ${OBJECTDIR}/_ext/1195366242/memb.p1 ${OBJECTDIR}/_ext/1195366242/crc16.p1 ${OBJECTDIR}/_ext/1195366242/strncasecmp.p1 ${OBJECTDIR}/_ext/1195366242/list.p1 ${OBJECTDIR}/_ext/1195366242/random.p1 ${OBJECTDIR}/_ext/1195366242/ringbuf.p1 ${OBJECTDIR}/_ext/1195366242/checkpoint.p1 ${OBJECTDIR}/_ext/1195366242/mmem.p1 ${OBJECTDIR}/_ext/1195366242/print-stats.p1 ${OBJECTDIR}/_ext/1576253606/elfloader.p1 ${OBJECTDIR}/_ext/1195359002/compower.p1 ${OBJECTDIR}/_ext/1195359002/timetable.p1 ${OBJECTDIR}/_ext/1195359002/profile.p1 ${OBJECTDIR}/_ext/1195359002/autostart.p1 ${OBJECTDIR}/_ext/1195359002/etimer.p1 ${OBJECTDIR}/_ext/1195359002/process.p1 ${OBJECTDIR}/_ext/1195359002/procinit.p1 ${OBJECTDIR}/_ext/1195359002/stimer.p1 ${OBJECTDIR}/_ext/1195359002/mt.p1 ${OBJECTDIR}/_ext/1195359002/timer.p1 ${OBJECTDIR}/_ext/1195359002/rtimer.p1 ${OBJECTDIR}/_ext/1195359002/timetable-aggregate.p1 ${OBJECTDIR}/_ext/1195359002/ctimer.p1 ${OBJECTDIR}/_ext/1195359002/profile-aggregates.p1 ${OBJECTDIR}/_ext/1195359002/energest.p1 ${OBJECTDIR}/_ext/1464538521/ETH97J60.p1 ${OBJECTDIR}/dev/pir-sensor.p1 ${OBJECTDIR}/dev/beep.p1 ${OBJECTDIR}/dev/vib-sensor.p1 ${OBJECTDIR}/dev/eeprom.p1 ${OBJECTDIR}/dev/button-sensor.p1 ${OBJECTDIR}/dev/irq.p1 ${OBJECTDIR}/dev/dummy-sensors.p1 ${OBJECTDIR}/dev/leds-arch.p1 ${OBJECTDIR}/configuration-bits.p1 ${OBJECTDIR}/clock.p1 ${OBJECTDIR}/contiki-main.p1 ${OBJECTDIR}/interrupts.p1 ${OBJECTDIR}/empty.p1 ${OBJECTDIR}/dummy.p1
 
 
 CFLAGS=
@@ -72,194 +72,194 @@ MP_PROCESSOR_OPTION=18F97J60
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/_ext/1644937910/ctk.p1: ../../core/ctk/ctk.c  nbproject/Makefile-${CND_CONF}.mk
-	${MKDIR} ${OBJECTDIR}/_ext/1644937910 
-	${RM} ${OBJECTDIR}/_ext/1644937910/ctk.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644937910/ctk.p1  ../../core/ctk/ctk.c 
-	-${MV} ${OBJECTDIR}/_ext/1644937910/ctk.d ${OBJECTDIR}/_ext/1644937910/ctk.p1.d 
-	${FIXDEPS} ${OBJECTDIR}/_ext/1644937910/ctk.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195374541/ctk.p1: ../../../contiki/core/ctk/ctk.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195374541 
+	@${RM} ${OBJECTDIR}/_ext/1195374541/ctk.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195374541/ctk.p1  ../../../contiki/core/ctk/ctk.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195374541/ctk.d ${OBJECTDIR}/_ext/1195374541/ctk.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195374541/ctk.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644937403/nullradio.p1: ../../core/dev/nullradio.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644937403 
-	@${RM} ${OBJECTDIR}/_ext/1644937403/nullradio.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644937403/nullradio.p1  ../../core/dev/nullradio.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644937403/nullradio.d ${OBJECTDIR}/_ext/1644937403/nullradio.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644937403/nullradio.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195374034/nullradio.p1: ../../../contiki/core/dev/nullradio.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195374034 
+	@${RM} ${OBJECTDIR}/_ext/1195374034/nullradio.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195374034/nullradio.p1  ../../../contiki/core/dev/nullradio.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195374034/nullradio.d ${OBJECTDIR}/_ext/1195374034/nullradio.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195374034/nullradio.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/memb.p1: ../../core/lib/memb.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/memb.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/memb.p1  ../../core/lib/memb.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/memb.d ${OBJECTDIR}/_ext/1644929611/memb.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/memb.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/memb.p1: ../../../contiki/core/lib/memb.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/memb.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/memb.p1  ../../../contiki/core/lib/memb.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/memb.d ${OBJECTDIR}/_ext/1195366242/memb.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/memb.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/crc16.p1: ../../core/lib/crc16.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/crc16.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/crc16.p1  ../../core/lib/crc16.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/crc16.d ${OBJECTDIR}/_ext/1644929611/crc16.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/crc16.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/crc16.p1: ../../../contiki/core/lib/crc16.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/crc16.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/crc16.p1  ../../../contiki/core/lib/crc16.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/crc16.d ${OBJECTDIR}/_ext/1195366242/crc16.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/crc16.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/strncasecmp.p1: ../../core/lib/strncasecmp.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/strncasecmp.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/strncasecmp.p1  ../../core/lib/strncasecmp.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/strncasecmp.d ${OBJECTDIR}/_ext/1644929611/strncasecmp.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/strncasecmp.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/strncasecmp.p1: ../../../contiki/core/lib/strncasecmp.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/strncasecmp.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/strncasecmp.p1  ../../../contiki/core/lib/strncasecmp.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/strncasecmp.d ${OBJECTDIR}/_ext/1195366242/strncasecmp.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/strncasecmp.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/list.p1: ../../core/lib/list.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/list.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/list.p1  ../../core/lib/list.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/list.d ${OBJECTDIR}/_ext/1644929611/list.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/list.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/list.p1: ../../../contiki/core/lib/list.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/list.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/list.p1  ../../../contiki/core/lib/list.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/list.d ${OBJECTDIR}/_ext/1195366242/list.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/list.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/random.p1: ../../core/lib/random.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/random.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/random.p1  ../../core/lib/random.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/random.d ${OBJECTDIR}/_ext/1644929611/random.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/random.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/random.p1: ../../../contiki/core/lib/random.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/random.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/random.p1  ../../../contiki/core/lib/random.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/random.d ${OBJECTDIR}/_ext/1195366242/random.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/random.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/ringbuf.p1: ../../core/lib/ringbuf.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/ringbuf.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/ringbuf.p1  ../../core/lib/ringbuf.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/ringbuf.d ${OBJECTDIR}/_ext/1644929611/ringbuf.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/ringbuf.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/ringbuf.p1: ../../../contiki/core/lib/ringbuf.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/ringbuf.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/ringbuf.p1  ../../../contiki/core/lib/ringbuf.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/ringbuf.d ${OBJECTDIR}/_ext/1195366242/ringbuf.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/ringbuf.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/checkpoint.p1: ../../core/lib/checkpoint.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/checkpoint.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/checkpoint.p1  ../../core/lib/checkpoint.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/checkpoint.d ${OBJECTDIR}/_ext/1644929611/checkpoint.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/checkpoint.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/checkpoint.p1: ../../../contiki/core/lib/checkpoint.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/checkpoint.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/checkpoint.p1  ../../../contiki/core/lib/checkpoint.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/checkpoint.d ${OBJECTDIR}/_ext/1195366242/checkpoint.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/checkpoint.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/mmem.p1: ../../core/lib/mmem.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/mmem.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/mmem.p1  ../../core/lib/mmem.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/mmem.d ${OBJECTDIR}/_ext/1644929611/mmem.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/mmem.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/mmem.p1: ../../../contiki/core/lib/mmem.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/mmem.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/mmem.p1  ../../../contiki/core/lib/mmem.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/mmem.d ${OBJECTDIR}/_ext/1195366242/mmem.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/mmem.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/print-stats.p1: ../../core/lib/print-stats.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/print-stats.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/print-stats.p1  ../../core/lib/print-stats.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/print-stats.d ${OBJECTDIR}/_ext/1644929611/print-stats.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/print-stats.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/print-stats.p1: ../../../contiki/core/lib/print-stats.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/print-stats.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/print-stats.p1  ../../../contiki/core/lib/print-stats.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/print-stats.d ${OBJECTDIR}/_ext/1195366242/print-stats.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/print-stats.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1484416739/elfloader.p1: ../../core/loader/elfloader.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1484416739 
-	@${RM} ${OBJECTDIR}/_ext/1484416739/elfloader.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1484416739/elfloader.p1  ../../core/loader/elfloader.c 
-	@-${MV} ${OBJECTDIR}/_ext/1484416739/elfloader.d ${OBJECTDIR}/_ext/1484416739/elfloader.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1484416739/elfloader.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1576253606/elfloader.p1: ../../../contiki/core/loader/elfloader.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1576253606 
+	@${RM} ${OBJECTDIR}/_ext/1576253606/elfloader.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1576253606/elfloader.p1  ../../../contiki/core/loader/elfloader.c 
+	@-${MV} ${OBJECTDIR}/_ext/1576253606/elfloader.d ${OBJECTDIR}/_ext/1576253606/elfloader.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1576253606/elfloader.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/compower.p1: ../../core/sys/compower.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/compower.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/compower.p1  ../../core/sys/compower.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/compower.d ${OBJECTDIR}/_ext/1644922371/compower.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/compower.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/compower.p1: ../../../contiki/core/sys/compower.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/compower.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/compower.p1  ../../../contiki/core/sys/compower.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/compower.d ${OBJECTDIR}/_ext/1195359002/compower.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/compower.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/timetable.p1: ../../core/sys/timetable.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/timetable.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/timetable.p1  ../../core/sys/timetable.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/timetable.d ${OBJECTDIR}/_ext/1644922371/timetable.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/timetable.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/timetable.p1: ../../../contiki/core/sys/timetable.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/timetable.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/timetable.p1  ../../../contiki/core/sys/timetable.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/timetable.d ${OBJECTDIR}/_ext/1195359002/timetable.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/timetable.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/profile.p1: ../../core/sys/profile.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/profile.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/profile.p1  ../../core/sys/profile.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/profile.d ${OBJECTDIR}/_ext/1644922371/profile.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/profile.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/profile.p1: ../../../contiki/core/sys/profile.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/profile.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/profile.p1  ../../../contiki/core/sys/profile.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/profile.d ${OBJECTDIR}/_ext/1195359002/profile.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/profile.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/autostart.p1: ../../core/sys/autostart.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/autostart.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/autostart.p1  ../../core/sys/autostart.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/autostart.d ${OBJECTDIR}/_ext/1644922371/autostart.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/autostart.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/autostart.p1: ../../../contiki/core/sys/autostart.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/autostart.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/autostart.p1  ../../../contiki/core/sys/autostart.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/autostart.d ${OBJECTDIR}/_ext/1195359002/autostart.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/autostart.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/etimer.p1: ../../core/sys/etimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/etimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/etimer.p1  ../../core/sys/etimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/etimer.d ${OBJECTDIR}/_ext/1644922371/etimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/etimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/etimer.p1: ../../../contiki/core/sys/etimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/etimer.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/etimer.p1  ../../../contiki/core/sys/etimer.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/etimer.d ${OBJECTDIR}/_ext/1195359002/etimer.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/etimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/process.p1: ../../core/sys/process.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/process.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/process.p1  ../../core/sys/process.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/process.d ${OBJECTDIR}/_ext/1644922371/process.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/process.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/process.p1: ../../../contiki/core/sys/process.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/process.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/process.p1  ../../../contiki/core/sys/process.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/process.d ${OBJECTDIR}/_ext/1195359002/process.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/process.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/procinit.p1: ../../core/sys/procinit.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/procinit.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/procinit.p1  ../../core/sys/procinit.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/procinit.d ${OBJECTDIR}/_ext/1644922371/procinit.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/procinit.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/procinit.p1: ../../../contiki/core/sys/procinit.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/procinit.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/procinit.p1  ../../../contiki/core/sys/procinit.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/procinit.d ${OBJECTDIR}/_ext/1195359002/procinit.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/procinit.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/stimer.p1: ../../core/sys/stimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/stimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/stimer.p1  ../../core/sys/stimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/stimer.d ${OBJECTDIR}/_ext/1644922371/stimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/stimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/stimer.p1: ../../../contiki/core/sys/stimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/stimer.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/stimer.p1  ../../../contiki/core/sys/stimer.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/stimer.d ${OBJECTDIR}/_ext/1195359002/stimer.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/stimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/mt.p1: ../../core/sys/mt.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/mt.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/mt.p1  ../../core/sys/mt.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/mt.d ${OBJECTDIR}/_ext/1644922371/mt.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/mt.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/mt.p1: ../../../contiki/core/sys/mt.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/mt.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/mt.p1  ../../../contiki/core/sys/mt.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/mt.d ${OBJECTDIR}/_ext/1195359002/mt.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/mt.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/timer.p1: ../../core/sys/timer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/timer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/timer.p1  ../../core/sys/timer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/timer.d ${OBJECTDIR}/_ext/1644922371/timer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/timer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/timer.p1: ../../../contiki/core/sys/timer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/timer.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/timer.p1  ../../../contiki/core/sys/timer.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/timer.d ${OBJECTDIR}/_ext/1195359002/timer.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/timer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/rtimer.p1: ../../core/sys/rtimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/rtimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/rtimer.p1  ../../core/sys/rtimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/rtimer.d ${OBJECTDIR}/_ext/1644922371/rtimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/rtimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/rtimer.p1: ../../../contiki/core/sys/rtimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/rtimer.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/rtimer.p1  ../../../contiki/core/sys/rtimer.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/rtimer.d ${OBJECTDIR}/_ext/1195359002/rtimer.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/rtimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/timetable-aggregate.p1: ../../core/sys/timetable-aggregate.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/timetable-aggregate.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/timetable-aggregate.p1  ../../core/sys/timetable-aggregate.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/timetable-aggregate.d ${OBJECTDIR}/_ext/1644922371/timetable-aggregate.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/timetable-aggregate.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/timetable-aggregate.p1: ../../../contiki/core/sys/timetable-aggregate.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/timetable-aggregate.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/timetable-aggregate.p1  ../../../contiki/core/sys/timetable-aggregate.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/timetable-aggregate.d ${OBJECTDIR}/_ext/1195359002/timetable-aggregate.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/timetable-aggregate.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/ctimer.p1: ../../core/sys/ctimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/ctimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/ctimer.p1  ../../core/sys/ctimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/ctimer.d ${OBJECTDIR}/_ext/1644922371/ctimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/ctimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/ctimer.p1: ../../../contiki/core/sys/ctimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/ctimer.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/ctimer.p1  ../../../contiki/core/sys/ctimer.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/ctimer.d ${OBJECTDIR}/_ext/1195359002/ctimer.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/ctimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/profile-aggregates.p1: ../../core/sys/profile-aggregates.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/profile-aggregates.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/profile-aggregates.p1  ../../core/sys/profile-aggregates.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/profile-aggregates.d ${OBJECTDIR}/_ext/1644922371/profile-aggregates.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/profile-aggregates.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/profile-aggregates.p1: ../../../contiki/core/sys/profile-aggregates.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/profile-aggregates.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/profile-aggregates.p1  ../../../contiki/core/sys/profile-aggregates.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/profile-aggregates.d ${OBJECTDIR}/_ext/1195359002/profile-aggregates.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/profile-aggregates.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/energest.p1: ../../core/sys/energest.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/energest.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/energest.p1  ../../core/sys/energest.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/energest.d ${OBJECTDIR}/_ext/1644922371/energest.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/energest.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/energest.p1: ../../../contiki/core/sys/energest.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/energest.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/energest.p1  ../../../contiki/core/sys/energest.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/energest.d ${OBJECTDIR}/_ext/1195359002/energest.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/energest.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 ${OBJECTDIR}/_ext/1464538521/ETH97J60.p1: ../../../contiki-mplabx/cpu/microchip-mplabx/MAPLv2013-02-15/TCPIP_Stack/ETH97J60.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/1464538521 
@@ -367,194 +367,194 @@ ${OBJECTDIR}/dummy.p1: dummy.c  nbproject/Makefile-${CND_CONF}.mk
 	@${FIXDEPS} ${OBJECTDIR}/dummy.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 else
-${OBJECTDIR}/_ext/1644937910/ctk.p1: ../../core/ctk/ctk.c  nbproject/Makefile-${CND_CONF}.mk
-	${MKDIR} ${OBJECTDIR}/_ext/1644937910 
-	${RM} ${OBJECTDIR}/_ext/1644937910/ctk.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644937910/ctk.p1  ../../core/ctk/ctk.c 
-	-${MV} ${OBJECTDIR}/_ext/1644937910/ctk.d ${OBJECTDIR}/_ext/1644937910/ctk.p1.d 
-	${FIXDEPS} ${OBJECTDIR}/_ext/1644937910/ctk.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195374541/ctk.p1: ../../../contiki/core/ctk/ctk.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195374541 
+	@${RM} ${OBJECTDIR}/_ext/1195374541/ctk.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195374541/ctk.p1  ../../../contiki/core/ctk/ctk.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195374541/ctk.d ${OBJECTDIR}/_ext/1195374541/ctk.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195374541/ctk.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644937403/nullradio.p1: ../../core/dev/nullradio.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644937403 
-	@${RM} ${OBJECTDIR}/_ext/1644937403/nullradio.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644937403/nullradio.p1  ../../core/dev/nullradio.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644937403/nullradio.d ${OBJECTDIR}/_ext/1644937403/nullradio.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644937403/nullradio.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195374034/nullradio.p1: ../../../contiki/core/dev/nullradio.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195374034 
+	@${RM} ${OBJECTDIR}/_ext/1195374034/nullradio.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195374034/nullradio.p1  ../../../contiki/core/dev/nullradio.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195374034/nullradio.d ${OBJECTDIR}/_ext/1195374034/nullradio.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195374034/nullradio.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/memb.p1: ../../core/lib/memb.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/memb.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/memb.p1  ../../core/lib/memb.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/memb.d ${OBJECTDIR}/_ext/1644929611/memb.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/memb.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/memb.p1: ../../../contiki/core/lib/memb.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/memb.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/memb.p1  ../../../contiki/core/lib/memb.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/memb.d ${OBJECTDIR}/_ext/1195366242/memb.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/memb.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/crc16.p1: ../../core/lib/crc16.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/crc16.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/crc16.p1  ../../core/lib/crc16.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/crc16.d ${OBJECTDIR}/_ext/1644929611/crc16.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/crc16.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/crc16.p1: ../../../contiki/core/lib/crc16.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/crc16.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/crc16.p1  ../../../contiki/core/lib/crc16.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/crc16.d ${OBJECTDIR}/_ext/1195366242/crc16.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/crc16.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/strncasecmp.p1: ../../core/lib/strncasecmp.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/strncasecmp.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/strncasecmp.p1  ../../core/lib/strncasecmp.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/strncasecmp.d ${OBJECTDIR}/_ext/1644929611/strncasecmp.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/strncasecmp.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/strncasecmp.p1: ../../../contiki/core/lib/strncasecmp.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/strncasecmp.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/strncasecmp.p1  ../../../contiki/core/lib/strncasecmp.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/strncasecmp.d ${OBJECTDIR}/_ext/1195366242/strncasecmp.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/strncasecmp.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/list.p1: ../../core/lib/list.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/list.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/list.p1  ../../core/lib/list.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/list.d ${OBJECTDIR}/_ext/1644929611/list.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/list.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/list.p1: ../../../contiki/core/lib/list.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/list.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/list.p1  ../../../contiki/core/lib/list.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/list.d ${OBJECTDIR}/_ext/1195366242/list.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/list.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/random.p1: ../../core/lib/random.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/random.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/random.p1  ../../core/lib/random.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/random.d ${OBJECTDIR}/_ext/1644929611/random.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/random.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/random.p1: ../../../contiki/core/lib/random.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/random.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/random.p1  ../../../contiki/core/lib/random.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/random.d ${OBJECTDIR}/_ext/1195366242/random.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/random.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/ringbuf.p1: ../../core/lib/ringbuf.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/ringbuf.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/ringbuf.p1  ../../core/lib/ringbuf.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/ringbuf.d ${OBJECTDIR}/_ext/1644929611/ringbuf.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/ringbuf.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/ringbuf.p1: ../../../contiki/core/lib/ringbuf.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/ringbuf.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/ringbuf.p1  ../../../contiki/core/lib/ringbuf.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/ringbuf.d ${OBJECTDIR}/_ext/1195366242/ringbuf.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/ringbuf.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/checkpoint.p1: ../../core/lib/checkpoint.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/checkpoint.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/checkpoint.p1  ../../core/lib/checkpoint.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/checkpoint.d ${OBJECTDIR}/_ext/1644929611/checkpoint.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/checkpoint.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/checkpoint.p1: ../../../contiki/core/lib/checkpoint.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/checkpoint.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/checkpoint.p1  ../../../contiki/core/lib/checkpoint.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/checkpoint.d ${OBJECTDIR}/_ext/1195366242/checkpoint.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/checkpoint.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/mmem.p1: ../../core/lib/mmem.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/mmem.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/mmem.p1  ../../core/lib/mmem.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/mmem.d ${OBJECTDIR}/_ext/1644929611/mmem.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/mmem.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/mmem.p1: ../../../contiki/core/lib/mmem.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/mmem.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/mmem.p1  ../../../contiki/core/lib/mmem.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/mmem.d ${OBJECTDIR}/_ext/1195366242/mmem.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/mmem.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644929611/print-stats.p1: ../../core/lib/print-stats.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644929611 
-	@${RM} ${OBJECTDIR}/_ext/1644929611/print-stats.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644929611/print-stats.p1  ../../core/lib/print-stats.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644929611/print-stats.d ${OBJECTDIR}/_ext/1644929611/print-stats.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644929611/print-stats.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195366242/print-stats.p1: ../../../contiki/core/lib/print-stats.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/print-stats.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195366242/print-stats.p1  ../../../contiki/core/lib/print-stats.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195366242/print-stats.d ${OBJECTDIR}/_ext/1195366242/print-stats.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/print-stats.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1484416739/elfloader.p1: ../../core/loader/elfloader.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1484416739 
-	@${RM} ${OBJECTDIR}/_ext/1484416739/elfloader.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1484416739/elfloader.p1  ../../core/loader/elfloader.c 
-	@-${MV} ${OBJECTDIR}/_ext/1484416739/elfloader.d ${OBJECTDIR}/_ext/1484416739/elfloader.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1484416739/elfloader.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1576253606/elfloader.p1: ../../../contiki/core/loader/elfloader.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1576253606 
+	@${RM} ${OBJECTDIR}/_ext/1576253606/elfloader.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1576253606/elfloader.p1  ../../../contiki/core/loader/elfloader.c 
+	@-${MV} ${OBJECTDIR}/_ext/1576253606/elfloader.d ${OBJECTDIR}/_ext/1576253606/elfloader.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1576253606/elfloader.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/compower.p1: ../../core/sys/compower.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/compower.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/compower.p1  ../../core/sys/compower.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/compower.d ${OBJECTDIR}/_ext/1644922371/compower.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/compower.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/compower.p1: ../../../contiki/core/sys/compower.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/compower.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/compower.p1  ../../../contiki/core/sys/compower.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/compower.d ${OBJECTDIR}/_ext/1195359002/compower.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/compower.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/timetable.p1: ../../core/sys/timetable.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/timetable.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/timetable.p1  ../../core/sys/timetable.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/timetable.d ${OBJECTDIR}/_ext/1644922371/timetable.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/timetable.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/timetable.p1: ../../../contiki/core/sys/timetable.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/timetable.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/timetable.p1  ../../../contiki/core/sys/timetable.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/timetable.d ${OBJECTDIR}/_ext/1195359002/timetable.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/timetable.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/profile.p1: ../../core/sys/profile.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/profile.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/profile.p1  ../../core/sys/profile.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/profile.d ${OBJECTDIR}/_ext/1644922371/profile.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/profile.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/profile.p1: ../../../contiki/core/sys/profile.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/profile.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/profile.p1  ../../../contiki/core/sys/profile.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/profile.d ${OBJECTDIR}/_ext/1195359002/profile.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/profile.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/autostart.p1: ../../core/sys/autostart.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/autostart.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/autostart.p1  ../../core/sys/autostart.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/autostart.d ${OBJECTDIR}/_ext/1644922371/autostart.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/autostart.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/autostart.p1: ../../../contiki/core/sys/autostart.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/autostart.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/autostart.p1  ../../../contiki/core/sys/autostart.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/autostart.d ${OBJECTDIR}/_ext/1195359002/autostart.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/autostart.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/etimer.p1: ../../core/sys/etimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/etimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/etimer.p1  ../../core/sys/etimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/etimer.d ${OBJECTDIR}/_ext/1644922371/etimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/etimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/etimer.p1: ../../../contiki/core/sys/etimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/etimer.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/etimer.p1  ../../../contiki/core/sys/etimer.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/etimer.d ${OBJECTDIR}/_ext/1195359002/etimer.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/etimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/process.p1: ../../core/sys/process.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/process.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/process.p1  ../../core/sys/process.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/process.d ${OBJECTDIR}/_ext/1644922371/process.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/process.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/process.p1: ../../../contiki/core/sys/process.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/process.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/process.p1  ../../../contiki/core/sys/process.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/process.d ${OBJECTDIR}/_ext/1195359002/process.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/process.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/procinit.p1: ../../core/sys/procinit.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/procinit.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/procinit.p1  ../../core/sys/procinit.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/procinit.d ${OBJECTDIR}/_ext/1644922371/procinit.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/procinit.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/procinit.p1: ../../../contiki/core/sys/procinit.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/procinit.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/procinit.p1  ../../../contiki/core/sys/procinit.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/procinit.d ${OBJECTDIR}/_ext/1195359002/procinit.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/procinit.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/stimer.p1: ../../core/sys/stimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/stimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/stimer.p1  ../../core/sys/stimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/stimer.d ${OBJECTDIR}/_ext/1644922371/stimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/stimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/stimer.p1: ../../../contiki/core/sys/stimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/stimer.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/stimer.p1  ../../../contiki/core/sys/stimer.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/stimer.d ${OBJECTDIR}/_ext/1195359002/stimer.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/stimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/mt.p1: ../../core/sys/mt.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/mt.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/mt.p1  ../../core/sys/mt.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/mt.d ${OBJECTDIR}/_ext/1644922371/mt.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/mt.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/mt.p1: ../../../contiki/core/sys/mt.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/mt.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/mt.p1  ../../../contiki/core/sys/mt.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/mt.d ${OBJECTDIR}/_ext/1195359002/mt.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/mt.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/timer.p1: ../../core/sys/timer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/timer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/timer.p1  ../../core/sys/timer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/timer.d ${OBJECTDIR}/_ext/1644922371/timer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/timer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/timer.p1: ../../../contiki/core/sys/timer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/timer.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/timer.p1  ../../../contiki/core/sys/timer.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/timer.d ${OBJECTDIR}/_ext/1195359002/timer.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/timer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/rtimer.p1: ../../core/sys/rtimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/rtimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/rtimer.p1  ../../core/sys/rtimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/rtimer.d ${OBJECTDIR}/_ext/1644922371/rtimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/rtimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/rtimer.p1: ../../../contiki/core/sys/rtimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/rtimer.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/rtimer.p1  ../../../contiki/core/sys/rtimer.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/rtimer.d ${OBJECTDIR}/_ext/1195359002/rtimer.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/rtimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/timetable-aggregate.p1: ../../core/sys/timetable-aggregate.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/timetable-aggregate.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/timetable-aggregate.p1  ../../core/sys/timetable-aggregate.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/timetable-aggregate.d ${OBJECTDIR}/_ext/1644922371/timetable-aggregate.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/timetable-aggregate.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/timetable-aggregate.p1: ../../../contiki/core/sys/timetable-aggregate.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/timetable-aggregate.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/timetable-aggregate.p1  ../../../contiki/core/sys/timetable-aggregate.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/timetable-aggregate.d ${OBJECTDIR}/_ext/1195359002/timetable-aggregate.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/timetable-aggregate.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/ctimer.p1: ../../core/sys/ctimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/ctimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/ctimer.p1  ../../core/sys/ctimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/ctimer.d ${OBJECTDIR}/_ext/1644922371/ctimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/ctimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/ctimer.p1: ../../../contiki/core/sys/ctimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/ctimer.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/ctimer.p1  ../../../contiki/core/sys/ctimer.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/ctimer.d ${OBJECTDIR}/_ext/1195359002/ctimer.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/ctimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/profile-aggregates.p1: ../../core/sys/profile-aggregates.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/profile-aggregates.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/profile-aggregates.p1  ../../core/sys/profile-aggregates.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/profile-aggregates.d ${OBJECTDIR}/_ext/1644922371/profile-aggregates.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/profile-aggregates.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/profile-aggregates.p1: ../../../contiki/core/sys/profile-aggregates.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/profile-aggregates.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/profile-aggregates.p1  ../../../contiki/core/sys/profile-aggregates.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/profile-aggregates.d ${OBJECTDIR}/_ext/1195359002/profile-aggregates.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/profile-aggregates.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/1644922371/energest.p1: ../../core/sys/energest.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1644922371 
-	@${RM} ${OBJECTDIR}/_ext/1644922371/energest.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1644922371/energest.p1  ../../core/sys/energest.c 
-	@-${MV} ${OBJECTDIR}/_ext/1644922371/energest.d ${OBJECTDIR}/_ext/1644922371/energest.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1644922371/energest.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/1195359002/energest.p1: ../../../contiki/core/sys/energest.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/energest.p1.d 
+	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,-debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%%f:%%l: error: %%s" "--warnformat=%%f:%%l: warning: %%s" "--msgformat=%%f:%%l: advisory: %%s"  -o${OBJECTDIR}/_ext/1195359002/energest.p1  ../../../contiki/core/sys/energest.c 
+	@-${MV} ${OBJECTDIR}/_ext/1195359002/energest.d ${OBJECTDIR}/_ext/1195359002/energest.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/energest.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 ${OBJECTDIR}/_ext/1464538521/ETH97J60.p1: ../../../contiki-mplabx/cpu/microchip-mplabx/MAPLv2013-02-15/TCPIP_Stack/ETH97J60.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/1464538521 

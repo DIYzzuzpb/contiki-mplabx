@@ -8,7 +8,7 @@ include nbproject/Makefile-local-$(CONF).mk
 IGNORE_LOCAL=TRUE
 include nbproject/Makefile-$(CONF).mk
 
-include $(CONTIKI)/cpu/microchip-mplabx/Makefile-MPLABX-environment.mk
+include $(CONTIKI)/../contiki-mplabx/cpu/microchip-mplabx/Makefile-MPLABX-environment.mk
 
 #Variables for current build
 mplabx_current_variables_list:=PROJECTNAME CONF\
