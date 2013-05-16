@@ -16,4 +16,6 @@ typedef unsigned long clock_time_t;
 
 typedef unsigned short uip_stats_t;
 
+#define UIP_CONF_IPV6 0
+
 #endif /* __CONTIKI_CONF_H__ */

@@ -3,16 +3,6 @@
   <logicalFolder name="root" displayName="root" projectFiles="true">
     <logicalFolder name="f1" displayName="contiki" projectFiles="true">
       <logicalFolder name="core" displayName="core" projectFiles="true">
-        <logicalFolder name="cfs" displayName="cfs" projectFiles="true">
-          <itemPath>../../core/cfs/cfs-xmem.c</itemPath>
-          <itemPath>../../core/cfs/cfs-coffee.c</itemPath>
-          <itemPath>../../core/cfs/cfs-ram.c</itemPath>
-          <itemPath>../../core/cfs/cfs-posix.c</itemPath>
-          <itemPath>../../core/cfs/cfs.h</itemPath>
-          <itemPath>../../core/cfs/cfs-coffee.h</itemPath>
-          <itemPath>../../core/cfs/cfs-eeprom.c</itemPath>
-          <itemPath>../../core/cfs/cfs-posix-dir.c</itemPath>
-        </logicalFolder>
         <logicalFolder name="ctk" displayName="ctk" projectFiles="true">
           <itemPath>../../core/ctk/ctk.c</itemPath>
           <itemPath>../../core/ctk/ctk.h</itemPath>
@@ -101,18 +91,17 @@
                          displayName="MAPLv2013-02-15"
                          projectFiles="true">
             <logicalFolder name="Include" displayName="Include" projectFiles="true">
-              <logicalFolder name="TCPIP Stack" displayName="TCPIP Stack" projectFiles="true">
-                <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/Include/TCPIP Stack/ETH97J60.h</itemPath>
-                <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/Include/TCPIP Stack/Hashes.h</itemPath>
-                <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/Include/TCPIP Stack/Helpers.h</itemPath>
-                <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/Include/TCPIP Stack/TCPIP.h</itemPath>
+              <logicalFolder name="TCPIP_Stack" displayName="TCPIP_Stack" projectFiles="true">
+                <itemPath>../../../contiki-mplabx/cpu/microchip-mplabx/MAPLv2013-02-15/Include/TCPIP_Stack/ETH97J60.h</itemPath>
+                <itemPath>../../../contiki-mplabx/cpu/microchip-mplabx/MAPLv2013-02-15/Include/TCPIP_Stack/Hashes.h</itemPath>
+                <itemPath>../../../contiki-mplabx/cpu/microchip-mplabx/MAPLv2013-02-15/Include/TCPIP_Stack/Helpers.h</itemPath>
               </logicalFolder>
               <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/Include/debug.h</itemPath>
               <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/Include/GenericTypeDefs.h</itemPath>
               <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/Include/Compiler.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="TCPIP Stack" displayName="TCPIP Stack" projectFiles="true">
-              <itemPath>../../cpu/microchip-mplabx/MAPLv2013-02-15/TCPIP Stack/ETH97J60.c</itemPath>
+            <logicalFolder name="TCPIP Stack" displayName="TCPIP_Stack" projectFiles="true">
+              <itemPath>../../../contiki-mplabx/cpu/microchip-mplabx/MAPLv2013-02-15/TCPIP_Stack/ETH97J60.c</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="xc8" displayName="xc8" projectFiles="true">
@@ -138,7 +127,6 @@
             <itemPath>dev/dummy-sensors.c</itemPath>
             <itemPath>dev/leds-arch.c</itemPath>
           </logicalFolder>
-          <itemPath>autostart.c</itemPath>
           <itemPath>HardwareProfile.h</itemPath>
           <itemPath>contiki-conf.h</itemPath>
           <itemPath>rtimer-arch.h</itemPath>
@@ -146,6 +134,8 @@
           <itemPath>TCPIPConfig.h</itemPath>
           <itemPath>clock.c</itemPath>
           <itemPath>contiki-main.c</itemPath>
+          <itemPath>interrupts.c</itemPath>
+          <itemPath>empty.c</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -156,7 +146,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>empty.c</itemPath>
+      <itemPath>dummy.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -204,7 +194,7 @@
       <HI-TECH-COMP>
         <property key="define-macros" value=""/>
         <property key="extra-include-directories"
-                  value="./.;../../cpu/microchip-mplabx;../../core;../../cpu/microchip-mplabx/MAPLv2013-02-15/Include"/>
+                  value="../../../contiki/platform/pic18f97j60-family;../../../contiki/cpu/microchip-mplabx;../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include;../../../contiki/core"/>
         <property key="identifier-length" value="255"/>
         <property key="operation-mode" value="pro"/>
         <property key="opt-xc8-compiler-strict_ansi" value="false"/>

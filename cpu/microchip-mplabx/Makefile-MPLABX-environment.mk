@@ -1,11 +1,15 @@
 # -*- makefile -*-
 
+HOST_OS_UNAME:=${shell uname}
+
 ifndef HOST_OS
-  ifeq ($(OS),Windows_NT)
+    ifeq ($(findstring CYGWIN,$(HOST_OS_UNAME)),CYGWIN)
+    HOST_OS := Cygwin
+    else ifeq ($(OS),Windows_NT)
     HOST_OS := Windows
-  else
+    else
     HOST_OS := $(shell uname)
-  endif
+    endif
 endif
 
 ifndef MPLABX_CONTIKI_DIR
@@ -13,13 +17,18 @@ ifndef MPLABX_CONTIKI_DIR
     MPLABX_OLD_PATH:=$(PATH)
 endif
 
-ifeq ($(HOST_OS),Windows)
-    MPLABX_ECHO:=gnuecho.exe
-    PATH:=${subst /,\,$(MPLABX_CONTIKI_DIR)}\tools\cygwin;${subst /,\,$(MPLABX_PATH_TO_IDE_BIN)};$(MPLABX_OLD_PATH)
-    SHELL:=sh.exe
-else
+ifneq ($(HOST_OS),Windows)
     MPLABX_ECHO:=echo
     PATH:=$(MPLABX_PATH_TO_IDE_BIN):$(MPLABX_OLD_PATH)
+else ifeq ($(HOST_OS),Cygwin)
+    MPLABX_ECHO:=echo
+    PATH:=$(MPLABX_PATH_TO_IDE_BIN):$(MPLABX_OLD_PATH)
+
+else
+    #Windows
+    MPLABX_ECHO:=gnuecho.exe
+    PATH:=${subst /,\,$(MPLABX_CONTIKI_DIR)}\cpu\microchip-mplabx\tools;${subst /,\,$(MPLABX_PATH_TO_IDE_BIN)};$(MPLABX_OLD_PATH)
+    SHELL:=sh.exe
 endif
 
 export HOST_OS
