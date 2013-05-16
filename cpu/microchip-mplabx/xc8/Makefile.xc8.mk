@@ -3,7 +3,7 @@
 $(warning Jestem w makefile od CPU   PATH $(PATH))
 
 include Makefile-MPLABX-variables.mk
-include $(CONTIKI)/../contiki-mplabx/cpu/microchip-mplabx/Makefile-MPLABX-environment.mk
+include $(CONTIKI)/cpu/microchip-mplabx/Makefile-MPLABX-environment.mk
 
 
 #We are moving Contiki OBJECTDIR inside MPLABX build directory
@@ -40,7 +40,7 @@ endif
 
 AROPTS = --chip=$(MPLABX_MP_PROCESSOR_OPTION) --OUTPUT=lpp
 
-CFLAGS += -I$(CONTIKI)/../contiki-mplabx/cpu/microchip-mplabx/MAPLv2013-02-15/Include -I$(CONTIKI)/../contiki-mplabx/cpu/microchip-mplabx
+CFLAGS += -I$(CONTIKI)/cpu/microchip-mplabx/MAPLv2013-02-15/Include -I$(CONTIKI)/cpu/microchip-mplabx
 
 ### Compilation rules
 
@@ -50,15 +50,19 @@ CFLAGS += -I$(CONTIKI)/../contiki-mplabx/cpu/microchip-mplabx/MAPLv2013-02-15/In
 
 CUSTOM_RULE_C_TO_OBJECTDIR_O = 1
 
-WAVE=$(CONTIKI)/../contiki-mplabx/cpu/microchip-mplabx/xc8/wave-cpp-xc8
+ifeq ($(HOST_OS),Windows)
+WAVE:=$(CONTIKI)/cpu/microchip-mplabx/tools/wave-cpp-xc8.exe
+else
+WAVE:=$(CONTIKI)/cpu/microchip-mplabx/tools/linux-wave-cpp-xc8
+endif
 
 $(OBJECTDIR)/%.p1: %.c nbproject/Makefile-$(MPLABX_CONF).mk
-	${MPLABX_MKDIR} ${OBJECTDIR} 
-	${MPLABX_RM} $@.d
-	${WAVE} --c99 $(CFLAGS) $(DEFINES) -o$@.c $<
+	@${MPLABX_MKDIR} ${OBJECTDIR} 
+	@${MPLABX_RM} $@.d
+	@${WAVE} --c99 $(CFLAGS) $(DEFINES) -o$@.c $<
 	${CC} $(MPLABX_XC8_MSGFORMS) $(MPLABX_XC8_COMPILER_ARGS) $(CFLAGS) $(DEFINES) -o$@ $@.c
-	-${MPLABX_MV} ${patsubst %.p1,%.d,$@} $@.d
-	${MPLABX_FIXDEPS} $@.d $(SILENT) -rsi ${MPLABX_MP_CC_DIR}/../  
+	@-${MPLABX_MV} ${patsubst %.p1,%.d,$@} $@.d
+	@${MPLABX_FIXDEPS} $@.d $(SILENT) -rsi ${MPLABX_MP_CC_DIR}/../  
 
 
 CUSTOM_RULE_C_TO_O = 1

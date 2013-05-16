@@ -33,9 +33,10 @@
  *
  */
 
+#include "contiki-conf.h"
 #include <stdio.h>
 
-#include "contiki.h"
+
 
 //#include "net/uip.h"
 

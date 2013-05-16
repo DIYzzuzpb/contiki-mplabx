@@ -1,13 +1,16 @@
-/* 
- * File:   rtimer-arch.h
- * Author: jarojuda
- *
- * Created on 7 kwiecie? 2013, 20:17
- */
-
-#ifndef RTIMER_ARCH_H
-#define	RTIMER_ARCH_H
+#include "contiki-conf.h"
 
 
-#endif	/* RTIMER_ARCH_H */
+typedef uint16_t rtimer_clock_t;
 
+// : The number of ticks per second.
+#define RTIMER_ARCH_SECOND ((GetPeripheralClock()+128ull)/256ull)
+
+// : Initialize the rtimer architecture code.
+void rtimer_arch_init(void);
+
+//: Get the current time.
+rtimer_clock_t rtimer_time();
+
+rtimer_clock_t
+rtimer_arch_now(void);

@@ -37,7 +37,7 @@
  *         Adam Dunkels <adam@sics.se>
  */
 
-#include "sys/autostart.h"
+#include "xc8/sys/autostart.h"
 
 #define DEBUG 0
 #if DEBUG
@@ -49,7 +49,7 @@
 
 /*---------------------------------------------------------------------------*/
 void
-autostart_start(struct process * const processes[])
+autostart_start(struct process **  processes)
 {
   int i;
 
@@ -60,7 +60,7 @@ autostart_start(struct process * const processes[])
 }
 /*---------------------------------------------------------------------------*/
 void
-autostart_exit(struct process * const processes[])
+autostart_exit(struct process **  processes)
 {
   int i;
 

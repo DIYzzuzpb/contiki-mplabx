@@ -29,6 +29,7 @@ else
     MPLABX_ECHO:=gnuecho.exe
     PATH:=${subst /,\,$(MPLABX_CONTIKI_DIR)}\cpu\microchip-mplabx\tools;${subst /,\,$(MPLABX_PATH_TO_IDE_BIN)};$(MPLABX_OLD_PATH)
     SHELL:=sh.exe
+    CYGWIN:=nodosfilewarning
 endif
 
 export HOST_OS
@@ -37,4 +38,5 @@ export SHELL
 export MPLABX_OLD_PATH
 export PATH
 export MPLABX_ECHO
+export CYGWIN
 

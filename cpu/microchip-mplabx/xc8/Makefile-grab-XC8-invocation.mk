@@ -6,9 +6,9 @@ include nbproject/Makefile-local-$(CONF).mk
 IGNORE_LOCAL:=TRUE
 include nbproject/Makefile-$(CONF).mk
 
-include $(CONTIKI)/../contiki-mplabx/cpu/microchip-mplabx/Makefile-MPLABX-environment.mk
+include $(CONTIKI)/cpu/microchip-mplabx/Makefile-MPLABX-environment.mk
 
-MP_CC=$(CONTIKI)/../contiki-mplabx/cpu/microchip-mplabx/xc8/fake-xc8.sh >$(SAVE_AS)
+MP_CC=$(CONTIKI)/cpu/microchip-mplabx/xc8/fake-xc8.sh >$(SAVE_AS)
 
 MV=${MPLABX_ECHO}
 MKDIR=${MPLABX_ECHO}
