@@ -18,5 +18,5 @@ CONTIKI_SOURCEFILES += $(CONTIKI_TARGET_SOURCEFILES)
 
 ### Define the CPU directory
 CONTIKI_CPU=$(CONTIKI)/cpu/microchip-mplabx/xc8
-include $(CONTIKI)/../contiki-mplabx/cpu/microchip-mplabx/xc8/Makefile.xc8.mk
+include $(CONTIKI)/cpu/microchip-mplabx/xc8/Makefile.xc8.mk
 

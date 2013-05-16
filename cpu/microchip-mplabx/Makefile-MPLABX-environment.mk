@@ -27,7 +27,7 @@ else ifeq ($(HOST_OS),Cygwin)
 else
     #Windows
     MPLABX_ECHO:=gnuecho.exe
-    PATH:=${subst /,\,$(MPLABX_CONTIKI_DIR)}\..\contiki-mplabx\cpu\microchip-mplabx\tools;${subst /,\,$(MPLABX_PATH_TO_IDE_BIN)};$(MPLABX_OLD_PATH)
+    PATH:=${subst /,\,$(MPLABX_CONTIKI_DIR)}\cpu\microchip-mplabx\tools;${subst /,\,$(MPLABX_PATH_TO_IDE_BIN)};$(MPLABX_OLD_PATH)
     SHELL:=sh.exe
 endif
 
