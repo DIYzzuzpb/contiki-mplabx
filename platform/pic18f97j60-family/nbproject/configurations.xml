@@ -170,7 +170,7 @@
         <platformTool>PICkit3PlatformTool</platformTool>
         <languageToolchain>XC8</languageToolchain>
         <languageToolchainVersion>1.12</languageToolchainVersion>
-        <platform>3</platform>
+        <platform>2</platform>
       </toolsSet>
       <compileType>
         <linkerTool>
@@ -194,7 +194,7 @@
       <HI-TECH-COMP>
         <property key="define-macros" value=""/>
         <property key="extra-include-directories"
-                  value="../../../contiki/platform/pic18f97j60-family;../../../contiki/cpu/microchip-mplabx;../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include;../../../contiki/core"/>
+                  value="../../../contiki-mplabx/platform/pic18f97j60-family;../../../contiki-mplabx/cpu/microchip-mplabx;../../../contiki-mplabx/cpu/microchip-mplabx/MAPLv2013-02-15/Include;../../../contiki/core"/>
         <property key="identifier-length" value="255"/>
         <property key="operation-mode" value="pro"/>
         <property key="opt-xc8-compiler-strict_ansi" value="false"/>
