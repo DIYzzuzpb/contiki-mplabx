@@ -56,7 +56,7 @@ extern int _dummy
 
 CLIF extern struct process * const autostart_processes[];
 
-void autostart_start(struct process ** processes);
-void autostart_exit(struct process ** processes);
+void autostart_start(struct process * processes[]);
+void autostart_exit(struct process * processes[]);
 
 #endif /* __AUTOSTART_H__ */

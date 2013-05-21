@@ -33,7 +33,7 @@
  *
  */
 
-#include "contiki-conf.h"
+#include "contiki.h"
 #include <stdio.h>
 
 

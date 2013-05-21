@@ -20,7 +20,7 @@ export TARGET
 export CONTIKI
 
 #Export current MPLABX settings into file Makefile-MPLABX-variables.mk
-#This file is regenerated every build
+#That file is regenerated every build
 .export-mplabx-variables:
 	${MAKE} -f $(CONTIKI)/cpu/microchip-mplabx/Makefile-export-variables-for-Contiki.mk current-build-variables
 	${MAKE} -f $(CONTIKI)/cpu/microchip-mplabx/xc8/Makefile-grab-XC8-invocation.mk SAVE_AS=mplabx-xc8-compiler.tmp xc8-compiler-command-line
@@ -31,10 +31,10 @@ export CONTIKI
 	@sed -f $(CONTIKI)/cpu/microchip-mplabx/xc8/clean-XC8-invocation.sed mplabx-xc8-linker.tmp >>Makefile-MPLABX-variables.mk
 	@${MPLABX_ECHO} -n >>Makefile-MPLABX-variables.mk "MPLABX_XC8_MSGFORMS="
 	@sed -f $(CONTIKI)/cpu/microchip-mplabx/xc8/XC8-msg-formats.sed mplabx-xc8-compiler.tmp >>Makefile-MPLABX-variables.mk
-	${MPLABX_ECHO} -n >>Makefile-MPLABX-variables.mk "MPLABX_XC8_COMPILER_ARGS="
-	sed -f $(CONTIKI)/cpu/microchip-mplabx/xc8/clean-XC8-invocation.sed mplabx-xc8-compiler.tmp >>Makefile-MPLABX-variables.mk
-	${MPLABX_ECHO} -n >>Makefile-MPLABX-variables.mk "MPLABX_XC8_LINKER_ARGS="
-	sed -f $(CONTIKI)/cpu/microchip-mplabx/xc8/clean-XC8-invocation.sed mplabx-xc8-linker.tmp >>Makefile-MPLABX-variables.mk
+	@${MPLABX_ECHO} -n >>Makefile-MPLABX-variables.mk "MPLABX_XC8_COMPILER_ARGS="
+	@sed -f $(CONTIKI)/cpu/microchip-mplabx/xc8/clean-XC8-invocation.sed mplabx-xc8-compiler.tmp >>Makefile-MPLABX-variables.mk
+	@${MPLABX_ECHO} -n >>Makefile-MPLABX-variables.mk "MPLABX_XC8_LINKER_ARGS="
+	@sed -f $(CONTIKI)/cpu/microchip-mplabx/xc8/clean-XC8-invocation.sed mplabx-xc8-linker.tmp >>Makefile-MPLABX-variables.mk
 	#${RM} *.tmp 
 
 .build-pre: contiki-$(TARGET).lpp 

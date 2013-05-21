@@ -7,7 +7,7 @@
 #include <stdint.h>
 #include <limits.h>
 
-///#include "xc8/sys/autostart.h"
+//#include "sys/autostart.h"
 
 
 #define CCIF

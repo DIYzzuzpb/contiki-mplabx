@@ -22,7 +22,7 @@ PROJECT_OBJECTFILES = ${addprefix $(OBJECTDIR)/,${call oname, $(PROJECT_SOURCEFI
 
 
 
-CONTIKI_CPU_DIRS = . #net
+CONTIKI_CPU_DIRS = . sys net net/mac
 CONTIKI_SOURCEFILES += #mtarch.c #rtimer-arch.c #elfloader-stub.c
 
 ### Executables definitions
@@ -85,8 +85,8 @@ CUSTOM_RULE_LINK =1
 	$(LD) $(LINKER_SCRIPT) $(TARGET_STARTFILES) ${filter-out %.a.lib,$^} ${filter %.a.lib,$^} $(TARGET_LIBFILES) $(LDFLAGS) /m"$@.map" /o"$@.cof"
 
 CUSTOM_RULE_ALLOBJS_TO_TARGETLIB = 1
-contiki-$(TARGET).lpp: $(CONTIKI_OBJECTFILES)
-	$(AR) $(AROPTS) -o$@ $<
+contiki-$(TARGET).lpp: $(CONTIKI_OBJECTFILES) ${warning $(CONTIKI_OBJECTFILES)}
+	$(AR) $(AROPTS) -o$@ $^
 
 # .PHONY: symbols.c symbols.h
 ifdef CORE
