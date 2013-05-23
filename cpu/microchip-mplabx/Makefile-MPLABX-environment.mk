@@ -20,10 +20,11 @@ endif
 ifneq ($(HOST_OS),Windows)
     MPLABX_ECHO:=echo
     PATH:=$(MPLABX_PATH_TO_IDE_BIN):$(MPLABX_OLD_PATH)
+    SHELL:=/bin/sh
 else ifeq ($(HOST_OS),Cygwin)
     MPLABX_ECHO:=echo
     PATH:=$(MPLABX_PATH_TO_IDE_BIN):$(MPLABX_OLD_PATH)
-
+    SHELL:=/bin/sh
 else
     #Windows
     MPLABX_ECHO:=gnuecho.exe

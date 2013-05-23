@@ -26,11 +26,13 @@ endef
 
 mplabx_print_variables:=${foreach mplabx_variable,$(mplabx_current_variables_list),${call print_variable,MPLABX_$(mplabx_variable)=$($(mplabx_variable))}}
 
-
 current-build-variables:
 	@${MPLABX_ECHO} > $(MPLABX_CURRENT_VARIABLES_FILE) "#Generated Makefile - do not edit!"
+	@${MPLABX_ECHO} -n >> $(MPLABX_CURRENT_VARIABLES_FILE) "#"
+	@date  >> $(MPLABX_CURRENT_VARIABLES_FILE)
 	@${MPLABX_ECHO} >> $(MPLABX_CURRENT_VARIABLES_FILE) "#Variables for project $(PROJECTNAME), configuration $(CONF)"
 	@${MPLABX_ECHO} >> $(MPLABX_CURRENT_VARIABLES_FILE) "#Target $(TARGET), image type $(IMAGE_TYPE)"
 	@${MPLABX_ECHO} >> $(MPLABX_CURRENT_VARIABLES_FILE) "MPLABX_ECHO=${MPLABX_ECHO}"
 	@$(mplabx_print_variables)
 	@${MPLABX_ECHO} >> $(MPLABX_CURRENT_VARIABLES_FILE)
+

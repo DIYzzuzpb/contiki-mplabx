@@ -1,0 +1,255 @@
+Version 3.2 HI-TECH Software Intermediate Code
+[c E35 0 1 2 3 .. ]
+[n E35 . RADIO_TX_OK RADIO_TX_ERR RADIO_TX_COLLISION RADIO_TX_NOACK  ]
+"62 /home/jarojuda/GitHub/contiki/core/dev/radio.h
+[v F3 `(i ~T0 @X0 0 tf ]
+"65
+[v F6 `(i ~T0 @X0 0 tf2`*Cv`us ]
+"68
+[v F10 `(i ~T0 @X0 0 tf1`us ]
+"71
+[v F13 `(i ~T0 @X0 0 tf2`*Cv`us ]
+"74
+[v F17 `(i ~T0 @X0 0 tf2`*v`us ]
+"78
+[v F21 `(i ~T0 @X0 0 tf ]
+"81
+[v F24 `(i ~T0 @X0 0 tf ]
+"84
+[v F27 `(i ~T0 @X0 0 tf ]
+"87
+[v F30 `(i ~T0 @X0 0 tf ]
+"90
+[v F33 `(i ~T0 @X0 0 tf ]
+[s S1 `*F3 1 `*F6 1 `*F10 1 `*F13 1 `*F17 1 `*F21 1 `*F24 1 `*F27 1 `*F30 1 `*F33 1 ]
+[n S1 radio_driver init prepare transmit send read channel_clear receiving_packet pending_packet on off ]
+[; ;radio.h: 60: struct radio_driver {
+[; ;radio.h: 62: int (* init)(void);
+[; ;radio.h: 65: int (* prepare)(const void *payload, unsigned short payload_len);
+[; ;radio.h: 68: int (* transmit)(unsigned short transmit_len);
+[; ;radio.h: 71: int (* send)(const void *payload, unsigned short payload_len);
+[; ;radio.h: 74: int (* read)(void *buf, unsigned short buf_len);
+[; ;radio.h: 78: int (* channel_clear)(void);
+[; ;radio.h: 81: int (* receiving_packet)(void);
+[; ;radio.h: 84: int (* pending_packet)(void);
+[; ;radio.h: 87: int (* on)(void);
+[; ;radio.h: 90: int (* off)(void);
+[; ;radio.h: 91: };
+[; ;radio.h: 94: enum {
+[; ;radio.h: 95: RADIO_TX_OK,
+[; ;radio.h: 96: RADIO_TX_ERR,
+[; ;radio.h: 97: RADIO_TX_COLLISION,
+[; ;radio.h: 98: RADIO_TX_NOACK,
+[; ;radio.h: 99: };
+[; ;nullradio.h: 6: extern const struct radio_driver nullradio_driver;
+"7 /home/jarojuda/GitHub/contiki-mplabx/platform/pic18f97j60-family/../../../contiki/core/dev/nullradio.c
+[v _init `(i ~T0 @X0 1 sf ]
+{
+[; ;nullradio.c: 5: static int
+[; ;nullradio.c: 6: init(void)
+[; ;nullradio.c: 7: {
+[e :U _init ]
+[f ]
+[; ;nullradio.c: 8: return 0;
+"8
+[e ) -> 0 `i ]
+[e $UE 2  ]
+[; ;nullradio.c: 9: }
+"9
+[e :UE 2 ]
+}
+"13
+[v _prepare `(i ~T0 @X0 1 sf2`*Cv`us ]
+{
+[; ;nullradio.c: 11: static int
+[; ;nullradio.c: 12: prepare(const void *payload, unsigned short payload_len)
+[; ;nullradio.c: 13: {
+[e :U _prepare ]
+[v _payload `*Cv ~T0 @X0 1 r1 ]
+[v _payload_len `us ~T0 @X0 1 r2 ]
+[f ]
+[; ;nullradio.c: 14: return 1;
+"14
+[e ) -> 1 `i ]
+[e $UE 3  ]
+[; ;nullradio.c: 15: }
+"15
+[e :UE 3 ]
+}
+"19
+[v _transmit `(i ~T0 @X0 1 sf1`us ]
+{
+[; ;nullradio.c: 17: static int
+[; ;nullradio.c: 18: transmit(unsigned short transmit_len)
+[; ;nullradio.c: 19: {
+[e :U _transmit ]
+[v _transmit_len `us ~T0 @X0 1 r1 ]
+[f ]
+[; ;nullradio.c: 20: return RADIO_TX_OK;
+"20
+[e ) -> . `E35 0 `i ]
+[e $UE 4  ]
+[; ;nullradio.c: 21: }
+"21
+[e :UE 4 ]
+}
+"25
+[v _send `(i ~T0 @X0 1 sf2`*Cv`us ]
+{
+[; ;nullradio.c: 23: static int
+[; ;nullradio.c: 24: send(const void *payload, unsigned short payload_len)
+[; ;nullradio.c: 25: {
+[e :U _send ]
+[v _payload `*Cv ~T0 @X0 1 r1 ]
+[v _payload_len `us ~T0 @X0 1 r2 ]
+[f ]
+[; ;nullradio.c: 26: prepare(payload, payload_len);
+"26
+[e ( _prepare (2 , _payload _payload_len ]
+[; ;nullradio.c: 27: return transmit(payload_len);
+"27
+[e ) ( _transmit (1 _payload_len ]
+[e $UE 5  ]
+[; ;nullradio.c: 28: }
+"28
+[e :UE 5 ]
+}
+"32
+[v _read `(i ~T0 @X0 1 sf2`*v`us ]
+{
+[; ;nullradio.c: 30: static int
+[; ;nullradio.c: 31: read(void *buf, unsigned short buf_len)
+[; ;nullradio.c: 32: {
+[e :U _read ]
+[v _buf `*v ~T0 @X0 1 r1 ]
+[v _buf_len `us ~T0 @X0 1 r2 ]
+[f ]
+[; ;nullradio.c: 33: return 0;
+"33
+[e ) -> 0 `i ]
+[e $UE 6  ]
+[; ;nullradio.c: 34: }
+"34
+[e :UE 6 ]
+}
+"38
+[v _channel_clear `(i ~T0 @X0 1 sf ]
+{
+[; ;nullradio.c: 36: static int
+[; ;nullradio.c: 37: channel_clear(void)
+[; ;nullradio.c: 38: {
+[e :U _channel_clear ]
+[f ]
+[; ;nullradio.c: 39: return 1;
+"39
+[e ) -> 1 `i ]
+[e $UE 7  ]
+[; ;nullradio.c: 40: }
+"40
+[e :UE 7 ]
+}
+"44
+[v _receiving_packet `(i ~T0 @X0 1 sf ]
+{
+[; ;nullradio.c: 42: static int
+[; ;nullradio.c: 43: receiving_packet(void)
+[; ;nullradio.c: 44: {
+[e :U _receiving_packet ]
+[f ]
+[; ;nullradio.c: 45: return 0;
+"45
+[e ) -> 0 `i ]
+[e $UE 8  ]
+[; ;nullradio.c: 46: }
+"46
+[e :UE 8 ]
+}
+"50
+[v _pending_packet `(i ~T0 @X0 1 sf ]
+{
+[; ;nullradio.c: 48: static int
+[; ;nullradio.c: 49: pending_packet(void)
+[; ;nullradio.c: 50: {
+[e :U _pending_packet ]
+[f ]
+[; ;nullradio.c: 51: return 0;
+"51
+[e ) -> 0 `i ]
+[e $UE 9  ]
+[; ;nullradio.c: 52: }
+"52
+[e :UE 9 ]
+}
+"56
+[v _on `(i ~T0 @X0 1 sf ]
+{
+[; ;nullradio.c: 54: static int
+[; ;nullradio.c: 55: on(void)
+[; ;nullradio.c: 56: {
+[e :U _on ]
+[f ]
+[; ;nullradio.c: 57: return 0;
+"57
+[e ) -> 0 `i ]
+[e $UE 10  ]
+[; ;nullradio.c: 58: }
+"58
+[e :UE 10 ]
+}
+"62
+[v _off `(i ~T0 @X0 1 sf ]
+{
+[; ;nullradio.c: 60: static int
+[; ;nullradio.c: 61: off(void)
+[; ;nullradio.c: 62: {
+[e :U _off ]
+[f ]
+[; ;nullradio.c: 63: return 0;
+"63
+[e ) -> 0 `i ]
+[e $UE 11  ]
+[; ;nullradio.c: 64: }
+"64
+[e :UE 11 ]
+}
+"66
+[v _nullradio_driver `CS1 ~T0 @X0 1 e ]
+[i _nullradio_driver
+:U ..
+:U ..
+"68
+&U _init
+"69
+&U _prepare
+"70
+&U _transmit
+"71
+&U _send
+"72
+&U _read
+"73
+&U _channel_clear
+"74
+&U _receiving_packet
+"75
+&U _pending_packet
+"76
+&U _on
+"77
+&U _off
+..
+..
+]
+[; ;nullradio.c: 66: const struct radio_driver nullradio_driver =
+[; ;nullradio.c: 67: {
+[; ;nullradio.c: 68: init,
+[; ;nullradio.c: 69: prepare,
+[; ;nullradio.c: 70: transmit,
+[; ;nullradio.c: 71: send,
+[; ;nullradio.c: 72: read,
+[; ;nullradio.c: 73: channel_clear,
+[; ;nullradio.c: 74: receiving_packet,
+[; ;nullradio.c: 75: pending_packet,
+[; ;nullradio.c: 76: on,
+[; ;nullradio.c: 77: off,
+[; ;nullradio.c: 78: };

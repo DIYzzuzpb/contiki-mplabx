@@ -1,0 +1,79 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"48 /home/jarojuda/GitHub/contiki-mplabx/platform/pic18f97j60-family/../../../contiki/core/lib/crc16.c
+[v _crc16_add `(us ~T0 @X0 1 ef2`uc`us ]
+{
+[; ;crc16.c: 46: unsigned short
+[; ;crc16.c: 47: crc16_add(unsigned char b, unsigned short acc)
+[; ;crc16.c: 48: {
+[e :U _crc16_add ]
+[v _b `uc ~T0 @X0 1 r1 ]
+[v _acc `us ~T0 @X0 1 r2 ]
+[f ]
+[; ;crc16.c: 57: acc ^= b;
+"57
+[e =^ _acc -> _b `us ]
+[; ;crc16.c: 58: acc = (acc >> 8) | (acc << 8);
+"58
+[e = _acc -> | >> -> _acc `ui -> 8 `i << -> _acc `ui -> 8 `i `us ]
+[; ;crc16.c: 59: acc ^= (acc & 0xff00) << 4;
+"59
+[e =^ _acc -> << & -> _acc `ui -> 65280 `ui -> 4 `i `us ]
+[; ;crc16.c: 60: acc ^= (acc >> 8) >> 4;
+"60
+[e =^ _acc -> >> >> -> _acc `ui -> 8 `i -> 4 `i `us ]
+[; ;crc16.c: 61: acc ^= (acc & 0xff00) >> 5;
+"61
+[e =^ _acc -> >> & -> _acc `ui -> 65280 `ui -> 5 `i `us ]
+[; ;crc16.c: 62: return acc;
+"62
+[e ) _acc ]
+[e $UE 1  ]
+[; ;crc16.c: 63: }
+"63
+[e :UE 1 ]
+}
+"67
+[v _crc16_data `(us ~T0 @X0 1 ef3`*Cuc`i`us ]
+{
+[; ;crc16.c: 65: unsigned short
+[; ;crc16.c: 66: crc16_data(const unsigned char *data, int len, unsigned short acc)
+[; ;crc16.c: 67: {
+[e :U _crc16_data ]
+[v _data `*Cuc ~T0 @X0 1 r1 ]
+[v _len `i ~T0 @X0 1 r2 ]
+[v _acc `us ~T0 @X0 1 r3 ]
+[f ]
+"68
+[v _i `i ~T0 @X0 1 a ]
+[; ;crc16.c: 68: int i;
+[; ;crc16.c: 70: for(i = 0; i < len; ++i) {
+"70
+{
+[e = _i -> 0 `i ]
+[e $U 6  ]
+[e :U 3 ]
+{
+[; ;crc16.c: 71: acc = crc16_add(*data, acc);
+"71
+[e = _acc ( _crc16_add (2 , *U _data _acc ]
+[; ;crc16.c: 72: ++data;
+"72
+[e =+ _data * -> -> 1 `i `x -> -> # *U _data `i `x ]
+"73
+}
+"70
+[e =+ _i -> 1 `i ]
+[e :U 6 ]
+[e $ < _i _len 3  ]
+[e :U 4 ]
+"73
+}
+[; ;crc16.c: 73: }
+[; ;crc16.c: 74: return acc;
+"74
+[e ) _acc ]
+[e $UE 2  ]
+[; ;crc16.c: 75: }
+"75
+[e :UE 2 ]
+}

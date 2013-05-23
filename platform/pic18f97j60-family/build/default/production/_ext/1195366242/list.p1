@@ -1,0 +1,470 @@
+Version 3.2 HI-TECH Software Intermediate Code
+[s S1 `*S1 1 ]
+[n S1 list next ]
+"146 /home/jarojuda/GitHub/contiki/core/lib/list.h
+[v _list_remove `(v ~T0 @X0 0 ef2`**v`*v ]
+[; ;list.h: 135: typedef void ** list_t;
+[; ;list.h: 137: void list_init(list_t list);
+[; ;list.h: 138: void * list_head(list_t list);
+[; ;list.h: 139: void * list_tail(list_t list);
+[; ;list.h: 140: void * list_pop (list_t list);
+[; ;list.h: 141: void list_push(list_t list, void *item);
+[; ;list.h: 143: void * list_chop(list_t list);
+[; ;list.h: 145: void list_add(list_t list, void *item);
+[; ;list.h: 146: void list_remove(list_t list, void *item);
+[; ;list.h: 148: int list_length(list_t list);
+[; ;list.h: 150: void list_copy(list_t dest, list_t src);
+[; ;list.h: 152: void list_insert(list_t list, void *previtem, void *newitem);
+[; ;list.h: 154: void * list_item_next(void *item);
+[; ;list.c: 51: struct list {
+[; ;list.c: 52: struct list *next;
+[; ;list.c: 53: };
+"66 /home/jarojuda/GitHub/contiki-mplabx/platform/pic18f97j60-family/../../../contiki/core/lib/list.c
+[v _list_init `(v ~T0 @X0 1 ef1`**v ]
+{
+[; ;list.c: 64: void
+[; ;list.c: 65: list_init(list_t list)
+[; ;list.c: 66: {
+[e :U _list_init ]
+[v _list `**v ~T0 @X0 1 r1 ]
+[f ]
+[; ;list.c: 67: *list = 0;
+"67
+[e = *U _list -> -> 0 `i `*v ]
+[; ;list.c: 68: }
+"68
+[e :UE 2 ]
+}
+"83
+[v _list_head `(*v ~T0 @X0 1 ef1`**v ]
+{
+[; ;list.c: 81: void *
+[; ;list.c: 82: list_head(list_t list)
+[; ;list.c: 83: {
+[e :U _list_head ]
+[v _list `**v ~T0 @X0 1 r1 ]
+[f ]
+[; ;list.c: 84: return *list;
+"84
+[e ) *U _list ]
+[e $UE 3  ]
+[; ;list.c: 85: }
+"85
+[e :UE 3 ]
+}
+"101
+[v _list_copy `(v ~T0 @X0 1 ef2`**v`**v ]
+{
+[; ;list.c: 99: void
+[; ;list.c: 100: list_copy(list_t dest, list_t src)
+[; ;list.c: 101: {
+[e :U _list_copy ]
+[v _dest `**v ~T0 @X0 1 r1 ]
+[v _src `**v ~T0 @X0 1 r2 ]
+[f ]
+[; ;list.c: 102: *dest = *src;
+"102
+[e = *U _dest *U _src ]
+[; ;list.c: 103: }
+"103
+[e :UE 4 ]
+}
+"118
+[v _list_tail `(*v ~T0 @X0 1 ef1`**v ]
+{
+[; ;list.c: 116: void *
+[; ;list.c: 117: list_tail(list_t list)
+[; ;list.c: 118: {
+[e :U _list_tail ]
+[v _list `**v ~T0 @X0 1 r1 ]
+[f ]
+"119
+[v _l `*S1 ~T0 @X0 1 a ]
+[; ;list.c: 119: struct list *l;
+[; ;list.c: 121: if(*list == 0) {
+"121
+[e $ ! == *U _list -> -> 0 `i `*v 6  ]
+{
+[; ;list.c: 122: return 0;
+"122
+[e ) -> -> 0 `i `*v ]
+[e $UE 5  ]
+"123
+}
+[e :U 6 ]
+[; ;list.c: 123: }
+[; ;list.c: 125: for(l = *list; l->next != 0; l = l->next);
+"125
+{
+[e = _l -> *U _list `*S1 ]
+[e $U 10  ]
+[e :U 7 ]
+[e = _l . *U _l 0 ]
+[e :U 10 ]
+[e $ != . *U _l 0 -> -> 0 `i `*S1 7  ]
+[e :U 8 ]
+}
+[; ;list.c: 127: return l;
+"127
+[e ) -> _l `*v ]
+[e $UE 5  ]
+[; ;list.c: 128: }
+"128
+[e :UE 5 ]
+}
+"143
+[v _list_add `(v ~T0 @X0 1 ef2`**v`*v ]
+{
+[; ;list.c: 141: void
+[; ;list.c: 142: list_add(list_t list, void *item)
+[; ;list.c: 143: {
+[e :U _list_add ]
+[v _list `**v ~T0 @X0 1 r1 ]
+[v _item `*v ~T0 @X0 1 r2 ]
+[f ]
+"144
+[v _l `*S1 ~T0 @X0 1 a ]
+[; ;list.c: 144: struct list *l;
+[; ;list.c: 147: list_remove(list, item);
+"147
+[e ( _list_remove (2 , _list _item ]
+[; ;list.c: 149: ((struct list *)item)->next = 0;
+"149
+[e = . *U -> _item `*S1 0 -> -> 0 `i `*S1 ]
+[; ;list.c: 151: l = list_tail(list);
+"151
+[e = _l -> ( _list_tail (1 _list `*S1 ]
+[; ;list.c: 153: if(l == 0) {
+"153
+[e $ ! == _l -> -> 0 `i `*S1 12  ]
+{
+[; ;list.c: 154: *list = item;
+"154
+[e = *U _list _item ]
+"155
+}
+[; ;list.c: 155: } else {
+[e $U 13  ]
+[e :U 12 ]
+{
+[; ;list.c: 156: l->next = item;
+"156
+[e = . *U _l 0 -> _item `*S1 ]
+"157
+}
+[e :U 13 ]
+[; ;list.c: 157: }
+[; ;list.c: 158: }
+"158
+[e :UE 11 ]
+}
+"165
+[v _list_push `(v ~T0 @X0 1 ef2`**v`*v ]
+{
+[; ;list.c: 163: void
+[; ;list.c: 164: list_push(list_t list, void *item)
+[; ;list.c: 165: {
+[e :U _list_push ]
+[v _list `**v ~T0 @X0 1 r1 ]
+[v _item `*v ~T0 @X0 1 r2 ]
+[f ]
+[; ;list.c: 169: list_remove(list, item);
+"169
+[e ( _list_remove (2 , _list _item ]
+[; ;list.c: 171: ((struct list *)item)->next = *list;
+"171
+[e = . *U -> _item `*S1 0 -> *U _list `*S1 ]
+[; ;list.c: 172: *list = item;
+"172
+[e = *U _list _item ]
+[; ;list.c: 173: }
+"173
+[e :UE 14 ]
+}
+"186
+[v _list_chop `(*v ~T0 @X0 1 ef1`**v ]
+{
+[; ;list.c: 184: void *
+[; ;list.c: 185: list_chop(list_t list)
+[; ;list.c: 186: {
+[e :U _list_chop ]
+[v _list `**v ~T0 @X0 1 r1 ]
+[f ]
+"187
+[v _l `*S1 ~T0 @X0 1 a ]
+[v _r `*S1 ~T0 @X0 1 a ]
+[; ;list.c: 187: struct list *l, *r;
+[; ;list.c: 189: if(*list == 0) {
+"189
+[e $ ! == *U _list -> -> 0 `i `*v 16  ]
+{
+[; ;list.c: 190: return 0;
+"190
+[e ) -> -> 0 `i `*v ]
+[e $UE 15  ]
+"191
+}
+[e :U 16 ]
+[; ;list.c: 191: }
+[; ;list.c: 192: if(((struct list *)*list)->next == 0) {
+"192
+[e $ ! == . *U -> *U _list `*S1 0 -> -> 0 `i `*S1 17  ]
+{
+[; ;list.c: 193: l = *list;
+"193
+[e = _l -> *U _list `*S1 ]
+[; ;list.c: 194: *list = 0;
+"194
+[e = *U _list -> -> 0 `i `*v ]
+[; ;list.c: 195: return l;
+"195
+[e ) -> _l `*v ]
+[e $UE 15  ]
+"196
+}
+[e :U 17 ]
+[; ;list.c: 196: }
+[; ;list.c: 198: for(l = *list; l->next->next != 0; l = l->next);
+"198
+{
+[e = _l -> *U _list `*S1 ]
+[e $U 21  ]
+[e :U 18 ]
+[e = _l . *U _l 0 ]
+[e :U 21 ]
+[e $ != . *U . *U _l 0 0 -> -> 0 `i `*S1 18  ]
+[e :U 19 ]
+}
+[; ;list.c: 200: r = l->next;
+"200
+[e = _r . *U _l 0 ]
+[; ;list.c: 201: l->next = 0;
+"201
+[e = . *U _l 0 -> -> 0 `i `*S1 ]
+[; ;list.c: 203: return r;
+"203
+[e ) -> _r `*v ]
+[e $UE 15  ]
+[; ;list.c: 204: }
+"204
+[e :UE 15 ]
+}
+"218
+[v _list_pop `(*v ~T0 @X0 1 ef1`**v ]
+{
+[; ;list.c: 216: void *
+[; ;list.c: 217: list_pop(list_t list)
+[; ;list.c: 218: {
+[e :U _list_pop ]
+[v _list `**v ~T0 @X0 1 r1 ]
+[f ]
+"219
+[v _l `*S1 ~T0 @X0 1 a ]
+[; ;list.c: 219: struct list *l;
+[; ;list.c: 220: l = *list;
+"220
+[e = _l -> *U _list `*S1 ]
+[; ;list.c: 221: if(*list != 0) {
+"221
+[e $ ! != *U _list -> -> 0 `i `*v 23  ]
+{
+[; ;list.c: 222: *list = ((struct list *)*list)->next;
+"222
+[e = *U _list -> . *U -> *U _list `*S1 0 `*v ]
+"223
+}
+[e :U 23 ]
+[; ;list.c: 223: }
+[; ;list.c: 225: return l;
+"225
+[e ) -> _l `*v ]
+[e $UE 22  ]
+[; ;list.c: 226: }
+"226
+[e :UE 22 ]
+}
+"240
+[v _list_remove `(v ~T0 @X0 1 ef2`**v`*v ]
+{
+[; ;list.c: 238: void
+[; ;list.c: 239: list_remove(list_t list, void *item)
+[; ;list.c: 240: {
+[e :U _list_remove ]
+[v _list `**v ~T0 @X0 1 r1 ]
+[v _item `*v ~T0 @X0 1 r2 ]
+[f ]
+"241
+[v _l `*S1 ~T0 @X0 1 a ]
+[v _r `*S1 ~T0 @X0 1 a ]
+[; ;list.c: 241: struct list *l, *r;
+[; ;list.c: 243: if(*list == 0) {
+"243
+[e $ ! == *U _list -> -> 0 `i `*v 25  ]
+{
+[; ;list.c: 244: return;
+"244
+[e $UE 24  ]
+"245
+}
+[e :U 25 ]
+[; ;list.c: 245: }
+[; ;list.c: 247: r = 0;
+"247
+[e = _r -> -> 0 `i `*S1 ]
+[; ;list.c: 248: for(l = *list; l != 0; l = l->next) {
+"248
+{
+[e = _l -> *U _list `*S1 ]
+[e $ != _l -> -> 0 `i `*S1 26  ]
+[e $U 27  ]
+[e :U 26 ]
+{
+[; ;list.c: 249: if(l == item) {
+"249
+[e $ ! == -> _l `*v _item 29  ]
+{
+[; ;list.c: 250: if(r == 0) {
+"250
+[e $ ! == _r -> -> 0 `i `*S1 30  ]
+{
+[; ;list.c: 252: *list = l->next;
+"252
+[e = *U _list -> . *U _l 0 `*v ]
+"253
+}
+[; ;list.c: 253: } else {
+[e $U 31  ]
+[e :U 30 ]
+{
+[; ;list.c: 255: r->next = l->next;
+"255
+[e = . *U _r 0 . *U _l 0 ]
+"256
+}
+[e :U 31 ]
+[; ;list.c: 256: }
+[; ;list.c: 257: l->next = 0;
+"257
+[e = . *U _l 0 -> -> 0 `i `*S1 ]
+[; ;list.c: 258: return;
+"258
+[e $UE 24  ]
+"259
+}
+[e :U 29 ]
+[; ;list.c: 259: }
+[; ;list.c: 260: r = l;
+"260
+[e = _r _l ]
+"261
+}
+"248
+[e = _l . *U _l 0 ]
+[e $ != _l -> -> 0 `i `*S1 26  ]
+[e :U 27 ]
+"261
+}
+[; ;list.c: 261: }
+[; ;list.c: 262: }
+"262
+[e :UE 24 ]
+}
+"275
+[v _list_length `(i ~T0 @X0 1 ef1`**v ]
+{
+[; ;list.c: 273: int
+[; ;list.c: 274: list_length(list_t list)
+[; ;list.c: 275: {
+[e :U _list_length ]
+[v _list `**v ~T0 @X0 1 r1 ]
+[f ]
+"276
+[v _l `*S1 ~T0 @X0 1 a ]
+"277
+[v _n `i ~T0 @X0 1 a ]
+[; ;list.c: 276: struct list *l;
+[; ;list.c: 277: int n = 0;
+[e = _n -> 0 `i ]
+[; ;list.c: 279: for(l = *list; l != 0; l = l->next) {
+"279
+{
+[e = _l -> *U _list `*S1 ]
+[e $ != _l -> -> 0 `i `*S1 33  ]
+[e $U 34  ]
+[e :U 33 ]
+{
+[; ;list.c: 280: ++n;
+"280
+[e =+ _n -> 1 `i ]
+"281
+}
+"279
+[e = _l . *U _l 0 ]
+[e $ != _l -> -> 0 `i `*S1 33  ]
+[e :U 34 ]
+"281
+}
+[; ;list.c: 281: }
+[; ;list.c: 283: return n;
+"283
+[e ) _n ]
+[e $UE 32  ]
+[; ;list.c: 284: }
+"284
+[e :UE 32 ]
+}
+"303
+[v _list_insert `(v ~T0 @X0 1 ef3`**v`*v`*v ]
+{
+[; ;list.c: 301: void
+[; ;list.c: 302: list_insert(list_t list, void *previtem, void *newitem)
+[; ;list.c: 303: {
+[e :U _list_insert ]
+[v _list `**v ~T0 @X0 1 r1 ]
+[v _previtem `*v ~T0 @X0 1 r2 ]
+[v _newitem `*v ~T0 @X0 1 r3 ]
+[f ]
+[; ;list.c: 304: if(previtem == 0) {
+"304
+[e $ ! == _previtem -> -> 0 `i `*v 37  ]
+{
+[; ;list.c: 305: list_push(list, newitem);
+"305
+[e ( _list_push (2 , _list _newitem ]
+"306
+}
+[; ;list.c: 306: } else {
+[e $U 38  ]
+[e :U 37 ]
+{
+[; ;list.c: 308: ((struct list *)newitem)->next = ((struct list *)previtem)->next;
+"308
+[e = . *U -> _newitem `*S1 0 . *U -> _previtem `*S1 0 ]
+[; ;list.c: 309: ((struct list *)previtem)->next = newitem;
+"309
+[e = . *U -> _previtem `*S1 0 -> _newitem `*S1 ]
+"310
+}
+[e :U 38 ]
+[; ;list.c: 310: }
+[; ;list.c: 311: }
+"311
+[e :UE 36 ]
+}
+"325
+[v _list_item_next `(*v ~T0 @X0 1 ef1`*v ]
+{
+[; ;list.c: 323: void *
+[; ;list.c: 324: list_item_next(void *item)
+[; ;list.c: 325: {
+[e :U _list_item_next ]
+[v _item `*v ~T0 @X0 1 r1 ]
+[f ]
+[; ;list.c: 326: return item == 0? 0: ((struct list *)item)->next;
+"326
+[e ) -> ? == _item -> -> 0 `i `*v : -> -> 0 `i `*S1 . *U -> _item `*S1 0 `*v ]
+[e $UE 39  ]
+[; ;list.c: 327: }
+"327
+[e :UE 39 ]
+}

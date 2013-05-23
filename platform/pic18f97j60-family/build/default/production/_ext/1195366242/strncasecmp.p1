@@ -1,0 +1,26 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"47 /home/jarojuda/GitHub/contiki-mplabx/platform/pic18f97j60-family/../../../contiki/core/lib/strncasecmp.c
+[v _strncmp `(i ~T0 @X0 0 ef3`*Cuc`*Cuc`i ]
+[; ;strncasecmp.c: 47: int strncmp(const char *s1, const char *s2, int len);
+"54 /home/jarojuda/GitHub/contiki-mplabx/platform/pic18f97j60-family/../../../contiki/core/lib/strncasecmp.c
+[v _strncasecmp `(uc ~T0 @X0 1 ef3`*Cuc`*Cuc`uc ]
+{
+[; ;strncasecmp.c: 52: unsigned char
+[; ;strncasecmp.c: 53: strncasecmp(const char *s1, const char *s2, unsigned char n)
+[; ;strncasecmp.c: 54: {
+[e :U _strncasecmp ]
+[v _s1 `*Cuc ~T0 @X0 1 r1 ]
+[v _s2 `*Cuc ~T0 @X0 1 r2 ]
+[v _n `uc ~T0 @X0 1 r3 ]
+[f ]
+"55
+[v _len `uc ~T0 @X0 1 a ]
+[; ;strncasecmp.c: 55: unsigned char len;
+[; ;strncasecmp.c: 57: return strncmp(s1, s2, n);
+"57
+[e ) -> ( _strncmp (3 , , _s1 _s2 -> _n `i `uc ]
+[e $UE 1  ]
+[; ;strncasecmp.c: 68: }
+"68
+[e :UE 1 ]
+}

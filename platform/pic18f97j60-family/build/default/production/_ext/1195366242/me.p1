@@ -1,0 +1,93 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"35 /home/jarojuda/GitHub/contiki/core/lib/me_tabs.h
+[v _me_encode_tab `Cus ~T0 @X0 -> 0 `x e ]
+"36
+[v _me_decode_tab `Cuc ~T0 @X0 -> 0 `x e ]
+"37
+[v _me_valid_tab `Cuc ~T0 @X0 -> 0 `x e ]
+[; ;me_tabs.h: 35: extern const unsigned short me_encode_tab[256];
+[; ;me_tabs.h: 36: extern const unsigned char me_decode_tab[256];
+[; ;me_tabs.h: 37: extern const unsigned char me_valid_tab[256];
+"59 /home/jarojuda/GitHub/contiki-mplabx/platform/pic18f97j60-family/../../../contiki/core/lib/me.c
+[v _me_encode `(us ~T0 @X0 1 ef1`uc ]
+{
+[; ;me.c: 57: unsigned short
+[; ;me.c: 58: me_encode(unsigned char c)
+[; ;me.c: 59: {
+[e :U _me_encode ]
+[v _c `uc ~T0 @X0 1 r1 ]
+[f ]
+[; ;me.c: 60: return me_encode_tab[c];
+"60
+[e ) *U + &U _me_encode_tab * -> _c `ux -> -> # *U &U _me_encode_tab `ui `ux ]
+[e $UE 1  ]
+[; ;me.c: 61: }
+"61
+[e :UE 1 ]
+}
+"76
+[v _me_decode16 `(uc ~T0 @X0 1 ef1`us ]
+{
+[; ;me.c: 74: unsigned char
+[; ;me.c: 75: me_decode16(unsigned short m)
+[; ;me.c: 76: {
+[e :U _me_decode16 ]
+[v _m `us ~T0 @X0 1 r1 ]
+[f ]
+"77
+[v _m1 `uc ~T0 @X0 1 a ]
+[v _m2 `uc ~T0 @X0 1 a ]
+[v _c `uc ~T0 @X0 1 a ]
+[; ;me.c: 77: unsigned char m1, m2, c;
+[; ;me.c: 79: m1 = m >> 8;
+"79
+[e = _m1 -> >> -> _m `ui -> 8 `i `uc ]
+[; ;me.c: 80: m2 = m & 0xff;
+"80
+[e = _m2 -> & -> _m `ui -> -> 255 `i `ui `uc ]
+[; ;me.c: 82: c = (me_decode_tab[m1] << 4) |
+[; ;me.c: 83: me_decode_tab[m2];
+"83
+[e = _c -> | << -> *U + &U _me_decode_tab * -> _m1 `ux -> -> # *U &U _me_decode_tab `ui `ux `i -> 4 `i -> *U + &U _me_decode_tab * -> _m2 `ux -> -> # *U &U _me_decode_tab `ui `ux `i `uc ]
+[; ;me.c: 84: return c;
+"84
+[e ) _c ]
+[e $UE 2  ]
+[; ;me.c: 85: }
+"85
+[e :UE 2 ]
+}
+"100
+[v _me_decode8 `(uc ~T0 @X0 1 ef1`uc ]
+{
+[; ;me.c: 98: unsigned char
+[; ;me.c: 99: me_decode8(unsigned char m)
+[; ;me.c: 100: {
+[e :U _me_decode8 ]
+[v _m `uc ~T0 @X0 1 r1 ]
+[f ]
+[; ;me.c: 101: return me_decode_tab[m];
+"101
+[e ) *U + &U _me_decode_tab * -> _m `ux -> -> # *U &U _me_decode_tab `ui `ux ]
+[e $UE 3  ]
+[; ;me.c: 102: }
+"102
+[e :UE 3 ]
+}
+"110
+[v _me_valid `(uc ~T0 @X0 1 ef1`uc ]
+{
+[; ;me.c: 108: unsigned char
+[; ;me.c: 109: me_valid(unsigned char m)
+[; ;me.c: 110: {
+[e :U _me_valid ]
+[v _m `uc ~T0 @X0 1 r1 ]
+[f ]
+[; ;me.c: 111: return me_valid_tab[m];
+"111
+[e ) *U + &U _me_valid_tab * -> _m `ux -> -> # *U &U _me_valid_tab `ui `ux ]
+[e $UE 4  ]
+[; ;me.c: 112: }
+"112
+[e :UE 4 ]
+}
