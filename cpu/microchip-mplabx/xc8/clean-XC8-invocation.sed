@@ -12,7 +12,7 @@ s/\ -[mM][^ ]*//g
 s/%%/%/g
 
 
-#We are removing warnings
+#We are removing message formats
 s/"--warnformat[^"]*"//g
 s/"--msgformat[^"]*"//g
 s/"--errformat[^"]*"//g

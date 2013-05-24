@@ -1,5 +1,5 @@
 #Generated Makefile - do not edit!
-#Thu May 23 21:54:48 CEST 2013
+#Fri May 24 09:38:08 CEST 2013
 #Variables for project pic18f97j60-family, configuration default
 #Target pic18f97j60-family, image type production
 MPLABX_ECHO=echo
@@ -26,4 +26,3 @@ MPLABX_MV=mv
 MPLABX_MKDIR=mkdir -p
 MPLABX_FIXDEPS=fixDeps
 
-MPLABX_XC8_MSGFORMS= --errformat="%f:%l: error: %s" --warnformat="%f:%l: warning: %s" --msgformat="%f:%l: advisory: %s"

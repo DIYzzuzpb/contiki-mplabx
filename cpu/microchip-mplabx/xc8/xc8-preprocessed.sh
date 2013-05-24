@@ -60,12 +60,27 @@ fi
 shift
 done
 
+HTC_ERR_FORMAT="%f:%l: error: %s"
+HTC_WARN_FORMAT="%f:%l: warning: %s"
+HTC_MSG_FORMAT="%f:%l: advisory: %s"
+
+#export HTC_ERR_FORMAT
+#export HTC_WARN_FORMAT
+#export HTC_MSG_FORMAT
+
 if [ "$pass1_option" -ne 0 ] ; then
     #Compiling step, we are preprocessing.
     #The result of partial preprocessing is saved as C source file
-    $MPLABX_CONTIKI_DIR/cpu/microchip-mplabx/tools/linux-wave-cpp-xc8 --c99  $wave_args -o $output_file.c $input_file
-    $MPLABX_MP_CC $xc8_args -o$output_file $output_file.c
+    $MPLABX_CONTIKI_DIR/cpu/microchip-mplabx/tools/linux-wave-cpp-xc8 --c99  $wave_args -o $output_file.c $input_file  && \
+    $MPLABX_MP_CC --ERRFORMAT="$HTC_ERR_FORMAT" --WARNFORMAT="$HTC_WARN_FORMAT" --MSGFORMAT="$HTC_MSG_FORMAT" $xc8_args -o$output_file $output_file.c
+    if [ "$?" -ne 0 ] ; then
+        exit 1
+    fi
 else
     #Linking step, don't preprocess
-    $MPLABX_MP_CC  $xc8_args -o$output_file $input_file
+    $MPLABX_MP_CC --ERRFORMAT="$HTC_ERR_FORMAT" --WARNFORMAT="$HTC_WARN_FORMAT" --MSGFORMAT="$HTC_MSG_FORMAT" $xc8_args -o$output_file $input_file
+    if [ "$?" -ne 0 ] ; then
+        exit 1
+    fi
 fi
+

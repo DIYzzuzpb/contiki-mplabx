@@ -29,12 +29,6 @@ export CONTIKI
 	@sed -f $(CONTIKI)/cpu/microchip-mplabx/xc8/clean-XC8-invocation.sed mplabx-xc8-compiler.tmp >>Makefile-MPLABX-variables.mk
 	@${MPLABX_ECHO} -n >>Makefile-MPLABX-variables.mk "MPLABX_XC8_LINKER_ARGS="
 	@sed -f $(CONTIKI)/cpu/microchip-mplabx/xc8/clean-XC8-invocation.sed mplabx-xc8-linker.tmp >>Makefile-MPLABX-variables.mk
-	@${MPLABX_ECHO} -n >>Makefile-MPLABX-variables.mk "MPLABX_XC8_MSGFORMS="
-	@sed -f $(CONTIKI)/cpu/microchip-mplabx/xc8/XC8-msg-formats.sed mplabx-xc8-compiler.tmp >>Makefile-MPLABX-variables.mk
-	@${MPLABX_ECHO} -n >>Makefile-MPLABX-variables.mk "MPLABX_XC8_COMPILER_ARGS="
-	@sed -f $(CONTIKI)/cpu/microchip-mplabx/xc8/clean-XC8-invocation.sed mplabx-xc8-compiler.tmp >>Makefile-MPLABX-variables.mk
-	@${MPLABX_ECHO} -n >>Makefile-MPLABX-variables.mk "MPLABX_XC8_LINKER_ARGS="
-	@sed -f $(CONTIKI)/cpu/microchip-mplabx/xc8/clean-XC8-invocation.sed mplabx-xc8-linker.tmp >>Makefile-MPLABX-variables.mk
 	#${RM} *.tmp 
 
 .build-pre: contiki-$(TARGET).lpp 
