@@ -27,7 +27,7 @@
  *
  * No application for this example, this file is a place holder
  */
-#include "contiki-conf.h"
+#include "contiki.h"
 //#include <stdio.h>
  
 /*---------------------------------------------------------------------------*/

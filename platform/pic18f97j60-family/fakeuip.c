@@ -4,7 +4,7 @@
  * to get a few things.  This file is included in the build by the contiki
  * Makefile.include only when CONTIKI_NO_NET is defined */
  
-#include "uip.h"
+#include "net/uip.h"
 #include <string.h>
 
 #define UIP_IP_BUF   ((struct uip_ip_hdr *)&uip_buf[UIP_LLH_LEN])

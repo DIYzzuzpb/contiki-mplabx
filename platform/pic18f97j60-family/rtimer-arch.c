@@ -1,9 +1,7 @@
-#include "contiki"
-
-volatile uint16_t
+#include "contiki.h"
 
 void rtimer_arch_init(void){
-    T3CON = 0b1;
+    T3CON = 1;
 
 }
 

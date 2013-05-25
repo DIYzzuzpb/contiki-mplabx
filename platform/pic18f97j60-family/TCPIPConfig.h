@@ -51,7 +51,7 @@
 #ifndef __TCPIPCONFIG_H
 #define __TCPIPCONFIG_H
 
-#include "TCPIP Stack/TCPIP.h"
+#include "TCPIP_Stack/TCPIP.h"
 
 /*
  * Modules to include in this project

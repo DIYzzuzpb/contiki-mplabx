@@ -25,5 +25,7 @@ typedef unsigned short uip_stats_t;
 
 #define UIP_CONF_IPV6 0
 
+#define MMEM_CONF_SIZE (400u)
+
 #endif /* __CONTIKI_CONF_H__ */
 
