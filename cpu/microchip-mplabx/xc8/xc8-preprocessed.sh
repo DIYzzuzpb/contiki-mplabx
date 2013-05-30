@@ -2,7 +2,7 @@
 
 #XC8 compiler doesn't support variadic macros.
 #This script does partial preprocessing before XC8 compiler.
-#Wave preprocessor works in C99 mode and expands variadic macros.
+#The Wave preprocessor works in C99 mode and expands variadic macros.
 
 wave_args=" "
 xc8_args=" "
@@ -12,9 +12,15 @@ pass1_option=0
 while [ $# -gt 0 ] 
 do
 #We are quoting arguments with space inside.
-any_spaces=`expr "$1" : '.*[ ]'`
+any_space=`expr "$1" : '.*[ ]'`
+
+#We are looking for headers paths.
 include_path_option=`expr "$1" : '-I'`
+
+#We are looking for tje output file name.
 output_file_option=`expr "$1" : '-[oO]'`
+
+#Some arguments we must reject.
 ignore_option=`expr "$1" : '--warnformat\|--errformat\|--msgformat'`
 
 #We are looking for --pass1 and remember it
@@ -31,7 +37,7 @@ fi
 
 if [ "$ignore_option" -eq 0 ]
 then
-  if [ "$any_spaces" -eq 0 ]
+  if [ "$any_space" -eq 0 ]
   then
     #We are looking for the output file
     if [ "$output_file_option" -ne 0 ] ; then
