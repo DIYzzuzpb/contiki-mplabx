@@ -71,7 +71,7 @@ HTC_MSG_FORMAT="%f:%l: advisory: %s"
 if [ "$pass1_option" -ne 0 ] ; then
     #Compiling step, we are preprocessing.
     #The result of partial preprocessing is saved as C source file
-    $CONTIKI/cpu/microchip-mplabx/tools/linux/wave-cpp-xc8.exe --c99  $wave_args -o $output_file.c $input_file  && \
+    $MPLABX_CONTIKI_DIR/cpu/microchip-mplabx/tools/linux/wave-cpp-xc8.exe --c99  $wave_args -o $output_file.c $input_file  && \
     xc8 --ERRFORMAT="$HTC_ERR_FORMAT" --WARNFORMAT="$HTC_WARN_FORMAT" --MSGFORMAT="$HTC_MSG_FORMAT" $xc8_args -o$output_file $output_file.c
     if [ "$?" -ne 0 ] ; then
         exit 1
