@@ -1,4 +1,3 @@
-#!/bin/sh
 
 #XC8 compiler doesn't support variadic macros.
 #This script does partial preprocessing before XC8 compiler.
@@ -17,7 +16,8 @@ any_space=`expr "$1" : '.*[ ]'`
 #We are looking for headers paths.
 include_path_option=`expr "$1" : '-I'`
 
-#We are looking for tje output file name.
+
+#We are looking for the output file name.
 output_file_option=`expr "$1" : '-[oO]'`
 
 #Some arguments we must reject.
@@ -74,17 +74,25 @@ HTC_MSG_FORMAT="%f:%l: advisory: %s"
 #export HTC_WARN_FORMAT
 #export HTC_MSG_FORMAT
 
+
+if [ `expr "$HOST_OS" : 'Windows'` -ne 0  ] ; then
+    xc8_exe="xc8.exe"
+else
+    xc8_exe="xc8"
+fi
+
+
 if [ "$pass1_option" -ne 0 ] ; then
     #Compiling step, we are preprocessing.
     #The result of partial preprocessing is saved as C source file
-    $MPLABX_CONTIKI_DIR/cpu/microchip-mplabx/tools/linux/wave-cpp-xc8.exe --c99  $wave_args -o $output_file.c $input_file  && \
-    xc8 --ERRFORMAT="$HTC_ERR_FORMAT" --WARNFORMAT="$HTC_WARN_FORMAT" --MSGFORMAT="$HTC_MSG_FORMAT" $xc8_args -o$output_file $output_file.c
+    $MPLABX_CONTIKI_DIR/cpu/microchip-mplabx/tools/$HOST_OS/wave-cpp-xc8.exe --c99  $wave_args -o $output_file.c $input_file  && \
+    $xc8_exe --ERRFORMAT="$HTC_ERR_FORMAT" --WARNFORMAT="$HTC_WARN_FORMAT" --MSGFORMAT="$HTC_MSG_FORMAT" $xc8_args -o$output_file $output_file.c
     if [ "$?" -ne 0 ] ; then
         exit 1
     fi
 else
     #Linking step, don't preprocess
-    xc8 --ERRFORMAT="$HTC_ERR_FORMAT" --WARNFORMAT="$HTC_WARN_FORMAT" --MSGFORMAT="$HTC_MSG_FORMAT" $xc8_args -o$output_file $input_file
+    $xc8_exe --ERRFORMAT="$HTC_ERR_FORMAT" --WARNFORMAT="$HTC_WARN_FORMAT" --MSGFORMAT="$HTC_MSG_FORMAT" $xc8_args -o$output_file $input_file
     if [ "$?" -ne 0 ] ; then
         exit 1
     fi

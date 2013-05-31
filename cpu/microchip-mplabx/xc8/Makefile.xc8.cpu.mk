@@ -50,11 +50,8 @@ CFLAGS += -I$(CONTIKI)/cpu/microchip-mplabx/MAPLv2013-02-15/Include -I$(CONTIKI)
 
 CUSTOM_RULE_C_TO_OBJECTDIR_O = 1
 
-ifeq ($(HOST_OS),Windows)
-WAVE:=$(CONTIKI)/cpu/microchip-mplabx/tools/wave-cpp-xc8.exe
-else
-WAVE:=$(CONTIKI)/cpu/microchip-mplabx/tools/linux-wave-cpp-xc8
-endif
+WAVE:=$(MPLABX_CONTIKI_DIR)/cpu/microchip-mplabx/tools/$(HOST_OS)/wave-cpp-xc8.exe
+
 
 $(OBJECTDIR)/%.p1: %.c nbproject/Makefile-$(MPLABX_CONF).mk
 	@${MPLABX_MKDIR} ${OBJECTDIR} 

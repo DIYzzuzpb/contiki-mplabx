@@ -22,7 +22,7 @@ export CONTIKI
 #Export current MPLABX settings into file Makefile-MPLABX-variables.mk
 #That file is regenerated every build
 .export-mplabx-variables:
-	${MAKE} -f $(CONTIKI)/cpu/microchip-mplabx/Makefile-export-variables-for-Contiki.mk current-build-variables
+	${MAKE} -f $(CONTIKI)/cpu/microchip-mplabx/Makefile-export-variables-for-Contiki.mk export-mplabx-variables
 	${MAKE} -f $(CONTIKI)/cpu/microchip-mplabx/xc8/Makefile-grab-XC8-invocation.mk SAVE_AS=mplabx-xc8-compiler.tmp xc8-compiler-command-line
 	${MAKE} -f $(CONTIKI)/cpu/microchip-mplabx/xc8/Makefile-grab-XC8-invocation.mk OBJECTFILES= OBJECTFILES_QUOTED_IF_SPACED= SAVE_AS=mplabx-xc8-linker.tmp xc8-linker-command-line
 	@${MPLABX_ECHO} -n >>Makefile-MPLABX-variables.mk "MPLABX_XC8_COMPILER_ARGS="

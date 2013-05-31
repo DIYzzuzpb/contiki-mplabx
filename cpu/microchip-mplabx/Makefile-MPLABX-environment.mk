@@ -17,6 +17,10 @@ ifndef MPLABX_CONTIKI_DIR
     MPLABX_OLD_PATH:=$(PATH)
 endif
 
+ifndef MPLABX_PATH_TO_IDE_BIN
+    MPLABX_PATH_TO_IDE_BIN=$(PATH_TO_IDE_BIN)
+endif
+
 ifneq ($(HOST_OS),Windows)
     MPLABX_ECHO:=echo
     PATH:=$(MPLABX_PATH_TO_IDE_BIN):$(MPLABX_OLD_PATH)
@@ -28,16 +32,21 @@ else ifeq ($(HOST_OS),Cygwin)
 else
     #Windows
     MPLABX_ECHO:=gnuecho.exe
-    PATH:=${subst /,\,$(MPLABX_CONTIKI_DIR)}\cpu\microchip-mplabx\tools;${subst /,\,$(MPLABX_PATH_TO_IDE_BIN)};$(MPLABX_OLD_PATH)
+    PATH:=${subst /,\,$(MP_CC_DIR)};$(MPLABX_OLD_PATH)
+    PATH:=${subst /,\,$(MPLABX_PATH_TO_IDE_BIN)};${subst /,\,$(MPLABX_PATH_TO_IDE_BIN)/../gnuBins/GnuWin32/bin};$(PATH)
+    PATH:=${subst /,\,$(MPLABX_CONTIKI_DIR)}\cpu\microchip-mplabx\tools\$(HOST_OS);$(PATH)
     SHELL:=sh.exe
     CYGWIN:=nodosfilewarning
+    ${warning Windows path $(PATH)}
 endif
 
 export HOST_OS
 export MPLABX_CONTIKI_DIR
 export SHELL
 export MPLABX_OLD_PATH
+export MPLABX_PATH
 export PATH
 export MPLABX_ECHO
 export CYGWIN
+
 
