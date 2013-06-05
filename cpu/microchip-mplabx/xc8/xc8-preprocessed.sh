@@ -81,7 +81,6 @@ else
     xc8_exe="xc8"
 fi
 
-
 if [ "$pass1_option" -ne 0 ] ; then
     #Compiling step, we are preprocessing.
     #The result of partial preprocessing is saved as C source file

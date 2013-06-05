@@ -6,6 +6,7 @@
 #include "HardwareProfile.h"
 #include <stdint.h>
 #include <limits.h>
+#include <stdbool.h>
 
 //#include "sys/autostart.h"
 

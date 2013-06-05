@@ -2,9 +2,8 @@
 
 
 extern volatile uint32_t dwInternalTicks;
-extern volatile uint32_t rtimer_arch_ticks;
 
-void interrupt high_isr(void) @(0xD000){
+void interrupt high_isr(void) @(0xD000) {
 
 }
 
@@ -14,8 +13,6 @@ void interrupt low_priority low_isr(void) @(0xD800) {
         dwInternalTicks++;
         INTCONbits.TMR0IF = 0;
     } else if (PIR2bits.TMR3IF && PIE2bits.TMR3IE) {
-        rtimer_arch_ticks++;
-
         PIR2bits.TMR3IF = 0;
     } else if (PIR1bits.TMR2IF && PIE1bits.TMR2IE) {
 
