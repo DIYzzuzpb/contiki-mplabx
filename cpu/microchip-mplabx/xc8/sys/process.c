@@ -35,7 +35,8 @@ static volatile unsigned char poll_requested;
 #define PROCESS_STATE_CALLED      2
 
 // Auxiliary state for removing recursion in exit_process() function
-#define PROCESS_STATE_MARKED_FOR_EXIT (128u)
+#define XC8_AUX_STATE_NONE (0u)
+#define XC8_AUX_STATE_MARKED_FOR_EXIT (1u)
 
 static void call_process(struct process *p, process_event_t ev, process_data_t data);
 
@@ -70,6 +71,7 @@ process_start(struct process *p, const char *arg) {
     p->next = process_list;
     process_list = p;
     p->state = PROCESS_STATE_RUNNING;
+    p->xc8_aux = XC8_AUX_STATE_NONE;
     PT_INIT(&p->pt);
 
     PRINTF("process: starting '%s'\n", PROCESS_NAME_STRING(p));
@@ -100,7 +102,8 @@ exit_process(struct process *p, struct process *fromprocess) {
 
     if (process_is_running(p)) {
         /* Process was running */
-        p->state = PROCESS_STATE_MARKED_FOR_EXIT;
+        p->state = PROCESS_STATE_NONE;
+        p->xc8_aux = XC8_AUX_STATE_MARKED_FOR_EXIT;
     }
     do {
         any_marked = false;
@@ -111,9 +114,9 @@ exit_process(struct process *p, struct process *fromprocess) {
          */
 
         for (r = process_list; r != NULL; r = r->next) {
-            if (r->state & PROCESS_STATE_MARKED_FOR_EXIT) {
+            if (r->xc8_aux & XC8_AUX_STATE_MARKED_FOR_EXIT) {
                 for (q = process_list; q != NULL; q = q->next) {
-                    if ((q->state & PROCESS_STATE_MARKED_FOR_EXIT) == 0) {
+                    if ((q->xc8_aux & XC8_AUX_STATE_MARKED_FOR_EXIT) == 0) {
                         //call_process(q, PROCESS_EVENT_EXITED, (process_data_t)p);
                         /******************************                    *
                          * removing recursion                              *
@@ -128,8 +131,8 @@ exit_process(struct process *p, struct process *fromprocess) {
                                     ret == PT_ENDED /*||
                             PROCESS_EVENT_EXITED == PROCESS_EVENT_EXIT*/) {
                                 //exit_process(p,p);
-                                tmp = q->state | PROCESS_STATE_MARKED_FOR_EXIT;
-                                q->state = tmp;
+                                tmp = q->xc8_aux | XC8_AUX_STATE_MARKED_FOR_EXIT;
+                                q->xc8_aux = tmp;
                                 any_marked = true;
                             } else {
                                 q->state = PROCESS_STATE_RUNNING;
@@ -149,7 +152,8 @@ exit_process(struct process *p, struct process *fromprocess) {
 
     // We are removing all processed marked for exit
     for (r = process_list; r != NULL; r = r->next) {
-        if (r->state & PROCESS_STATE_MARKED_FOR_EXIT) {
+        if (r->xc8_aux & XC8_AUX_STATE_MARKED_FOR_EXIT) {
+            r->xc8_aux = XC8_AUX_STATE_NONE;
             r->state = PROCESS_STATE_NONE;
             if (r == process_list) {
                 process_list = process_list->next;
@@ -189,7 +193,6 @@ call_process(struct process *p, process_event_t ev, process_data_t data) {
                 ev == PROCESS_EVENT_EXIT) {
             exit_process(p, p);
         } else {
-
             p->state = PROCESS_STATE_RUNNING;
         }
     }
@@ -377,7 +380,6 @@ process_poll(struct process *p) {
     if (p != NULL) {
         if (p->state == PROCESS_STATE_RUNNING ||
                 p->state == PROCESS_STATE_CALLED) {
-
             p->needspoll = 1;
             poll_requested = 1;
         }

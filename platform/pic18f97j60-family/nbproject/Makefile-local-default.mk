@@ -20,7 +20,7 @@ PATH:=/opt/microchip/mplabx/mplab_ide/mplab_ide/modules/../../bin/:$(PATH)
 # Path to java used to run MPLAB X when this makefile was created
 MP_JAVA_PATH="/opt/microchip/mplabx/sys/java/jre1.7.0_17/bin/"
 OS_CURRENT="$(shell uname -s)"
-MP_CC=$(CONTIKI)/cpu/microchip-mplabx/xc8/xc8-preprocessed.sh
+MP_CC="/opt/microchip/xc8/v1.12/bin/xc8"
 # MP_CPPC is not defined
 # MP_BC is not defined
 # MP_AS is not defined
