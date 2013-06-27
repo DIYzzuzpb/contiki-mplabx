@@ -185,22 +185,12 @@
                        projectFiles="true">
           <logicalFolder name="dev" displayName="dev" projectFiles="true">
           </logicalFolder>
-          <logicalFolder name="f1" displayName="net" projectFiles="true">
-            <itemPath>net/ethernet-drv.c</itemPath>
-            <itemPath>net/ethernet-drv.h</itemPath>
-            <itemPath>net/ethernet-v6.c</itemPath>
-            <itemPath>net/ethernet-v6.h</itemPath>
-            <itemPath>net/ethernet.c</itemPath>
-            <itemPath>net/ethernet.h</itemPath>
-            <itemPath>net/ETH97J60.c</itemPath>
-          </logicalFolder>
           <itemPath>interrupts.c</itemPath>
           <itemPath>HardwareProfile.h</itemPath>
           <itemPath>contiki-conf.h</itemPath>
           <itemPath>rtimer-arch.h</itemPath>
           <itemPath>configuration-bits.c</itemPath>
           <itemPath>fakeuip.c</itemPath>
-          <itemPath>TCPIPConfig.h</itemPath>
           <itemPath>rtimer-arch.c</itemPath>
           <itemPath>clock.c</itemPath>
           <itemPath>contiki-main.c</itemPath>

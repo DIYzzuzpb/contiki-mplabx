@@ -53,7 +53,6 @@
 
 #ifndef __ETH97J60_H
 #define __ETH97J60_H
-#include "GenericTypeDefs.h"
 
 typedef union {
 	BYTE v[7];

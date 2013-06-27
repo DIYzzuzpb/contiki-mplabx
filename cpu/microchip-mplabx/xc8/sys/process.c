@@ -134,6 +134,9 @@ exit_process(struct process *p, struct process *fromprocess) {
                                 tmp = q->xc8_aux | XC8_AUX_STATE_MARKED_FOR_EXIT;
                                 q->xc8_aux = tmp;
                                 any_marked = true;
+                                if (process_is_running(q)) {
+                                    q->state = PROCESS_STATE_NONE;
+                                }
                             } else {
                                 q->state = PROCESS_STATE_RUNNING;
                             }

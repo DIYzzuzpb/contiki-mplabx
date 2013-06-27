@@ -17,6 +17,7 @@
 typedef unsigned long clock_time_t;
 #define CLOCK_CONF_SECOND ((GetPeripheralClock()+128ull)/256ull)
 
+#define CONTIKI_CONF_SETTINGS_MANAGER 0
 
 #define RTIMER_CLOCK_LT(a,b) ((int16_t)((a)-(b))<0)
 
