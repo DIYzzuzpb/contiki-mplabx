@@ -74,12 +74,6 @@
 #include "contiki-conf.h"
 
 
-// Structure to contain a MAC address
-typedef struct
-{
-    BYTE v[6];
-} MAC_ADDR;
-
 
 /*------------------------------------------------------------------------------*/
 
@@ -330,7 +324,7 @@ typedef struct
  * \hideinitializer
  */
 #ifndef UIP_CONF_MAX_CONNECTIONS
-#define UIP_CONNS       10
+#define UIP_CONNS       4
 #else /* UIP_CONF_MAX_CONNECTIONS */
 #define UIP_CONNS (UIP_CONF_MAX_CONNECTIONS)
 #endif /* UIP_CONF_MAX_CONNECTIONS */

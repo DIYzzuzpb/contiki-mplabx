@@ -57,14 +57,12 @@
  ********************************************************************/
 #define __ETH97J60_C
 
-#include "HardwareProfile.h"
-
-// Make sure that this hardware profile has a PIC18F97J60 family device in it
-#if (defined(__18F97J60) || defined(__18F96J65) || defined(__18F96J60) || defined(__18F87J60) || defined(__18F86J65) || defined(__18F86J60) || defined(__18F67J60) || defined(__18F66J65) || defined(__18F66J60) || \
-	  defined(_18F97J60) ||  defined(_18F96J65) ||  defined(_18F96J60) ||  defined(_18F87J60) ||  defined(_18F86J65) ||  defined(_18F86J60) ||  defined(_18F67J60) ||  defined(_18F66J65) ||  defined(_18F66J60)) \
-	&& !defined(ENC_CS_TRIS) && !defined(ENC100_INTERFACE_MODE) && !defined(WF_CS_TRIS)
-
-#include "TCPIP_Stack/TCPIP.h"
+//#include "contiki.h"
+//#include "net/netstack.h"
+#include "contiki-net.h"
+#include "MAC.h"
+#include "Helpers.h"
+#include "ETH97J60.h"
 
 
 /** D E F I N I T I O N S ****************************************************/
@@ -216,17 +214,17 @@ void MACInit(void) {
     Nop();
 
     // Initialize physical MAC address registers
-    MAADR1 = AppConfig.MyMACAddr.v[0];
+    MAADR1 = 0;//AppConfig.MyMACAddr.v[0];
     Nop();
-    MAADR2 = AppConfig.MyMACAddr.v[1];
+    MAADR2 = 0;//AppConfig.MyMACAddr.v[1];
     Nop();
-    MAADR3 = AppConfig.MyMACAddr.v[2];
+    MAADR3 = 0;//AppConfig.MyMACAddr.v[2];
     Nop();
-    MAADR4 = AppConfig.MyMACAddr.v[3];
+    MAADR4 = 0;//AppConfig.MyMACAddr.v[3];
     Nop();
-    MAADR5 = AppConfig.MyMACAddr.v[4];
+    MAADR5 = 0;//AppConfig.MyMACAddr.v[4];
     Nop();
-    MAADR6 = AppConfig.MyMACAddr.v[5];
+    MAADR6 = 0;//AppConfig.MyMACAddr.v[5];
     Nop();
 
     // Disable half duplex loopback in PHY and set RXAPDIS bit as per errata
@@ -299,7 +297,7 @@ BOOL MACIsTxReady(void) {
 
     // Retry transmission if the current packet seems to be not completing
     // Wait 3ms before triggering the retry.
-    if ((WORD) TickGet() - wTXWatchdog >= (3ull * TICK_SECOND / 1000ull)) {
+    if ((WORD) clock_time() - wTXWatchdog >= (3ull * CLOCK_SECOND / 1000ull)) {
         ECON1bits.TXRTS = 0;
         MACFlush();
     }
@@ -436,7 +434,7 @@ BOOL MACGetHeader(MAC_ADDR *remote, BYTE* type) {
 #if defined(ETH_RX_POLARITY_SWAP_TRIS)
         {
             // See if the polarty swap timer has expired (happens every 429ms)
-            if ((WORD) TickGetDiv256() - wRXPolarityTimer > (WORD) (TICK_SECOND * 3 / 7 / 256)) {
+            if ((WORD) TickGetDiv256() - wRXPolarityTimer > (WORD) (CLOCK_SECOND * 3 / 7 / 256)) {
                 // Check if the Ethernet link is up.  If it isn't we need to
                 // clear the bRXPolarityValid flag because the user could plug
                 // the node into a different network device which has opposite
@@ -630,7 +628,7 @@ void MACFlush(void) {
     // Until MACPutHeader() is called, the data in the TX buffer will not be
     // corrupted.
     ECON1bits.TXRTS = 1;
-    wTXWatchdog = TickGet();
+    wTXWatchdog = clock_time();
 }
 
 /******************************************************************************
@@ -1394,65 +1392,3 @@ void MACPowerUp(void) {
  *					This function is intended to be used when 
  *					ERXFCONbits.ANDOR == 0 (OR).
  *****************************************************************************/
-#if defined(STACK_USE_ZEROCONF_MDNS_SD)
-
-void SetRXHashTableEntry(MAC_ADDR DestMACAddr) {
-    DWORD_VAL CRC = {0xFFFFFFFF};
-    BYTE *HTRegister;
-    BYTE i, j;
-
-    if ((DestMACAddr.v[0] | DestMACAddr.v[1] | DestMACAddr.v[2] | DestMACAddr.v[3] | DestMACAddr.v[4] | DestMACAddr.v[5]) == 0x00u) {
-        // Disable the Hash Table receive filter and clear the hash table
-        ERXFCONbits.HTEN = 0;
-        EHT0 = 0x00;
-        EHT1 = 0x00;
-        EHT2 = 0x00;
-        EHT3 = 0x00;
-        EHT4 = 0x00;
-        EHT5 = 0x00;
-        EHT6 = 0x00;
-        EHT7 = 0x00;
-
-        return;
-    }
-
-
-    // Calculate a CRC-32 over the 6 byte MAC address
-    // using polynomial 0x4C11DB7
-    for (i = 0; i < sizeof (MAC_ADDR); i++) {
-        BYTE crcnext;
-
-        // shift in 8 bits
-        for (j = 0; j < 8; j++) {
-            crcnext = 0;
-            if (((BYTE_VAL*)&(CRC.v[3]))->bits.b7)
-                crcnext = 1;
-            crcnext ^= (((BYTE_VAL*) & DestMACAddr.v[i])->bits.b0);
-
-            CRC.Val <<= 1;
-            if (crcnext)
-                CRC.Val ^= 0x4C11DB7;
-            // next bit
-            DestMACAddr.v[i] >>= 1;
-        }
-    }
-
-    // CRC-32 calculated, now extract bits 28:23
-    // Bits 25:23 define where within the Hash Table byte the bit needs to be set
-    // Bits 28:26 define which of the 8 Hash Table bytes that bits 25:23 apply to
-    i = CRC.v[3] & 0x1F;
-    HTRegister = (i >> 2) + &EHT0;
-    i = (i << 1) & 0x06;
-    ((BYTE_VAL*) & i)->bits.b0 = ((BYTE_VAL*) & CRC.v[2])->bits.b7;
-
-    // Set the proper bit in the Hash Table
-    *HTRegister |= 1 << i;
-
-    // Ensure that the Hash Table receive filter is enabled
-    ERXFCONbits.HTEN = 1;
-}
-#endif
-
-
-
-#endif //#if (defined(__18F97J60) || defined(__18F96J65) || defined(__18F96J60) || defined(__18F87J60) || defined(__18F86J65) || defined(__18F86J60) || defined(__18F67J60) || defined(__18F66J65) || defined(__18F66J60)) || defined(HI_TECH_C)

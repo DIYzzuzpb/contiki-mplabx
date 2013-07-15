@@ -51,11 +51,11 @@
 #ifndef __HARDWARE_PROFILE_H
 #define __HARDWARE_PROFILE_H
 
-#define GetSystemClock()		(41666667ul)			// Hz
+#define GetSystemClock()		(41666667ull)			// Hz
 // Enable 4x/5x PLL on PIC18F87J10, PIC18F97J60, etc.
 // Idle after Sleep
 #define system_clock_init() {OSCCON=0x80u; OSCTUNE = 0x40;}
-#define GetInstructionClock()	(GetSystemClock()/4)	// Normally GetSystemClock()/4 for PIC18, GetSystemClock()/2 for PIC24/dsPIC, and GetSystemClock()/1 for PIC32.  Might need changing if using Doze modes.
-#define GetPeripheralClock()	(GetSystemClock()/4)	// Normally GetSystemClock()/4 for PIC18, GetSystemClock()/2 for PIC24/dsPIC, and GetSystemClock()/1 for PIC32.  Divisor may be different if using a PIC32 since it's configurable.
+#define GetInstructionClock()	((GetSystemClock()+2ull)/4ull)	// Normally GetSystemClock()/4 for PIC18, GetSystemClock()/2 for PIC24/dsPIC, and GetSystemClock()/1 for PIC32.  Might need changing if using Doze modes.
+#define GetPeripheralClock()	((GetSystemClock()+2ull)/4ull)	// Normally GetSystemClock()/4 for PIC18, GetSystemClock()/2 for PIC24/dsPIC, and GetSystemClock()/1 for PIC32.  Divisor may be different if using a PIC32 since it's configurable.
 
 #endif

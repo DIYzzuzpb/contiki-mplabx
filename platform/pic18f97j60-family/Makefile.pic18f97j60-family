@@ -10,7 +10,7 @@ endif
 CONTIKI_TARGET_DIRS = . dev
 CONTIKI_TARGET_MAIN = ${addprefix $(OBJECTDIR)/,contiki-main.o}
 
-CONTIKI_TARGET_SOURCEFILES = contiki-main.c clock.c
+CONTIKI_TARGET_SOURCEFILES = contiki-main.c clock.c configuration-bits.c
 
 CONTIKI_SOURCEFILES += $(CONTIKI_TARGET_SOURCEFILES)
 
@@ -19,4 +19,3 @@ CONTIKI_SOURCEFILES += $(CONTIKI_TARGET_SOURCEFILES)
 ### Define the CPU directory
 CONTIKI_CPU=$(CONTIKI)/cpu/microchip-mplabx/xc8
 include $(CONTIKI)/cpu/microchip-mplabx/xc8/Makefile.xc8.cpu.mk
-

@@ -52,13 +52,15 @@
  * Nilesh Rajbharti     5/22/02     Rev 2.0 (See version.log for detail)
  * Howard Schlunder		6/13/07		Changed to use timer without 
  *									writing for perfect accuracy.
-********************************************************************/
+ ********************************************************************/
 /* Jaroslaw Juda		16th May 2013 Contiki Port */
 
 #include "contiki-conf.h"
 #include "sys/clock.h"
 
-volatile uint32_t dwInternalTicks = 0;
+volatile uint32_t dwInternalTicks;
+volatile uint32_t clock_seconds_counter;
+volatile WORD_VAL clock_seconds_correction;
 
 // 6-byte value to store Ticks.  Allows for use over longer periods of time.
 static uint8_t vTickReading[6];
@@ -66,6 +68,11 @@ static uint8_t vTickReading[6];
 static void GetTickCopy(void);
 
 void clock_init(void) {
+
+    dwInternalTicks = 0u;
+    clock_seconds_counter= 0u;
+    clock_seconds_correction.Val = 0ul;
+
     // Use Timer0 for 8 bit processors
     // Initialize the time
     TMR0H = 0;
@@ -76,7 +83,7 @@ void clock_init(void) {
     INTCONbits.TMR0IF = 0;
     INTCONbits.TMR0IE = 1; // Enable interrupt
 
-    // Timer0 on, 16-bit, internal timer, 1:256 prescalar
+    // Timer0 on, 16-bit, internal timer, 1:256 prescaler
     T0CON = 0x87;
 }
 
@@ -91,6 +98,24 @@ clock_time(void) {
 void
 clock_delay(unsigned int d) {
     /* Does not do anything. */
+}
+
+/**
+ * From SNTP.c
+ * @return number of seconds since startup
+ */
+uint32_t clock_seconds(void) {
+    uint32_t tmp;
+    DISABLE_INTERRUPTS();
+    tmp=clock_seconds_counter;
+    ENABLE_INTERRUPTS();
+    return tmp;
+}
+
+void clock_set_seconds(uint32_t sec) {
+    DISABLE_INTERRUPTS();
+    clock_seconds_counter = sec;
+    ENABLE_INTERRUPTS();
 }
 
 /*---------------------------------------------------------------------------*/

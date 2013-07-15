@@ -40,7 +40,7 @@
 #include "net/uip.h"
 #include "net/uipopt.h"
 
-#include <TCPIP_Stack/MAC.h>
+#include "net/MAC.h"
 
 
 #if !UIP_CONF_IPV6
@@ -55,6 +55,8 @@
 #if DROP
 static int drop = 0;
 #endif
+
+APP_CONFIG AppConfig;
 
 static int fd;
 

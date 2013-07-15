@@ -86,6 +86,7 @@ exit_process(struct process *p, struct process *fromprocess) {
     register struct process *q;
     register struct process *r;
     struct process * tmp_ptr;
+    //PT_THREAD((* tmp_func_ptr)(struct pt *, process_event_t, process_data_t));
     struct process *old_current = process_current;
     int ret;
     bool any_marked;
@@ -178,7 +179,7 @@ exit_process(struct process *p, struct process *fromprocess) {
 static void
 call_process(struct process *p, process_event_t ev, process_data_t data) {
     int ret;
-
+    PT_THREAD((* tmp_func_ptr)(struct pt *, process_event_t, process_data_t));
 #if DEBUG
     if (p->state == PROCESS_STATE_CALLED) {
         printf("process: process '%s' called again with event %d\n", PROCESS_NAME_STRING(p), ev);
@@ -190,7 +191,8 @@ call_process(struct process *p, process_event_t ev, process_data_t data) {
         PRINTF("process: calling process '%s' with event %d\n", PROCESS_NAME_STRING(p), ev);
         process_current = p;
         p->state = PROCESS_STATE_CALLED;
-        ret = p->thread(&p->pt, ev, data);
+        tmp_func_ptr=p->thread;
+        ret = tmp_func_ptr(&p->pt, ev, data);
         if (ret == PT_EXITED ||
                 ret == PT_ENDED ||
                 ev == PROCESS_EVENT_EXIT) {

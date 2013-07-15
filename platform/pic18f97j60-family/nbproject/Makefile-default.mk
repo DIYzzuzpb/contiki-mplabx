@@ -44,12 +44,18 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 # Distribution Directory
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
+# Source Files Quoted if spaced
+SOURCEFILES_QUOTED_IF_SPACED=../../../contiki/core/dev/nullradio.c ../../../contiki/core/lib/memb.c ../../../contiki/core/lib/crc16.c ../../../contiki/core/lib/random.c ../../../contiki/core/lib/ringbuf.c ../../../contiki/core/lib/mmem.c ../../../contiki/core/lib/list.c ../../../contiki/core/net/mac/nullrdc.c ../../../contiki/core/net/mac/framer-nullmac.c ../../../contiki/core/net/mac/nullmac.c ../../../contiki/core/net/mac/mac.c ../../../contiki/core/net/rime/rime.c ../../../contiki/core/net/rime/rimeaddr.c ../../../contiki/core/net/rime/abc.c ../../../contiki/core/net/rime/chameleon.c ../../../contiki/core/net/rime/broadcast-announcement.c ../../../contiki/core/net/rime/announcement.c ../../../contiki/core/net/rime/channel.c ../../../contiki/core/net/rime/chameleon-bitopt.c ../../../contiki/core/net/rime/broadcast.c ../../../contiki/core/net/hc.c ../../../contiki/core/net/neighbor-attr.c ../../../contiki/core/net/netstack.c ../../../contiki/core/net/packetbuf.c ../../../contiki/core/net/tcpdump.c ../../../contiki/core/net/uip-debug.c ../../../contiki/core/net/uip-ds6-route.c ../../../contiki/core/net/uip-ds6.c ../../../contiki/core/net/uip-fw-drv.c ../../../contiki/core/net/uip-fw.c ../../../contiki/core/net/uip-icmp6.c ../../../contiki/core/net/uip-nd6.c ../../../contiki/core/net/uip-neighbor.c ../../../contiki/core/net/uip-split.c ../../../contiki/core/net/uip-udp-packet.c ../../../contiki/core/net/uip6.c ../../../contiki/core/net/uip_arp.c ../../../contiki/core/net/uiplib.c ../../../contiki/core/net/queuebuf.c ../../../contiki/core/net/uip.c ../../../contiki/core/net/tcpip.c ../../../contiki/core/sys/procinit.c ../../../contiki/core/sys/stimer.c ../../../contiki/core/sys/rtimer.c ../../../contiki/core/sys/energest.c ../../../contiki/core/sys/compower.c ../../../contiki/core/sys/timer.c ../../../contiki/core/sys/ctimer.c ../../../contiki/core/sys/process.c ../../../contiki/core/sys/etimer.c ../../cpu/microchip-mplabx/mcc18/net/psock.c net/ETH97J60.c net/ethernet-v6.c net/ethernet.c net/ethernet-drv.c net/Helpers.c interrupts.c configuration-bits.c rtimer-arch.c clock.c contiki-main.c empty.c
+
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1195374034/nullradio.p1 ${OBJECTDIR}/_ext/1195366242/memb.p1 ${OBJECTDIR}/_ext/1195366242/crc16.p1 ${OBJECTDIR}/_ext/1195366242/random.p1 ${OBJECTDIR}/_ext/1195366242/ringbuf.p1 ${OBJECTDIR}/_ext/1195366242/checkpoint.p1 ${OBJECTDIR}/_ext/1195366242/mmem.p1 ${OBJECTDIR}/_ext/1195366242/ifft.p1 ${OBJECTDIR}/_ext/1195366242/print-stats.p1 ${OBJECTDIR}/_ext/1195359002/procinit.p1 ${OBJECTDIR}/_ext/1195359002/stimer.p1 ${OBJECTDIR}/_ext/1195359002/mt.p1 ${OBJECTDIR}/_ext/1195359002/rtimer.p1 ${OBJECTDIR}/_ext/1195359002/ctimer.p1 ${OBJECTDIR}/_ext/1195359002/energest.p1 ${OBJECTDIR}/_ext/545463738/list.p1 ${OBJECTDIR}/_ext/545456498/process.p1 ${OBJECTDIR}/_ext/545456498/timer.p1 ${OBJECTDIR}/_ext/545456498/autostart.p1 ${OBJECTDIR}/_ext/545456498/compower.p1 ${OBJECTDIR}/_ext/545456498/etimer.p1 ${OBJECTDIR}/interrupts.p1 ${OBJECTDIR}/configuration-bits.p1 ${OBJECTDIR}/fakeuip.p1 ${OBJECTDIR}/rtimer-arch.p1 ${OBJECTDIR}/clock.p1 ${OBJECTDIR}/contiki-main.p1 ${OBJECTDIR}/empty.p1
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1195374034/nullradio.p1.d ${OBJECTDIR}/_ext/1195366242/memb.p1.d ${OBJECTDIR}/_ext/1195366242/crc16.p1.d ${OBJECTDIR}/_ext/1195366242/random.p1.d ${OBJECTDIR}/_ext/1195366242/ringbuf.p1.d ${OBJECTDIR}/_ext/1195366242/checkpoint.p1.d ${OBJECTDIR}/_ext/1195366242/mmem.p1.d ${OBJECTDIR}/_ext/1195366242/ifft.p1.d ${OBJECTDIR}/_ext/1195366242/print-stats.p1.d ${OBJECTDIR}/_ext/1195359002/procinit.p1.d ${OBJECTDIR}/_ext/1195359002/stimer.p1.d ${OBJECTDIR}/_ext/1195359002/mt.p1.d ${OBJECTDIR}/_ext/1195359002/rtimer.p1.d ${OBJECTDIR}/_ext/1195359002/ctimer.p1.d ${OBJECTDIR}/_ext/1195359002/energest.p1.d ${OBJECTDIR}/_ext/545463738/list.p1.d ${OBJECTDIR}/_ext/545456498/process.p1.d ${OBJECTDIR}/_ext/545456498/timer.p1.d ${OBJECTDIR}/_ext/545456498/autostart.p1.d ${OBJECTDIR}/_ext/545456498/compower.p1.d ${OBJECTDIR}/_ext/545456498/etimer.p1.d ${OBJECTDIR}/interrupts.p1.d ${OBJECTDIR}/configuration-bits.p1.d ${OBJECTDIR}/fakeuip.p1.d ${OBJECTDIR}/rtimer-arch.p1.d ${OBJECTDIR}/clock.p1.d ${OBJECTDIR}/contiki-main.p1.d ${OBJECTDIR}/empty.p1.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1195374034/nullradio.o ${OBJECTDIR}/_ext/1195366242/memb.o ${OBJECTDIR}/_ext/1195366242/crc16.o ${OBJECTDIR}/_ext/1195366242/random.o ${OBJECTDIR}/_ext/1195366242/ringbuf.o ${OBJECTDIR}/_ext/1195366242/mmem.o ${OBJECTDIR}/_ext/1195366242/list.o ${OBJECTDIR}/_ext/114530442/nullrdc.o ${OBJECTDIR}/_ext/114530442/framer-nullmac.o ${OBJECTDIR}/_ext/114530442/nullmac.o ${OBJECTDIR}/_ext/114530442/mac.o ${OBJECTDIR}/_ext/744680648/rime.o ${OBJECTDIR}/_ext/744680648/rimeaddr.o ${OBJECTDIR}/_ext/744680648/abc.o ${OBJECTDIR}/_ext/744680648/chameleon.o ${OBJECTDIR}/_ext/744680648/broadcast-announcement.o ${OBJECTDIR}/_ext/744680648/announcement.o ${OBJECTDIR}/_ext/744680648/channel.o ${OBJECTDIR}/_ext/744680648/chameleon-bitopt.o ${OBJECTDIR}/_ext/744680648/broadcast.o ${OBJECTDIR}/_ext/1195364426/hc.o ${OBJECTDIR}/_ext/1195364426/neighbor-attr.o ${OBJECTDIR}/_ext/1195364426/netstack.o ${OBJECTDIR}/_ext/1195364426/packetbuf.o ${OBJECTDIR}/_ext/1195364426/tcpdump.o ${OBJECTDIR}/_ext/1195364426/uip-debug.o ${OBJECTDIR}/_ext/1195364426/uip-ds6-route.o ${OBJECTDIR}/_ext/1195364426/uip-ds6.o ${OBJECTDIR}/_ext/1195364426/uip-fw-drv.o ${OBJECTDIR}/_ext/1195364426/uip-fw.o ${OBJECTDIR}/_ext/1195364426/uip-icmp6.o ${OBJECTDIR}/_ext/1195364426/uip-nd6.o ${OBJECTDIR}/_ext/1195364426/uip-neighbor.o ${OBJECTDIR}/_ext/1195364426/uip-split.o ${OBJECTDIR}/_ext/1195364426/uip-udp-packet.o ${OBJECTDIR}/_ext/1195364426/uip6.o ${OBJECTDIR}/_ext/1195364426/uip_arp.o ${OBJECTDIR}/_ext/1195364426/uiplib.o ${OBJECTDIR}/_ext/1195364426/queuebuf.o ${OBJECTDIR}/_ext/1195364426/uip.o ${OBJECTDIR}/_ext/1195364426/tcpip.o ${OBJECTDIR}/_ext/1195359002/procinit.o ${OBJECTDIR}/_ext/1195359002/stimer.o ${OBJECTDIR}/_ext/1195359002/rtimer.o ${OBJECTDIR}/_ext/1195359002/energest.o ${OBJECTDIR}/_ext/1195359002/compower.o ${OBJECTDIR}/_ext/1195359002/timer.o ${OBJECTDIR}/_ext/1195359002/ctimer.o ${OBJECTDIR}/_ext/1195359002/process.o ${OBJECTDIR}/_ext/1195359002/etimer.o ${OBJECTDIR}/_ext/2012962533/psock.o ${OBJECTDIR}/net/ETH97J60.o ${OBJECTDIR}/net/ethernet-v6.o ${OBJECTDIR}/net/ethernet.o ${OBJECTDIR}/net/ethernet-drv.o ${OBJECTDIR}/net/Helpers.o ${OBJECTDIR}/interrupts.o ${OBJECTDIR}/configuration-bits.o ${OBJECTDIR}/rtimer-arch.o ${OBJECTDIR}/clock.o ${OBJECTDIR}/contiki-main.o ${OBJECTDIR}/empty.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1195374034/nullradio.o.d ${OBJECTDIR}/_ext/1195366242/memb.o.d ${OBJECTDIR}/_ext/1195366242/crc16.o.d ${OBJECTDIR}/_ext/1195366242/random.o.d ${OBJECTDIR}/_ext/1195366242/ringbuf.o.d ${OBJECTDIR}/_ext/1195366242/mmem.o.d ${OBJECTDIR}/_ext/1195366242/list.o.d ${OBJECTDIR}/_ext/114530442/nullrdc.o.d ${OBJECTDIR}/_ext/114530442/framer-nullmac.o.d ${OBJECTDIR}/_ext/114530442/nullmac.o.d ${OBJECTDIR}/_ext/114530442/mac.o.d ${OBJECTDIR}/_ext/744680648/rime.o.d ${OBJECTDIR}/_ext/744680648/rimeaddr.o.d ${OBJECTDIR}/_ext/744680648/abc.o.d ${OBJECTDIR}/_ext/744680648/chameleon.o.d ${OBJECTDIR}/_ext/744680648/broadcast-announcement.o.d ${OBJECTDIR}/_ext/744680648/announcement.o.d ${OBJECTDIR}/_ext/744680648/channel.o.d ${OBJECTDIR}/_ext/744680648/chameleon-bitopt.o.d ${OBJECTDIR}/_ext/744680648/broadcast.o.d ${OBJECTDIR}/_ext/1195364426/hc.o.d ${OBJECTDIR}/_ext/1195364426/neighbor-attr.o.d ${OBJECTDIR}/_ext/1195364426/netstack.o.d ${OBJECTDIR}/_ext/1195364426/packetbuf.o.d ${OBJECTDIR}/_ext/1195364426/tcpdump.o.d ${OBJECTDIR}/_ext/1195364426/uip-debug.o.d ${OBJECTDIR}/_ext/1195364426/uip-ds6-route.o.d ${OBJECTDIR}/_ext/1195364426/uip-ds6.o.d ${OBJECTDIR}/_ext/1195364426/uip-fw-drv.o.d ${OBJECTDIR}/_ext/1195364426/uip-fw.o.d ${OBJECTDIR}/_ext/1195364426/uip-icmp6.o.d ${OBJECTDIR}/_ext/1195364426/uip-nd6.o.d ${OBJECTDIR}/_ext/1195364426/uip-neighbor.o.d ${OBJECTDIR}/_ext/1195364426/uip-split.o.d ${OBJECTDIR}/_ext/1195364426/uip-udp-packet.o.d ${OBJECTDIR}/_ext/1195364426/uip6.o.d ${OBJECTDIR}/_ext/1195364426/uip_arp.o.d ${OBJECTDIR}/_ext/1195364426/uiplib.o.d ${OBJECTDIR}/_ext/1195364426/queuebuf.o.d ${OBJECTDIR}/_ext/1195364426/uip.o.d ${OBJECTDIR}/_ext/1195364426/tcpip.o.d ${OBJECTDIR}/_ext/1195359002/procinit.o.d ${OBJECTDIR}/_ext/1195359002/stimer.o.d ${OBJECTDIR}/_ext/1195359002/rtimer.o.d ${OBJECTDIR}/_ext/1195359002/energest.o.d ${OBJECTDIR}/_ext/1195359002/compower.o.d ${OBJECTDIR}/_ext/1195359002/timer.o.d ${OBJECTDIR}/_ext/1195359002/ctimer.o.d ${OBJECTDIR}/_ext/1195359002/process.o.d ${OBJECTDIR}/_ext/1195359002/etimer.o.d ${OBJECTDIR}/_ext/2012962533/psock.o.d ${OBJECTDIR}/net/ETH97J60.o.d ${OBJECTDIR}/net/ethernet-v6.o.d ${OBJECTDIR}/net/ethernet.o.d ${OBJECTDIR}/net/ethernet-drv.o.d ${OBJECTDIR}/net/Helpers.o.d ${OBJECTDIR}/interrupts.o.d ${OBJECTDIR}/configuration-bits.o.d ${OBJECTDIR}/rtimer-arch.o.d ${OBJECTDIR}/clock.o.d ${OBJECTDIR}/contiki-main.o.d ${OBJECTDIR}/empty.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/1195374034/nullradio.p1 ${OBJECTDIR}/_ext/1195366242/memb.p1 ${OBJECTDIR}/_ext/1195366242/crc16.p1 ${OBJECTDIR}/_ext/1195366242/random.p1 ${OBJECTDIR}/_ext/1195366242/ringbuf.p1 ${OBJECTDIR}/_ext/1195366242/checkpoint.p1 ${OBJECTDIR}/_ext/1195366242/mmem.p1 ${OBJECTDIR}/_ext/1195366242/ifft.p1 ${OBJECTDIR}/_ext/1195366242/print-stats.p1 ${OBJECTDIR}/_ext/1195359002/procinit.p1 ${OBJECTDIR}/_ext/1195359002/stimer.p1 ${OBJECTDIR}/_ext/1195359002/mt.p1 ${OBJECTDIR}/_ext/1195359002/rtimer.p1 ${OBJECTDIR}/_ext/1195359002/ctimer.p1 ${OBJECTDIR}/_ext/1195359002/energest.p1 ${OBJECTDIR}/_ext/545463738/list.p1 ${OBJECTDIR}/_ext/545456498/process.p1 ${OBJECTDIR}/_ext/545456498/timer.p1 ${OBJECTDIR}/_ext/545456498/autostart.p1 ${OBJECTDIR}/_ext/545456498/compower.p1 ${OBJECTDIR}/_ext/545456498/etimer.p1 ${OBJECTDIR}/interrupts.p1 ${OBJECTDIR}/configuration-bits.p1 ${OBJECTDIR}/fakeuip.p1 ${OBJECTDIR}/rtimer-arch.p1 ${OBJECTDIR}/clock.p1 ${OBJECTDIR}/contiki-main.p1 ${OBJECTDIR}/empty.p1
+OBJECTFILES=${OBJECTDIR}/_ext/1195374034/nullradio.o ${OBJECTDIR}/_ext/1195366242/memb.o ${OBJECTDIR}/_ext/1195366242/crc16.o ${OBJECTDIR}/_ext/1195366242/random.o ${OBJECTDIR}/_ext/1195366242/ringbuf.o ${OBJECTDIR}/_ext/1195366242/mmem.o ${OBJECTDIR}/_ext/1195366242/list.o ${OBJECTDIR}/_ext/114530442/nullrdc.o ${OBJECTDIR}/_ext/114530442/framer-nullmac.o ${OBJECTDIR}/_ext/114530442/nullmac.o ${OBJECTDIR}/_ext/114530442/mac.o ${OBJECTDIR}/_ext/744680648/rime.o ${OBJECTDIR}/_ext/744680648/rimeaddr.o ${OBJECTDIR}/_ext/744680648/abc.o ${OBJECTDIR}/_ext/744680648/chameleon.o ${OBJECTDIR}/_ext/744680648/broadcast-announcement.o ${OBJECTDIR}/_ext/744680648/announcement.o ${OBJECTDIR}/_ext/744680648/channel.o ${OBJECTDIR}/_ext/744680648/chameleon-bitopt.o ${OBJECTDIR}/_ext/744680648/broadcast.o ${OBJECTDIR}/_ext/1195364426/hc.o ${OBJECTDIR}/_ext/1195364426/neighbor-attr.o ${OBJECTDIR}/_ext/1195364426/netstack.o ${OBJECTDIR}/_ext/1195364426/packetbuf.o ${OBJECTDIR}/_ext/1195364426/tcpdump.o ${OBJECTDIR}/_ext/1195364426/uip-debug.o ${OBJECTDIR}/_ext/1195364426/uip-ds6-route.o ${OBJECTDIR}/_ext/1195364426/uip-ds6.o ${OBJECTDIR}/_ext/1195364426/uip-fw-drv.o ${OBJECTDIR}/_ext/1195364426/uip-fw.o ${OBJECTDIR}/_ext/1195364426/uip-icmp6.o ${OBJECTDIR}/_ext/1195364426/uip-nd6.o ${OBJECTDIR}/_ext/1195364426/uip-neighbor.o ${OBJECTDIR}/_ext/1195364426/uip-split.o ${OBJECTDIR}/_ext/1195364426/uip-udp-packet.o ${OBJECTDIR}/_ext/1195364426/uip6.o ${OBJECTDIR}/_ext/1195364426/uip_arp.o ${OBJECTDIR}/_ext/1195364426/uiplib.o ${OBJECTDIR}/_ext/1195364426/queuebuf.o ${OBJECTDIR}/_ext/1195364426/uip.o ${OBJECTDIR}/_ext/1195364426/tcpip.o ${OBJECTDIR}/_ext/1195359002/procinit.o ${OBJECTDIR}/_ext/1195359002/stimer.o ${OBJECTDIR}/_ext/1195359002/rtimer.o ${OBJECTDIR}/_ext/1195359002/energest.o ${OBJECTDIR}/_ext/1195359002/compower.o ${OBJECTDIR}/_ext/1195359002/timer.o ${OBJECTDIR}/_ext/1195359002/ctimer.o ${OBJECTDIR}/_ext/1195359002/process.o ${OBJECTDIR}/_ext/1195359002/etimer.o ${OBJECTDIR}/_ext/2012962533/psock.o ${OBJECTDIR}/net/ETH97J60.o ${OBJECTDIR}/net/ethernet-v6.o ${OBJECTDIR}/net/ethernet.o ${OBJECTDIR}/net/ethernet-drv.o ${OBJECTDIR}/net/Helpers.o ${OBJECTDIR}/interrupts.o ${OBJECTDIR}/configuration-bits.o ${OBJECTDIR}/rtimer-arch.o ${OBJECTDIR}/clock.o ${OBJECTDIR}/contiki-main.o ${OBJECTDIR}/empty.o
+
+# Source Files
+SOURCEFILES=../../../contiki/core/dev/nullradio.c ../../../contiki/core/lib/memb.c ../../../contiki/core/lib/crc16.c ../../../contiki/core/lib/random.c ../../../contiki/core/lib/ringbuf.c ../../../contiki/core/lib/mmem.c ../../../contiki/core/lib/list.c ../../../contiki/core/net/mac/nullrdc.c ../../../contiki/core/net/mac/framer-nullmac.c ../../../contiki/core/net/mac/nullmac.c ../../../contiki/core/net/mac/mac.c ../../../contiki/core/net/rime/rime.c ../../../contiki/core/net/rime/rimeaddr.c ../../../contiki/core/net/rime/abc.c ../../../contiki/core/net/rime/chameleon.c ../../../contiki/core/net/rime/broadcast-announcement.c ../../../contiki/core/net/rime/announcement.c ../../../contiki/core/net/rime/channel.c ../../../contiki/core/net/rime/chameleon-bitopt.c ../../../contiki/core/net/rime/broadcast.c ../../../contiki/core/net/hc.c ../../../contiki/core/net/neighbor-attr.c ../../../contiki/core/net/netstack.c ../../../contiki/core/net/packetbuf.c ../../../contiki/core/net/tcpdump.c ../../../contiki/core/net/uip-debug.c ../../../contiki/core/net/uip-ds6-route.c ../../../contiki/core/net/uip-ds6.c ../../../contiki/core/net/uip-fw-drv.c ../../../contiki/core/net/uip-fw.c ../../../contiki/core/net/uip-icmp6.c ../../../contiki/core/net/uip-nd6.c ../../../contiki/core/net/uip-neighbor.c ../../../contiki/core/net/uip-split.c ../../../contiki/core/net/uip-udp-packet.c ../../../contiki/core/net/uip6.c ../../../contiki/core/net/uip_arp.c ../../../contiki/core/net/uiplib.c ../../../contiki/core/net/queuebuf.c ../../../contiki/core/net/uip.c ../../../contiki/core/net/tcpip.c ../../../contiki/core/sys/procinit.c ../../../contiki/core/sys/stimer.c ../../../contiki/core/sys/rtimer.c ../../../contiki/core/sys/energest.c ../../../contiki/core/sys/compower.c ../../../contiki/core/sys/timer.c ../../../contiki/core/sys/ctimer.c ../../../contiki/core/sys/process.c ../../../contiki/core/sys/etimer.c ../../cpu/microchip-mplabx/mcc18/net/psock.c net/ETH97J60.c net/ethernet-v6.c net/ethernet.c net/ethernet-drv.c net/Helpers.c interrupts.c configuration-bits.c rtimer-arch.c clock.c contiki-main.c empty.c
 
 
 CFLAGS=
@@ -69,404 +75,8 @@ FIXDEPS=fixDeps
 	${MAKE}  -f nbproject/Makefile-default.mk dist/${CND_CONF}/${IMAGE_TYPE}/pic18f97j60-family.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
 
 MP_PROCESSOR_OPTION=18F67J60
-# ------------------------------------------------------------------------------------
-# Rules for buildStep: compile
-ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/_ext/1195374034/nullradio.p1: ../../../contiki/core/dev/nullradio.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195374034 
-	@${RM} ${OBJECTDIR}/_ext/1195374034/nullradio.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195374034/nullradio.p1  ../../../contiki/core/dev/nullradio.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195374034/nullradio.d ${OBJECTDIR}/_ext/1195374034/nullradio.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195374034/nullradio.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/memb.p1: ../../../contiki/core/lib/memb.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/memb.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/memb.p1  ../../../contiki/core/lib/memb.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/memb.d ${OBJECTDIR}/_ext/1195366242/memb.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/memb.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/crc16.p1: ../../../contiki/core/lib/crc16.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/crc16.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/crc16.p1  ../../../contiki/core/lib/crc16.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/crc16.d ${OBJECTDIR}/_ext/1195366242/crc16.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/crc16.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/random.p1: ../../../contiki/core/lib/random.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/random.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/random.p1  ../../../contiki/core/lib/random.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/random.d ${OBJECTDIR}/_ext/1195366242/random.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/random.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/ringbuf.p1: ../../../contiki/core/lib/ringbuf.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/ringbuf.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/ringbuf.p1  ../../../contiki/core/lib/ringbuf.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/ringbuf.d ${OBJECTDIR}/_ext/1195366242/ringbuf.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/ringbuf.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/checkpoint.p1: ../../../contiki/core/lib/checkpoint.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/checkpoint.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/checkpoint.p1  ../../../contiki/core/lib/checkpoint.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/checkpoint.d ${OBJECTDIR}/_ext/1195366242/checkpoint.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/checkpoint.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/mmem.p1: ../../../contiki/core/lib/mmem.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/mmem.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/mmem.p1  ../../../contiki/core/lib/mmem.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/mmem.d ${OBJECTDIR}/_ext/1195366242/mmem.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/mmem.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/ifft.p1: ../../../contiki/core/lib/ifft.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/ifft.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/ifft.p1  ../../../contiki/core/lib/ifft.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/ifft.d ${OBJECTDIR}/_ext/1195366242/ifft.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/ifft.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/print-stats.p1: ../../../contiki/core/lib/print-stats.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/print-stats.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/print-stats.p1  ../../../contiki/core/lib/print-stats.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/print-stats.d ${OBJECTDIR}/_ext/1195366242/print-stats.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/print-stats.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195359002/procinit.p1: ../../../contiki/core/sys/procinit.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
-	@${RM} ${OBJECTDIR}/_ext/1195359002/procinit.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195359002/procinit.p1  ../../../contiki/core/sys/procinit.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195359002/procinit.d ${OBJECTDIR}/_ext/1195359002/procinit.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/procinit.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195359002/stimer.p1: ../../../contiki/core/sys/stimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
-	@${RM} ${OBJECTDIR}/_ext/1195359002/stimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195359002/stimer.p1  ../../../contiki/core/sys/stimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195359002/stimer.d ${OBJECTDIR}/_ext/1195359002/stimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/stimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195359002/mt.p1: ../../../contiki/core/sys/mt.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
-	@${RM} ${OBJECTDIR}/_ext/1195359002/mt.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195359002/mt.p1  ../../../contiki/core/sys/mt.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195359002/mt.d ${OBJECTDIR}/_ext/1195359002/mt.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/mt.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195359002/rtimer.p1: ../../../contiki/core/sys/rtimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
-	@${RM} ${OBJECTDIR}/_ext/1195359002/rtimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195359002/rtimer.p1  ../../../contiki/core/sys/rtimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195359002/rtimer.d ${OBJECTDIR}/_ext/1195359002/rtimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/rtimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195359002/ctimer.p1: ../../../contiki/core/sys/ctimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
-	@${RM} ${OBJECTDIR}/_ext/1195359002/ctimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195359002/ctimer.p1  ../../../contiki/core/sys/ctimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195359002/ctimer.d ${OBJECTDIR}/_ext/1195359002/ctimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/ctimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195359002/energest.p1: ../../../contiki/core/sys/energest.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
-	@${RM} ${OBJECTDIR}/_ext/1195359002/energest.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195359002/energest.p1  ../../../contiki/core/sys/energest.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195359002/energest.d ${OBJECTDIR}/_ext/1195359002/energest.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/energest.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/545463738/list.p1: ../../cpu/microchip-mplabx/xc8/lib/list.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/545463738 
-	@${RM} ${OBJECTDIR}/_ext/545463738/list.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/545463738/list.p1  ../../cpu/microchip-mplabx/xc8/lib/list.c 
-	@-${MV} ${OBJECTDIR}/_ext/545463738/list.d ${OBJECTDIR}/_ext/545463738/list.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/545463738/list.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/545456498/process.p1: ../../cpu/microchip-mplabx/xc8/sys/process.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/545456498 
-	@${RM} ${OBJECTDIR}/_ext/545456498/process.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/545456498/process.p1  ../../cpu/microchip-mplabx/xc8/sys/process.c 
-	@-${MV} ${OBJECTDIR}/_ext/545456498/process.d ${OBJECTDIR}/_ext/545456498/process.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/545456498/process.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/545456498/timer.p1: ../../cpu/microchip-mplabx/xc8/sys/timer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/545456498 
-	@${RM} ${OBJECTDIR}/_ext/545456498/timer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/545456498/timer.p1  ../../cpu/microchip-mplabx/xc8/sys/timer.c 
-	@-${MV} ${OBJECTDIR}/_ext/545456498/timer.d ${OBJECTDIR}/_ext/545456498/timer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/545456498/timer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/545456498/autostart.p1: ../../cpu/microchip-mplabx/xc8/sys/autostart.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/545456498 
-	@${RM} ${OBJECTDIR}/_ext/545456498/autostart.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/545456498/autostart.p1  ../../cpu/microchip-mplabx/xc8/sys/autostart.c 
-	@-${MV} ${OBJECTDIR}/_ext/545456498/autostart.d ${OBJECTDIR}/_ext/545456498/autostart.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/545456498/autostart.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/545456498/compower.p1: ../../cpu/microchip-mplabx/xc8/sys/compower.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/545456498 
-	@${RM} ${OBJECTDIR}/_ext/545456498/compower.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/545456498/compower.p1  ../../cpu/microchip-mplabx/xc8/sys/compower.c 
-	@-${MV} ${OBJECTDIR}/_ext/545456498/compower.d ${OBJECTDIR}/_ext/545456498/compower.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/545456498/compower.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/545456498/etimer.p1: ../../cpu/microchip-mplabx/xc8/sys/etimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/545456498 
-	@${RM} ${OBJECTDIR}/_ext/545456498/etimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/545456498/etimer.p1  ../../cpu/microchip-mplabx/xc8/sys/etimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/545456498/etimer.d ${OBJECTDIR}/_ext/545456498/etimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/545456498/etimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/interrupts.p1: interrupts.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
-	@${RM} ${OBJECTDIR}/interrupts.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/interrupts.p1  interrupts.c 
-	@-${MV} ${OBJECTDIR}/interrupts.d ${OBJECTDIR}/interrupts.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/interrupts.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/configuration-bits.p1: configuration-bits.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
-	@${RM} ${OBJECTDIR}/configuration-bits.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/configuration-bits.p1  configuration-bits.c 
-	@-${MV} ${OBJECTDIR}/configuration-bits.d ${OBJECTDIR}/configuration-bits.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/configuration-bits.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/fakeuip.p1: fakeuip.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
-	@${RM} ${OBJECTDIR}/fakeuip.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/fakeuip.p1  fakeuip.c 
-	@-${MV} ${OBJECTDIR}/fakeuip.d ${OBJECTDIR}/fakeuip.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/fakeuip.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/rtimer-arch.p1: rtimer-arch.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
-	@${RM} ${OBJECTDIR}/rtimer-arch.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/rtimer-arch.p1  rtimer-arch.c 
-	@-${MV} ${OBJECTDIR}/rtimer-arch.d ${OBJECTDIR}/rtimer-arch.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/rtimer-arch.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/clock.p1: clock.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
-	@${RM} ${OBJECTDIR}/clock.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/clock.p1  clock.c 
-	@-${MV} ${OBJECTDIR}/clock.d ${OBJECTDIR}/clock.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/clock.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/contiki-main.p1: contiki-main.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
-	@${RM} ${OBJECTDIR}/contiki-main.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/contiki-main.p1  contiki-main.c 
-	@-${MV} ${OBJECTDIR}/contiki-main.d ${OBJECTDIR}/contiki-main.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/contiki-main.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/empty.p1: empty.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
-	@${RM} ${OBJECTDIR}/empty.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/empty.p1  empty.c 
-	@-${MV} ${OBJECTDIR}/empty.d ${OBJECTDIR}/empty.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/empty.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-else
-${OBJECTDIR}/_ext/1195374034/nullradio.p1: ../../../contiki/core/dev/nullradio.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195374034 
-	@${RM} ${OBJECTDIR}/_ext/1195374034/nullradio.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195374034/nullradio.p1  ../../../contiki/core/dev/nullradio.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195374034/nullradio.d ${OBJECTDIR}/_ext/1195374034/nullradio.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195374034/nullradio.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/memb.p1: ../../../contiki/core/lib/memb.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/memb.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/memb.p1  ../../../contiki/core/lib/memb.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/memb.d ${OBJECTDIR}/_ext/1195366242/memb.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/memb.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/crc16.p1: ../../../contiki/core/lib/crc16.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/crc16.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/crc16.p1  ../../../contiki/core/lib/crc16.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/crc16.d ${OBJECTDIR}/_ext/1195366242/crc16.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/crc16.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/random.p1: ../../../contiki/core/lib/random.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/random.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/random.p1  ../../../contiki/core/lib/random.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/random.d ${OBJECTDIR}/_ext/1195366242/random.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/random.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/ringbuf.p1: ../../../contiki/core/lib/ringbuf.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/ringbuf.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/ringbuf.p1  ../../../contiki/core/lib/ringbuf.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/ringbuf.d ${OBJECTDIR}/_ext/1195366242/ringbuf.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/ringbuf.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/checkpoint.p1: ../../../contiki/core/lib/checkpoint.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/checkpoint.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/checkpoint.p1  ../../../contiki/core/lib/checkpoint.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/checkpoint.d ${OBJECTDIR}/_ext/1195366242/checkpoint.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/checkpoint.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/mmem.p1: ../../../contiki/core/lib/mmem.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/mmem.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/mmem.p1  ../../../contiki/core/lib/mmem.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/mmem.d ${OBJECTDIR}/_ext/1195366242/mmem.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/mmem.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/ifft.p1: ../../../contiki/core/lib/ifft.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/ifft.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/ifft.p1  ../../../contiki/core/lib/ifft.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/ifft.d ${OBJECTDIR}/_ext/1195366242/ifft.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/ifft.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195366242/print-stats.p1: ../../../contiki/core/lib/print-stats.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
-	@${RM} ${OBJECTDIR}/_ext/1195366242/print-stats.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195366242/print-stats.p1  ../../../contiki/core/lib/print-stats.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195366242/print-stats.d ${OBJECTDIR}/_ext/1195366242/print-stats.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195366242/print-stats.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195359002/procinit.p1: ../../../contiki/core/sys/procinit.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
-	@${RM} ${OBJECTDIR}/_ext/1195359002/procinit.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195359002/procinit.p1  ../../../contiki/core/sys/procinit.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195359002/procinit.d ${OBJECTDIR}/_ext/1195359002/procinit.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/procinit.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195359002/stimer.p1: ../../../contiki/core/sys/stimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
-	@${RM} ${OBJECTDIR}/_ext/1195359002/stimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195359002/stimer.p1  ../../../contiki/core/sys/stimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195359002/stimer.d ${OBJECTDIR}/_ext/1195359002/stimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/stimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195359002/mt.p1: ../../../contiki/core/sys/mt.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
-	@${RM} ${OBJECTDIR}/_ext/1195359002/mt.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195359002/mt.p1  ../../../contiki/core/sys/mt.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195359002/mt.d ${OBJECTDIR}/_ext/1195359002/mt.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/mt.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195359002/rtimer.p1: ../../../contiki/core/sys/rtimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
-	@${RM} ${OBJECTDIR}/_ext/1195359002/rtimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195359002/rtimer.p1  ../../../contiki/core/sys/rtimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195359002/rtimer.d ${OBJECTDIR}/_ext/1195359002/rtimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/rtimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195359002/ctimer.p1: ../../../contiki/core/sys/ctimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
-	@${RM} ${OBJECTDIR}/_ext/1195359002/ctimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195359002/ctimer.p1  ../../../contiki/core/sys/ctimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195359002/ctimer.d ${OBJECTDIR}/_ext/1195359002/ctimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/ctimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/1195359002/energest.p1: ../../../contiki/core/sys/energest.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
-	@${RM} ${OBJECTDIR}/_ext/1195359002/energest.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/1195359002/energest.p1  ../../../contiki/core/sys/energest.c 
-	@-${MV} ${OBJECTDIR}/_ext/1195359002/energest.d ${OBJECTDIR}/_ext/1195359002/energest.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/1195359002/energest.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/545463738/list.p1: ../../cpu/microchip-mplabx/xc8/lib/list.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/545463738 
-	@${RM} ${OBJECTDIR}/_ext/545463738/list.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/545463738/list.p1  ../../cpu/microchip-mplabx/xc8/lib/list.c 
-	@-${MV} ${OBJECTDIR}/_ext/545463738/list.d ${OBJECTDIR}/_ext/545463738/list.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/545463738/list.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/545456498/process.p1: ../../cpu/microchip-mplabx/xc8/sys/process.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/545456498 
-	@${RM} ${OBJECTDIR}/_ext/545456498/process.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/545456498/process.p1  ../../cpu/microchip-mplabx/xc8/sys/process.c 
-	@-${MV} ${OBJECTDIR}/_ext/545456498/process.d ${OBJECTDIR}/_ext/545456498/process.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/545456498/process.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/545456498/timer.p1: ../../cpu/microchip-mplabx/xc8/sys/timer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/545456498 
-	@${RM} ${OBJECTDIR}/_ext/545456498/timer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/545456498/timer.p1  ../../cpu/microchip-mplabx/xc8/sys/timer.c 
-	@-${MV} ${OBJECTDIR}/_ext/545456498/timer.d ${OBJECTDIR}/_ext/545456498/timer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/545456498/timer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/545456498/autostart.p1: ../../cpu/microchip-mplabx/xc8/sys/autostart.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/545456498 
-	@${RM} ${OBJECTDIR}/_ext/545456498/autostart.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/545456498/autostart.p1  ../../cpu/microchip-mplabx/xc8/sys/autostart.c 
-	@-${MV} ${OBJECTDIR}/_ext/545456498/autostart.d ${OBJECTDIR}/_ext/545456498/autostart.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/545456498/autostart.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/545456498/compower.p1: ../../cpu/microchip-mplabx/xc8/sys/compower.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/545456498 
-	@${RM} ${OBJECTDIR}/_ext/545456498/compower.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/545456498/compower.p1  ../../cpu/microchip-mplabx/xc8/sys/compower.c 
-	@-${MV} ${OBJECTDIR}/_ext/545456498/compower.d ${OBJECTDIR}/_ext/545456498/compower.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/545456498/compower.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/545456498/etimer.p1: ../../cpu/microchip-mplabx/xc8/sys/etimer.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/545456498 
-	@${RM} ${OBJECTDIR}/_ext/545456498/etimer.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/_ext/545456498/etimer.p1  ../../cpu/microchip-mplabx/xc8/sys/etimer.c 
-	@-${MV} ${OBJECTDIR}/_ext/545456498/etimer.d ${OBJECTDIR}/_ext/545456498/etimer.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/545456498/etimer.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/interrupts.p1: interrupts.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
-	@${RM} ${OBJECTDIR}/interrupts.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/interrupts.p1  interrupts.c 
-	@-${MV} ${OBJECTDIR}/interrupts.d ${OBJECTDIR}/interrupts.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/interrupts.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/configuration-bits.p1: configuration-bits.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
-	@${RM} ${OBJECTDIR}/configuration-bits.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/configuration-bits.p1  configuration-bits.c 
-	@-${MV} ${OBJECTDIR}/configuration-bits.d ${OBJECTDIR}/configuration-bits.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/configuration-bits.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/fakeuip.p1: fakeuip.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
-	@${RM} ${OBJECTDIR}/fakeuip.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/fakeuip.p1  fakeuip.c 
-	@-${MV} ${OBJECTDIR}/fakeuip.d ${OBJECTDIR}/fakeuip.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/fakeuip.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/rtimer-arch.p1: rtimer-arch.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
-	@${RM} ${OBJECTDIR}/rtimer-arch.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/rtimer-arch.p1  rtimer-arch.c 
-	@-${MV} ${OBJECTDIR}/rtimer-arch.d ${OBJECTDIR}/rtimer-arch.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/rtimer-arch.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/clock.p1: clock.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
-	@${RM} ${OBJECTDIR}/clock.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/clock.p1  clock.c 
-	@-${MV} ${OBJECTDIR}/clock.d ${OBJECTDIR}/clock.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/clock.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/contiki-main.p1: contiki-main.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
-	@${RM} ${OBJECTDIR}/contiki-main.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/contiki-main.p1  contiki-main.c 
-	@-${MV} ${OBJECTDIR}/contiki-main.d ${OBJECTDIR}/contiki-main.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/contiki-main.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/empty.p1: empty.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR} 
-	@${RM} ${OBJECTDIR}/empty.p1.d 
-	${MP_CC} --pass1 $(MP_EXTRA_CC_PRE) --chip=$(MP_PROCESSOR_OPTION) -Q -G --asmlist  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"  -o${OBJECTDIR}/empty.p1  empty.c 
-	@-${MV} ${OBJECTDIR}/empty.d ${OBJECTDIR}/empty.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/empty.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-endif
-
+MP_PROCESSOR_OPTION_LD=18f67j60
+MP_LINKER_DEBUG_OPTION=
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: assemble
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
@@ -474,18 +84,889 @@ else
 endif
 
 # ------------------------------------------------------------------------------------
-# Rules for buildStep: link
+# Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-dist/${CND_CONF}/${IMAGE_TYPE}/pic18f97j60-family.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk    
-	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
-	${MP_CC} $(MP_EXTRA_LD_PRE) --chip=$(MP_PROCESSOR_OPTION) -G --asmlist -mdist/${CND_CONF}/${IMAGE_TYPE}/pic18f97j60-family.${IMAGE_TYPE}.map  -D__DEBUG=1 --debugger=pickit3  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"      -odist/${CND_CONF}/${IMAGE_TYPE}/pic18f97j60-family.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
-	@${RM} dist/${CND_CONF}/${IMAGE_TYPE}/pic18f97j60-family.${IMAGE_TYPE}.hex 
+${OBJECTDIR}/_ext/1195374034/nullradio.o: ../../../contiki/core/dev/nullradio.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195374034 
+	@${RM} ${OBJECTDIR}/_ext/1195374034/nullradio.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195374034/nullradio.o   ../../../contiki/core/dev/nullradio.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195374034/nullradio.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195374034/nullradio.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195366242/memb.o: ../../../contiki/core/lib/memb.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/memb.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195366242/memb.o   ../../../contiki/core/lib/memb.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195366242/memb.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195366242/memb.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195366242/crc16.o: ../../../contiki/core/lib/crc16.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/crc16.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195366242/crc16.o   ../../../contiki/core/lib/crc16.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195366242/crc16.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195366242/crc16.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195366242/random.o: ../../../contiki/core/lib/random.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/random.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195366242/random.o   ../../../contiki/core/lib/random.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195366242/random.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195366242/random.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195366242/ringbuf.o: ../../../contiki/core/lib/ringbuf.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/ringbuf.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195366242/ringbuf.o   ../../../contiki/core/lib/ringbuf.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195366242/ringbuf.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195366242/ringbuf.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195366242/mmem.o: ../../../contiki/core/lib/mmem.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/mmem.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195366242/mmem.o   ../../../contiki/core/lib/mmem.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195366242/mmem.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195366242/mmem.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195366242/list.o: ../../../contiki/core/lib/list.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/list.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195366242/list.o   ../../../contiki/core/lib/list.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195366242/list.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195366242/list.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/114530442/nullrdc.o: ../../../contiki/core/net/mac/nullrdc.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/114530442 
+	@${RM} ${OBJECTDIR}/_ext/114530442/nullrdc.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/114530442/nullrdc.o   ../../../contiki/core/net/mac/nullrdc.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/114530442/nullrdc.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/114530442/nullrdc.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/114530442/framer-nullmac.o: ../../../contiki/core/net/mac/framer-nullmac.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/114530442 
+	@${RM} ${OBJECTDIR}/_ext/114530442/framer-nullmac.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/114530442/framer-nullmac.o   ../../../contiki/core/net/mac/framer-nullmac.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/114530442/framer-nullmac.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/114530442/framer-nullmac.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/114530442/nullmac.o: ../../../contiki/core/net/mac/nullmac.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/114530442 
+	@${RM} ${OBJECTDIR}/_ext/114530442/nullmac.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/114530442/nullmac.o   ../../../contiki/core/net/mac/nullmac.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/114530442/nullmac.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/114530442/nullmac.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/114530442/mac.o: ../../../contiki/core/net/mac/mac.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/114530442 
+	@${RM} ${OBJECTDIR}/_ext/114530442/mac.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/114530442/mac.o   ../../../contiki/core/net/mac/mac.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/114530442/mac.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/114530442/mac.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/rime.o: ../../../contiki/core/net/rime/rime.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/rime.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/rime.o   ../../../contiki/core/net/rime/rime.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/rime.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/rime.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/rimeaddr.o: ../../../contiki/core/net/rime/rimeaddr.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/rimeaddr.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/rimeaddr.o   ../../../contiki/core/net/rime/rimeaddr.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/rimeaddr.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/rimeaddr.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/abc.o: ../../../contiki/core/net/rime/abc.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/abc.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/abc.o   ../../../contiki/core/net/rime/abc.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/abc.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/abc.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/chameleon.o: ../../../contiki/core/net/rime/chameleon.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/chameleon.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/chameleon.o   ../../../contiki/core/net/rime/chameleon.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/chameleon.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/chameleon.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/broadcast-announcement.o: ../../../contiki/core/net/rime/broadcast-announcement.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/broadcast-announcement.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/broadcast-announcement.o   ../../../contiki/core/net/rime/broadcast-announcement.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/broadcast-announcement.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/broadcast-announcement.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/announcement.o: ../../../contiki/core/net/rime/announcement.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/announcement.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/announcement.o   ../../../contiki/core/net/rime/announcement.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/announcement.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/announcement.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/channel.o: ../../../contiki/core/net/rime/channel.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/channel.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/channel.o   ../../../contiki/core/net/rime/channel.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/channel.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/channel.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/chameleon-bitopt.o: ../../../contiki/core/net/rime/chameleon-bitopt.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/chameleon-bitopt.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/chameleon-bitopt.o   ../../../contiki/core/net/rime/chameleon-bitopt.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/chameleon-bitopt.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/chameleon-bitopt.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/broadcast.o: ../../../contiki/core/net/rime/broadcast.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/broadcast.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/broadcast.o   ../../../contiki/core/net/rime/broadcast.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/broadcast.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/broadcast.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/hc.o: ../../../contiki/core/net/hc.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/hc.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/hc.o   ../../../contiki/core/net/hc.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/hc.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/hc.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/neighbor-attr.o: ../../../contiki/core/net/neighbor-attr.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/neighbor-attr.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/neighbor-attr.o   ../../../contiki/core/net/neighbor-attr.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/neighbor-attr.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/neighbor-attr.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/netstack.o: ../../../contiki/core/net/netstack.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/netstack.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/netstack.o   ../../../contiki/core/net/netstack.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/netstack.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/netstack.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/packetbuf.o: ../../../contiki/core/net/packetbuf.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/packetbuf.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/packetbuf.o   ../../../contiki/core/net/packetbuf.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/packetbuf.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/packetbuf.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/tcpdump.o: ../../../contiki/core/net/tcpdump.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/tcpdump.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/tcpdump.o   ../../../contiki/core/net/tcpdump.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/tcpdump.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/tcpdump.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-debug.o: ../../../contiki/core/net/uip-debug.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-debug.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-debug.o   ../../../contiki/core/net/uip-debug.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-debug.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-debug.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-ds6-route.o: ../../../contiki/core/net/uip-ds6-route.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-ds6-route.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-ds6-route.o   ../../../contiki/core/net/uip-ds6-route.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-ds6-route.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-ds6-route.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-ds6.o: ../../../contiki/core/net/uip-ds6.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-ds6.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-ds6.o   ../../../contiki/core/net/uip-ds6.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-ds6.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-ds6.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-fw-drv.o: ../../../contiki/core/net/uip-fw-drv.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-fw-drv.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-fw-drv.o   ../../../contiki/core/net/uip-fw-drv.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-fw-drv.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-fw-drv.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-fw.o: ../../../contiki/core/net/uip-fw.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-fw.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-fw.o   ../../../contiki/core/net/uip-fw.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-fw.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-fw.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-icmp6.o: ../../../contiki/core/net/uip-icmp6.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-icmp6.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-icmp6.o   ../../../contiki/core/net/uip-icmp6.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-icmp6.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-icmp6.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-nd6.o: ../../../contiki/core/net/uip-nd6.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-nd6.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-nd6.o   ../../../contiki/core/net/uip-nd6.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-nd6.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-nd6.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-neighbor.o: ../../../contiki/core/net/uip-neighbor.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-neighbor.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-neighbor.o   ../../../contiki/core/net/uip-neighbor.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-neighbor.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-neighbor.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-split.o: ../../../contiki/core/net/uip-split.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-split.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-split.o   ../../../contiki/core/net/uip-split.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-split.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-split.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-udp-packet.o: ../../../contiki/core/net/uip-udp-packet.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-udp-packet.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-udp-packet.o   ../../../contiki/core/net/uip-udp-packet.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-udp-packet.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-udp-packet.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip6.o: ../../../contiki/core/net/uip6.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip6.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip6.o   ../../../contiki/core/net/uip6.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip6.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip6.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip_arp.o: ../../../contiki/core/net/uip_arp.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip_arp.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip_arp.o   ../../../contiki/core/net/uip_arp.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip_arp.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip_arp.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uiplib.o: ../../../contiki/core/net/uiplib.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uiplib.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uiplib.o   ../../../contiki/core/net/uiplib.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uiplib.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uiplib.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/queuebuf.o: ../../../contiki/core/net/queuebuf.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/queuebuf.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/queuebuf.o   ../../../contiki/core/net/queuebuf.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/queuebuf.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/queuebuf.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip.o: ../../../contiki/core/net/uip.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip.o   ../../../contiki/core/net/uip.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/tcpip.o: ../../../contiki/core/net/tcpip.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/tcpip.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/tcpip.o   ../../../contiki/core/net/tcpip.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/tcpip.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/tcpip.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/procinit.o: ../../../contiki/core/sys/procinit.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/procinit.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/procinit.o   ../../../contiki/core/sys/procinit.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/procinit.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/procinit.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/stimer.o: ../../../contiki/core/sys/stimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/stimer.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/stimer.o   ../../../contiki/core/sys/stimer.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/stimer.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/stimer.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/rtimer.o: ../../../contiki/core/sys/rtimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/rtimer.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/rtimer.o   ../../../contiki/core/sys/rtimer.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/rtimer.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/rtimer.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/energest.o: ../../../contiki/core/sys/energest.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/energest.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/energest.o   ../../../contiki/core/sys/energest.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/energest.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/energest.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/compower.o: ../../../contiki/core/sys/compower.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/compower.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/compower.o   ../../../contiki/core/sys/compower.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/compower.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/compower.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/timer.o: ../../../contiki/core/sys/timer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/timer.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/timer.o   ../../../contiki/core/sys/timer.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/timer.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/timer.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/ctimer.o: ../../../contiki/core/sys/ctimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/ctimer.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/ctimer.o   ../../../contiki/core/sys/ctimer.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/ctimer.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/ctimer.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/process.o: ../../../contiki/core/sys/process.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/process.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/process.o   ../../../contiki/core/sys/process.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/process.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/process.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/etimer.o: ../../../contiki/core/sys/etimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/etimer.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/etimer.o   ../../../contiki/core/sys/etimer.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/etimer.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/etimer.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/2012962533/psock.o: ../../cpu/microchip-mplabx/mcc18/net/psock.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/2012962533 
+	@${RM} ${OBJECTDIR}/_ext/2012962533/psock.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/2012962533/psock.o   ../../cpu/microchip-mplabx/mcc18/net/psock.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/2012962533/psock.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2012962533/psock.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/net/ETH97J60.o: net/ETH97J60.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/net 
+	@${RM} ${OBJECTDIR}/net/ETH97J60.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/net/ETH97J60.o   net/ETH97J60.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/net/ETH97J60.o 
+	@${FIXDEPS} "${OBJECTDIR}/net/ETH97J60.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/net/ethernet-v6.o: net/ethernet-v6.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/net 
+	@${RM} ${OBJECTDIR}/net/ethernet-v6.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/net/ethernet-v6.o   net/ethernet-v6.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/net/ethernet-v6.o 
+	@${FIXDEPS} "${OBJECTDIR}/net/ethernet-v6.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/net/ethernet.o: net/ethernet.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/net 
+	@${RM} ${OBJECTDIR}/net/ethernet.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/net/ethernet.o   net/ethernet.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/net/ethernet.o 
+	@${FIXDEPS} "${OBJECTDIR}/net/ethernet.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/net/ethernet-drv.o: net/ethernet-drv.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/net 
+	@${RM} ${OBJECTDIR}/net/ethernet-drv.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/net/ethernet-drv.o   net/ethernet-drv.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/net/ethernet-drv.o 
+	@${FIXDEPS} "${OBJECTDIR}/net/ethernet-drv.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/net/Helpers.o: net/Helpers.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/net 
+	@${RM} ${OBJECTDIR}/net/Helpers.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/net/Helpers.o   net/Helpers.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/net/Helpers.o 
+	@${FIXDEPS} "${OBJECTDIR}/net/Helpers.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/interrupts.o: interrupts.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/interrupts.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/interrupts.o   interrupts.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/interrupts.o 
+	@${FIXDEPS} "${OBJECTDIR}/interrupts.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/configuration-bits.o: configuration-bits.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/configuration-bits.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/configuration-bits.o   configuration-bits.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/configuration-bits.o 
+	@${FIXDEPS} "${OBJECTDIR}/configuration-bits.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/rtimer-arch.o: rtimer-arch.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/rtimer-arch.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/rtimer-arch.o   rtimer-arch.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/rtimer-arch.o 
+	@${FIXDEPS} "${OBJECTDIR}/rtimer-arch.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/clock.o: clock.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/clock.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/clock.o   clock.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/clock.o 
+	@${FIXDEPS} "${OBJECTDIR}/clock.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/contiki-main.o: contiki-main.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/contiki-main.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/contiki-main.o   contiki-main.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/contiki-main.o 
+	@${FIXDEPS} "${OBJECTDIR}/contiki-main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/empty.o: empty.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/empty.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/empty.o   empty.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/empty.o 
+	@${FIXDEPS} "${OBJECTDIR}/empty.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
 else
-dist/${CND_CONF}/${IMAGE_TYPE}/pic18f97j60-family.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk   
-	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
-	${MP_CC} $(MP_EXTRA_LD_PRE) --chip=$(MP_PROCESSOR_OPTION) -G --asmlist -mdist/${CND_CONF}/${IMAGE_TYPE}/pic18f97j60-family.${IMAGE_TYPE}.map  --double=24 --float=24 --emi=wordwrite --opt=default,+asm,-asmfile,+speed,-space,+debug --addrqual=ignore --mode=pro -P -N255 -I"../../../contiki/platform/pic18f97j60-family" -I"../../../contiki/cpu/microchip-mplabx/xc8" -I"../../../contiki/cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" --warn=0 --summary=default,-psect,-class,+mem,-hex,-file --output=default,-inhx032 --runtime=default,+clear,+init,-keep,-no_startup,-download,+config,+clib,+plib "--errformat=%f:%l: error: %s" "--warnformat=%f:%l: warning: %s" "--msgformat=%f:%l: advisory: %s"   -odist/${CND_CONF}/${IMAGE_TYPE}/pic18f97j60-family.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
+${OBJECTDIR}/_ext/1195374034/nullradio.o: ../../../contiki/core/dev/nullradio.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195374034 
+	@${RM} ${OBJECTDIR}/_ext/1195374034/nullradio.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195374034/nullradio.o   ../../../contiki/core/dev/nullradio.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195374034/nullradio.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195374034/nullradio.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
+${OBJECTDIR}/_ext/1195366242/memb.o: ../../../contiki/core/lib/memb.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/memb.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195366242/memb.o   ../../../contiki/core/lib/memb.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195366242/memb.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195366242/memb.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195366242/crc16.o: ../../../contiki/core/lib/crc16.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/crc16.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195366242/crc16.o   ../../../contiki/core/lib/crc16.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195366242/crc16.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195366242/crc16.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195366242/random.o: ../../../contiki/core/lib/random.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/random.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195366242/random.o   ../../../contiki/core/lib/random.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195366242/random.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195366242/random.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195366242/ringbuf.o: ../../../contiki/core/lib/ringbuf.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/ringbuf.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195366242/ringbuf.o   ../../../contiki/core/lib/ringbuf.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195366242/ringbuf.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195366242/ringbuf.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195366242/mmem.o: ../../../contiki/core/lib/mmem.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/mmem.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195366242/mmem.o   ../../../contiki/core/lib/mmem.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195366242/mmem.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195366242/mmem.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195366242/list.o: ../../../contiki/core/lib/list.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195366242 
+	@${RM} ${OBJECTDIR}/_ext/1195366242/list.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195366242/list.o   ../../../contiki/core/lib/list.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195366242/list.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195366242/list.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/114530442/nullrdc.o: ../../../contiki/core/net/mac/nullrdc.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/114530442 
+	@${RM} ${OBJECTDIR}/_ext/114530442/nullrdc.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/114530442/nullrdc.o   ../../../contiki/core/net/mac/nullrdc.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/114530442/nullrdc.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/114530442/nullrdc.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/114530442/framer-nullmac.o: ../../../contiki/core/net/mac/framer-nullmac.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/114530442 
+	@${RM} ${OBJECTDIR}/_ext/114530442/framer-nullmac.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/114530442/framer-nullmac.o   ../../../contiki/core/net/mac/framer-nullmac.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/114530442/framer-nullmac.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/114530442/framer-nullmac.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/114530442/nullmac.o: ../../../contiki/core/net/mac/nullmac.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/114530442 
+	@${RM} ${OBJECTDIR}/_ext/114530442/nullmac.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/114530442/nullmac.o   ../../../contiki/core/net/mac/nullmac.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/114530442/nullmac.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/114530442/nullmac.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/114530442/mac.o: ../../../contiki/core/net/mac/mac.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/114530442 
+	@${RM} ${OBJECTDIR}/_ext/114530442/mac.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/114530442/mac.o   ../../../contiki/core/net/mac/mac.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/114530442/mac.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/114530442/mac.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/rime.o: ../../../contiki/core/net/rime/rime.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/rime.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/rime.o   ../../../contiki/core/net/rime/rime.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/rime.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/rime.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/rimeaddr.o: ../../../contiki/core/net/rime/rimeaddr.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/rimeaddr.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/rimeaddr.o   ../../../contiki/core/net/rime/rimeaddr.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/rimeaddr.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/rimeaddr.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/abc.o: ../../../contiki/core/net/rime/abc.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/abc.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/abc.o   ../../../contiki/core/net/rime/abc.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/abc.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/abc.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/chameleon.o: ../../../contiki/core/net/rime/chameleon.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/chameleon.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/chameleon.o   ../../../contiki/core/net/rime/chameleon.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/chameleon.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/chameleon.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/broadcast-announcement.o: ../../../contiki/core/net/rime/broadcast-announcement.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/broadcast-announcement.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/broadcast-announcement.o   ../../../contiki/core/net/rime/broadcast-announcement.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/broadcast-announcement.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/broadcast-announcement.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/announcement.o: ../../../contiki/core/net/rime/announcement.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/announcement.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/announcement.o   ../../../contiki/core/net/rime/announcement.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/announcement.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/announcement.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/channel.o: ../../../contiki/core/net/rime/channel.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/channel.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/channel.o   ../../../contiki/core/net/rime/channel.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/channel.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/channel.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/chameleon-bitopt.o: ../../../contiki/core/net/rime/chameleon-bitopt.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/chameleon-bitopt.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/chameleon-bitopt.o   ../../../contiki/core/net/rime/chameleon-bitopt.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/chameleon-bitopt.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/chameleon-bitopt.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/744680648/broadcast.o: ../../../contiki/core/net/rime/broadcast.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/744680648 
+	@${RM} ${OBJECTDIR}/_ext/744680648/broadcast.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/744680648/broadcast.o   ../../../contiki/core/net/rime/broadcast.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/744680648/broadcast.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/744680648/broadcast.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/hc.o: ../../../contiki/core/net/hc.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/hc.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/hc.o   ../../../contiki/core/net/hc.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/hc.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/hc.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/neighbor-attr.o: ../../../contiki/core/net/neighbor-attr.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/neighbor-attr.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/neighbor-attr.o   ../../../contiki/core/net/neighbor-attr.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/neighbor-attr.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/neighbor-attr.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/netstack.o: ../../../contiki/core/net/netstack.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/netstack.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/netstack.o   ../../../contiki/core/net/netstack.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/netstack.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/netstack.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/packetbuf.o: ../../../contiki/core/net/packetbuf.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/packetbuf.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/packetbuf.o   ../../../contiki/core/net/packetbuf.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/packetbuf.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/packetbuf.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/tcpdump.o: ../../../contiki/core/net/tcpdump.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/tcpdump.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/tcpdump.o   ../../../contiki/core/net/tcpdump.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/tcpdump.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/tcpdump.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-debug.o: ../../../contiki/core/net/uip-debug.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-debug.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-debug.o   ../../../contiki/core/net/uip-debug.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-debug.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-debug.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-ds6-route.o: ../../../contiki/core/net/uip-ds6-route.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-ds6-route.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-ds6-route.o   ../../../contiki/core/net/uip-ds6-route.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-ds6-route.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-ds6-route.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-ds6.o: ../../../contiki/core/net/uip-ds6.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-ds6.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-ds6.o   ../../../contiki/core/net/uip-ds6.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-ds6.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-ds6.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-fw-drv.o: ../../../contiki/core/net/uip-fw-drv.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-fw-drv.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-fw-drv.o   ../../../contiki/core/net/uip-fw-drv.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-fw-drv.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-fw-drv.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-fw.o: ../../../contiki/core/net/uip-fw.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-fw.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-fw.o   ../../../contiki/core/net/uip-fw.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-fw.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-fw.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-icmp6.o: ../../../contiki/core/net/uip-icmp6.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-icmp6.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-icmp6.o   ../../../contiki/core/net/uip-icmp6.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-icmp6.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-icmp6.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-nd6.o: ../../../contiki/core/net/uip-nd6.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-nd6.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-nd6.o   ../../../contiki/core/net/uip-nd6.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-nd6.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-nd6.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-neighbor.o: ../../../contiki/core/net/uip-neighbor.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-neighbor.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-neighbor.o   ../../../contiki/core/net/uip-neighbor.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-neighbor.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-neighbor.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-split.o: ../../../contiki/core/net/uip-split.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-split.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-split.o   ../../../contiki/core/net/uip-split.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-split.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-split.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip-udp-packet.o: ../../../contiki/core/net/uip-udp-packet.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip-udp-packet.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip-udp-packet.o   ../../../contiki/core/net/uip-udp-packet.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip-udp-packet.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip-udp-packet.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip6.o: ../../../contiki/core/net/uip6.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip6.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip6.o   ../../../contiki/core/net/uip6.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip6.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip6.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip_arp.o: ../../../contiki/core/net/uip_arp.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip_arp.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip_arp.o   ../../../contiki/core/net/uip_arp.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip_arp.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip_arp.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uiplib.o: ../../../contiki/core/net/uiplib.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uiplib.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uiplib.o   ../../../contiki/core/net/uiplib.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uiplib.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uiplib.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/queuebuf.o: ../../../contiki/core/net/queuebuf.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/queuebuf.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/queuebuf.o   ../../../contiki/core/net/queuebuf.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/queuebuf.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/queuebuf.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/uip.o: ../../../contiki/core/net/uip.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/uip.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/uip.o   ../../../contiki/core/net/uip.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/uip.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/uip.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195364426/tcpip.o: ../../../contiki/core/net/tcpip.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195364426 
+	@${RM} ${OBJECTDIR}/_ext/1195364426/tcpip.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195364426/tcpip.o   ../../../contiki/core/net/tcpip.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195364426/tcpip.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195364426/tcpip.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/procinit.o: ../../../contiki/core/sys/procinit.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/procinit.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/procinit.o   ../../../contiki/core/sys/procinit.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/procinit.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/procinit.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/stimer.o: ../../../contiki/core/sys/stimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/stimer.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/stimer.o   ../../../contiki/core/sys/stimer.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/stimer.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/stimer.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/rtimer.o: ../../../contiki/core/sys/rtimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/rtimer.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/rtimer.o   ../../../contiki/core/sys/rtimer.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/rtimer.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/rtimer.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/energest.o: ../../../contiki/core/sys/energest.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/energest.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/energest.o   ../../../contiki/core/sys/energest.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/energest.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/energest.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/compower.o: ../../../contiki/core/sys/compower.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/compower.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/compower.o   ../../../contiki/core/sys/compower.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/compower.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/compower.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/timer.o: ../../../contiki/core/sys/timer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/timer.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/timer.o   ../../../contiki/core/sys/timer.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/timer.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/timer.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/ctimer.o: ../../../contiki/core/sys/ctimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/ctimer.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/ctimer.o   ../../../contiki/core/sys/ctimer.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/ctimer.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/ctimer.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/process.o: ../../../contiki/core/sys/process.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/process.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/process.o   ../../../contiki/core/sys/process.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/process.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/process.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/1195359002/etimer.o: ../../../contiki/core/sys/etimer.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1195359002 
+	@${RM} ${OBJECTDIR}/_ext/1195359002/etimer.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/1195359002/etimer.o   ../../../contiki/core/sys/etimer.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/1195359002/etimer.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1195359002/etimer.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/_ext/2012962533/psock.o: ../../cpu/microchip-mplabx/mcc18/net/psock.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/2012962533 
+	@${RM} ${OBJECTDIR}/_ext/2012962533/psock.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/_ext/2012962533/psock.o   ../../cpu/microchip-mplabx/mcc18/net/psock.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/_ext/2012962533/psock.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2012962533/psock.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/net/ETH97J60.o: net/ETH97J60.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/net 
+	@${RM} ${OBJECTDIR}/net/ETH97J60.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/net/ETH97J60.o   net/ETH97J60.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/net/ETH97J60.o 
+	@${FIXDEPS} "${OBJECTDIR}/net/ETH97J60.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/net/ethernet-v6.o: net/ethernet-v6.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/net 
+	@${RM} ${OBJECTDIR}/net/ethernet-v6.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/net/ethernet-v6.o   net/ethernet-v6.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/net/ethernet-v6.o 
+	@${FIXDEPS} "${OBJECTDIR}/net/ethernet-v6.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/net/ethernet.o: net/ethernet.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/net 
+	@${RM} ${OBJECTDIR}/net/ethernet.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/net/ethernet.o   net/ethernet.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/net/ethernet.o 
+	@${FIXDEPS} "${OBJECTDIR}/net/ethernet.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/net/ethernet-drv.o: net/ethernet-drv.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/net 
+	@${RM} ${OBJECTDIR}/net/ethernet-drv.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/net/ethernet-drv.o   net/ethernet-drv.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/net/ethernet-drv.o 
+	@${FIXDEPS} "${OBJECTDIR}/net/ethernet-drv.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/net/Helpers.o: net/Helpers.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/net 
+	@${RM} ${OBJECTDIR}/net/Helpers.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/net/Helpers.o   net/Helpers.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/net/Helpers.o 
+	@${FIXDEPS} "${OBJECTDIR}/net/Helpers.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/interrupts.o: interrupts.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/interrupts.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/interrupts.o   interrupts.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/interrupts.o 
+	@${FIXDEPS} "${OBJECTDIR}/interrupts.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/configuration-bits.o: configuration-bits.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/configuration-bits.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/configuration-bits.o   configuration-bits.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/configuration-bits.o 
+	@${FIXDEPS} "${OBJECTDIR}/configuration-bits.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/rtimer-arch.o: rtimer-arch.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/rtimer-arch.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/rtimer-arch.o   rtimer-arch.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/rtimer-arch.o 
+	@${FIXDEPS} "${OBJECTDIR}/rtimer-arch.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/clock.o: clock.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/clock.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/clock.o   clock.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/clock.o 
+	@${FIXDEPS} "${OBJECTDIR}/clock.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/contiki-main.o: contiki-main.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/contiki-main.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/contiki-main.o   contiki-main.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/contiki-main.o 
+	@${FIXDEPS} "${OBJECTDIR}/contiki-main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/empty.o: empty.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR} 
+	@${RM} ${OBJECTDIR}/empty.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -I"." -I"../../cpu/microchip-mplabx/mcc18" -I"../../cpu/microchip-mplabx/MAPLv2013-02-15/Include" -I"../../../contiki/core" -I"../../../contiki/core/net" -ms -oa-  -I ${MP_CC_DIR}/../h  -fo ${OBJECTDIR}/empty.o   empty.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/empty.o 
+	@${FIXDEPS} "${OBJECTDIR}/empty.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+endif
+
+# ------------------------------------------------------------------------------------
+# Rules for buildStep: link
+ifeq ($(TYPE_IMAGE), DEBUG_RUN)
+dist/${CND_CONF}/${IMAGE_TYPE}/pic18f97j60-family.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk    18f67j90.lkr
+	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
+	${MP_LD} $(MP_EXTRA_LD_PRE) "18f67j90.lkr"  -p$(MP_PROCESSOR_OPTION_LD)  -w -x -u_DEBUG -m"${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"  -z__MPLAB_BUILD=1  -u_CRUNTIME -z__MPLAB_DEBUG=1 -z__MPLAB_DEBUGGER_PK3=1 $(MP_LINKER_DEBUG_OPTION) -l ${MP_CC_DIR}/../lib  -o dist/${CND_CONF}/${IMAGE_TYPE}/pic18f97j60-family.${IMAGE_TYPE}.${OUTPUT_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}   
+else
+dist/${CND_CONF}/${IMAGE_TYPE}/pic18f97j60-family.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk   18f67j90.lkr
+	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
+	${MP_LD} $(MP_EXTRA_LD_PRE) "18f67j90.lkr"  -p$(MP_PROCESSOR_OPTION_LD)  -w  -m"${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"  -z__MPLAB_BUILD=1  -u_CRUNTIME -l ${MP_CC_DIR}/../lib  -o dist/${CND_CONF}/${IMAGE_TYPE}/pic18f97j60-family.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}   
 endif
 
 

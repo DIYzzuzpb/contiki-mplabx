@@ -109,4 +109,4 @@ include nbproject/Makefile-variables.mk
 
 CONTIKI:=../../../contiki
 TARGET:=pic18f97j60-family
-include $(CONTIKI)/cpu/microchip-mplabx/xc8/Make-Contiki-in-IDE.mk
+#include $(CONTIKI)/cpu/microchip-mplabx/xc8/Make-Contiki-in-IDE.mk

@@ -81,6 +81,8 @@ else
     xc8_exe="xc8"
 fi
 
+wave_args="-D__18CXX -DHI_TECH_C $wave_args"
+
 if [ "$pass1_option" -ne 0 ] ; then
     #Compiling step, we are preprocessing.
     #The result of partial preprocessing is saved as C source file
