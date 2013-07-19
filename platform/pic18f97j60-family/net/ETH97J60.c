@@ -214,17 +214,17 @@ void MACInit(void) {
     Nop();
 
     // Initialize physical MAC address registers
-    MAADR1 = 0;//AppConfig.MyMACAddr.v[0];
+    MAADR1 = 0; //AppConfig.MyMACAddr.v[0];
     Nop();
-    MAADR2 = 0;//AppConfig.MyMACAddr.v[1];
+    MAADR2 = 0; //AppConfig.MyMACAddr.v[1];
     Nop();
-    MAADR3 = 0;//AppConfig.MyMACAddr.v[2];
+    MAADR3 = 0; //AppConfig.MyMACAddr.v[2];
     Nop();
-    MAADR4 = 0;//AppConfig.MyMACAddr.v[3];
+    MAADR4 = 0; //AppConfig.MyMACAddr.v[3];
     Nop();
-    MAADR5 = 0;//AppConfig.MyMACAddr.v[4];
+    MAADR5 = 0; //AppConfig.MyMACAddr.v[4];
     Nop();
-    MAADR6 = 0;//AppConfig.MyMACAddr.v[5];
+    MAADR6 = 0; //AppConfig.MyMACAddr.v[5];
     Nop();
 
     // Disable half duplex loopback in PHY and set RXAPDIS bit as per errata
@@ -429,35 +429,6 @@ BOOL MACGetHeader(MAC_ADDR *remote, BYTE* type) {
 
     // Test if at least one packet has been received and is waiting
     if (EPKTCNT == 0u) {
-        // If we've never received a packet, see if it is appropraite to swap
-        // the RX polarity right now
-#if defined(ETH_RX_POLARITY_SWAP_TRIS)
-        {
-            // See if the polarty swap timer has expired (happens every 429ms)
-            if ((WORD) TickGetDiv256() - wRXPolarityTimer > (WORD) (CLOCK_SECOND * 3 / 7 / 256)) {
-                // Check if the Ethernet link is up.  If it isn't we need to
-                // clear the bRXPolarityValid flag because the user could plug
-                // the node into a different network device which has opposite
-                // polarity.
-                if (ReadPHYReg(PHSTAT2).PHSTAT2bits.LSTAT) {// Linked
-                    // See if we have received a packet already or not.  If we
-                    // haven't the RX polarity may not be correct.
-                    if (!flags.bits.bRXPolarityValid) {
-                        // Swap the TPIN+/- polarity
-                        ETH_RX_POLARITY_SWAP_IO ^= 1;
-                    }
-                } else {// Not linked
-                    flags.bits.bRXPolarityValid = 0;
-                    flags.bits.bRXPolarityAtNextTX = 0;
-                    ETH_RX_POLARITY_SWAP_IO = 0; // Default back to IEEE 802.3 correct polarity
-                }
-
-                // Reset timer for next polarity swap test
-                wRXPolarityTimer = (WORD) TickGetDiv256();
-                flags.bits.bRXPolarityTimerOnTX = 0;
-            }
-        }
-#endif
 
         return FALSE;
     }
